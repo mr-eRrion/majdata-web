@@ -1,0 +1,124 @@
+{
+  "deploymentPrefix": "/maijdata/",
+  "browserVersion": "153.0.8010.12",
+  "browserExecutable": "/Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+  "viewport": "1920x1080, DPR 1",
+  "cache": "fresh Chromium process and context; HTTP responses use no-store",
+  "networkModel": {
+    "responseLatencyMs": 50,
+    "throughputMbps": 20,
+    "scope": "one shared server-side response shaper includes document, main-thread assets, dedicated Worker, and WASM requests",
+    "limitations": "50 ms is an injected per-response server delay, not packet-level RTT; DNS, TLS, and browser-side upload latency are not modeled"
+  },
+  "firstEditMs": 1550.1,
+  "compressedBytesAtFirstEdit": 2044814,
+  "compressedMiBAtFirstEdit": 1.95,
+  "initialDownloadTargetMiB": 6,
+  "initialDownloadTargetMet": true,
+  "over10MiBReviewGate": false,
+  "wasmRequests": [
+    {
+      "path": "/maijdata/wasm/_framework/dotnet.js",
+      "compressedBytes": 13227,
+      "bytesSent": 13227,
+      "finishedMs": 1215.0918330000002
+    },
+    {
+      "path": "/maijdata/wasm/_framework/dotnet.runtime.v06hirbjsv.js",
+      "compressedBytes": 56613,
+      "bytesSent": 56613,
+      "finishedMs": 1325.486542
+    },
+    {
+      "path": "/maijdata/wasm/_framework/dotnet.native.cqqtqedhhs.js",
+      "compressedBytes": 50946,
+      "bytesSent": 50946,
+      "finishedMs": 1367.3935000000001
+    },
+    {
+      "path": "/maijdata/wasm/_framework/dotnet.native.tnw812w1gx.wasm",
+      "compressedBytes": 570217,
+      "bytesSent": 570217,
+      "finishedMs": 1869.9745830000002
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Private.CoreLib.b3sks9nffm.wasm",
+      "compressedBytes": 416021,
+      "bytesSent": 416021,
+      "finishedMs": 1776.4382500000002
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Runtime.InteropServices.JavaScript.jdr95mb38a.wasm",
+      "compressedBytes": 17951,
+      "bytesSent": 17951,
+      "finishedMs": 1355.221833
+    },
+    {
+      "path": "/maijdata/wasm/_framework/MajSimaiBrowser.e4jfw574ut.wasm",
+      "compressedBytes": 43903,
+      "bytesSent": 43903,
+      "finishedMs": 1388.4466670000002
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Collections.Concurrent.ctrf3884nj.wasm",
+      "compressedBytes": 7256,
+      "bytesSent": 7256,
+      "finishedMs": 1399.477542
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.IO.Pipelines.px0vglstfo.wasm",
+      "compressedBytes": 2725,
+      "bytesSent": 2725,
+      "finishedMs": 1421.380042
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Linq.00thdyimej.wasm",
+      "compressedBytes": 12452,
+      "bytesSent": 12452,
+      "finishedMs": 1435.899333
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Memory.fcqlrwa6lp.wasm",
+      "compressedBytes": 2342,
+      "bytesSent": 2342,
+      "finishedMs": 1453.909
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Runtime.Numerics.6nmziwc3c9.wasm",
+      "compressedBytes": 29878,
+      "bytesSent": 29878,
+      "finishedMs": 1487.115125
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Text.Encodings.Web.r2j0rxyjj3.wasm",
+      "compressedBytes": 10641,
+      "bytesSent": 10641,
+      "finishedMs": 1492.414
+    },
+    {
+      "path": "/maijdata/wasm/_framework/System.Text.Json.7setoqv4qy.wasm",
+      "compressedBytes": 51608,
+      "bytesSent": 51608,
+      "finishedMs": 1576.919208
+    }
+  ],
+  "workerRequests": [
+    {
+      "path": "/maijdata/assets/chart.worker-aspj87W7.js",
+      "compressedBytes": 13870,
+      "bytesSent": 13870,
+      "finishedMs": 1063.746542
+    }
+  ],
+  "releaseFiles": {
+    "index.html": 904,
+    "source.tar.gz": 7337827,
+    "LICENSE.txt": 35149,
+    "THIRD_PARTY_NOTICES.md": 3354,
+    "DEPENDENCY-LICENSES.txt": 17899,
+    "wasm/DOTNET-LICENSE.txt": 1116,
+    "wasm/DOTNET-THIRD-PARTY-NOTICES.txt": 76623
+  },
+  "sourceArchiveEntries": 491,
+  "pageErrors": []
+}

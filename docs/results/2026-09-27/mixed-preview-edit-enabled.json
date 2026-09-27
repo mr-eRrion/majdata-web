@@ -1,0 +1,116 @@
+{
+  "browser": "153.0.8010.12",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "fixture": "mixed-preview.maidata.txt",
+  "offsets": [
+    {
+      "offset": 0.25,
+      "diagnostics": [
+        "slide-validation-pending · 字符 93–213Slide runtime behavior in the target player has not been validated."
+      ],
+      "editable": true
+    },
+    {
+      "offset": -0.25,
+      "diagnostics": [
+        "slide-validation-pending · 字符 94–214Slide runtime behavior in the target player has not been validated."
+      ],
+      "editable": true
+    }
+  ],
+  "previews": [
+    {
+      "offset": 0.25,
+      "seconds": 1.8,
+      "sha256": "aa48a6354f5104bc7cc6b912dbe91855b21c4f647f6fbfcfee088c9a6a82af72"
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.25,
+      "sha256": "0fbb185b454ac634202401e3fffedcc57b3fb161242dc0c6dbbf1c48969f29fa"
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.75,
+      "sha256": "c37c02afddc65816e80b5c51324e9943815a67844ed33db0eb59f581b50e6988"
+    },
+    {
+      "offset": 0.25,
+      "seconds": 3.25,
+      "sha256": "1522d29154681f7166c89300e204b2d9902009b9418f86502dd05592fde7e994"
+    },
+    {
+      "offset": 0.25,
+      "seconds": 4.25,
+      "sha256": "9efb4c26bf9bbff14b21331422c8b84b7ce825b50a4f9c2f46d12c49887028f6"
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.75,
+      "sha256": "c37c02afddc65816e80b5c51324e9943815a67844ed33db0eb59f581b50e6988"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 1.8,
+      "sha256": "aa48a6354f5104bc7cc6b912dbe91855b21c4f647f6fbfcfee088c9a6a82af72"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.25,
+      "sha256": "0fbb185b454ac634202401e3fffedcc57b3fb161242dc0c6dbbf1c48969f29fa"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.75,
+      "sha256": "c37c02afddc65816e80b5c51324e9943815a67844ed33db0eb59f581b50e6988"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 3.25,
+      "sha256": "1522d29154681f7166c89300e204b2d9902009b9418f86502dd05592fde7e994"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 4.25,
+      "sha256": "9efb4c26bf9bbff14b21331422c8b84b7ce825b50a4f9c2f46d12c49887028f6"
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.75,
+      "sha256": "c37c02afddc65816e80b5c51324e9943815a67844ed33db0eb59f581b50e6988"
+    }
+  ],
+  "rates": [
+    {
+      "rate": 0.5,
+      "elapsed": 0.805,
+      "chartDelta": 0.3580000000000001
+    },
+    {
+      "rate": 1,
+      "elapsed": 0.804,
+      "chartDelta": 0.796
+    },
+    {
+      "rate": 2,
+      "elapsed": 0.805,
+      "chartDelta": 1.598
+    }
+  ],
+  "tabPreviewRestoredSeconds": 2.25,
+  "loopTimes": [
+    2.915,
+    2.112,
+    2.344,
+    2.547,
+    2.747,
+    2.945,
+    2.178,
+    2.377
+  ],
+  "errors": [],
+  "limitations": "Production Web state/clock checks with synthesized cues and no loaded song. No native pixel, physical audio, or target-runtime Slide compatibility claim."
+}

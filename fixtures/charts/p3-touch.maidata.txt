@@ -1,0 +1,8 @@
+&title=maijdata synthetic P3 touch fixture
+&artist=maijdata contributors
+&first=0
+&des=Manual Touch semantics fixture; no third-party content
+&lv_1=1
+&inote_1=(120){4}B1/B2,A8b,C,D4,E7h[4:4],B2hb[#0.25],,E
+&lv_2=2
+&inote_2=(120){4}D4x,E

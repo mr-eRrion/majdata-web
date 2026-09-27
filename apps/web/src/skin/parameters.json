@@ -1,0 +1,3020 @@
+{
+  "sourceSha256": "24524e7890f13a78cebafbf2d32c84cd8742fa6f26375d8b87ac9b0d1176b2e1",
+  "tracks": [
+    {
+      "position": [
+        1.8338189125061035,
+        4.427230358123779,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.9807853102684021,
+        0.1950903683900833
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        4.427230358123779,
+        1.833819031715393,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.8314695954322815,
+        0.5555702447891235
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        4.427230358123779,
+        -1.833819031715393,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.5555702447891235,
+        0.8314695954322815
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        1.8338189125061035,
+        -4.427230358123779,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.19509033858776093,
+        0.9807853102684021
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        -1.833818793296814,
+        -4.4272308349609375,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.19509033858776093,
+        0.9807853102684021
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        -4.427230358123779,
+        -1.8338191509246826,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.5555702447891235,
+        0.8314695954322815
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        -4.427230358123779,
+        1.8338189125061035,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.8314695954322815,
+        0.5555702447891235
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "position": [
+        -1.8338196277618408,
+        4.427230358123779,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.9807853102684021,
+        0.1950903683900833
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "touchPositions": {
+    "C": [
+      0,
+      0
+    ],
+    "A1": [
+      1.562000036239624,
+      3.7850000858306885
+    ],
+    "A2": [
+      3.7850000858306885,
+      1.562000036239624
+    ],
+    "A3": [
+      3.7850000858306885,
+      -1.562000036239624
+    ],
+    "A4": [
+      1.562000036239624,
+      -3.7850000858306885
+    ],
+    "A5": [
+      -1.562000036239624,
+      -3.7850000858306885
+    ],
+    "A6": [
+      -3.7850000858306885,
+      -1.562000036239624
+    ],
+    "A7": [
+      -3.7850000858306885,
+      1.562000036239624
+    ],
+    "A8": [
+      -1.562000036239624,
+      3.7850000858306885
+    ],
+    "B1": [
+      0.8799431920051575,
+      2.124370813369751
+    ],
+    "B2": [
+      2.124370813369751,
+      0.879943311214447
+    ],
+    "B3": [
+      2.124370813369751,
+      -0.879943311214447
+    ],
+    "B4": [
+      0.8799431920051575,
+      -2.124370813369751
+    ],
+    "B5": [
+      -0.8799431324005127,
+      -2.12437105178833
+    ],
+    "B6": [
+      -2.124370813369751,
+      -0.8799433708190918
+    ],
+    "B7": [
+      -2.124370813369751,
+      0.8799431920051575
+    ],
+    "B8": [
+      -0.8799435496330261,
+      2.124370813369751
+    ],
+    "D1": [
+      0,
+      4.099999904632568
+    ],
+    "D2": [
+      2.8991377353668213,
+      2.8991377353668213
+    ],
+    "D3": [
+      4.099999904632568,
+      0
+    ],
+    "D4": [
+      2.8991377353668213,
+      -2.8991377353668213
+    ],
+    "D5": [
+      0,
+      -4.099999904632568
+    ],
+    "D6": [
+      -2.8991377353668213,
+      -2.8991377353668213
+    ],
+    "D7": [
+      -4.099999904632568,
+      0
+    ],
+    "D8": [
+      -2.8991379737854004,
+      2.899137496948242
+    ],
+    "E1": [
+      0,
+      2.994999885559082
+    ],
+    "E2": [
+      2.1177847385406494,
+      2.1177847385406494
+    ],
+    "E3": [
+      2.994999885559082,
+      0
+    ],
+    "E4": [
+      2.1177847385406494,
+      -2.1177847385406494
+    ],
+    "E5": [
+      0,
+      -2.994999885559082
+    ],
+    "E6": [
+      -2.1177847385406494,
+      -2.1177847385406494
+    ],
+    "E7": [
+      -2.994999885559082,
+      0
+    ],
+    "E8": [
+      -2.1177849769592285,
+      2.1177845001220703
+    ]
+  },
+  "notePlaceArea": {
+    "radius": 5.5,
+    "positions": [
+      {
+        "key": "C",
+        "position": [
+          0,
+          0
+        ]
+      },
+      {
+        "key": "A1",
+        "position": [
+          1.562000036239624,
+          3.7850000858306885
+        ]
+      },
+      {
+        "key": "A2",
+        "position": [
+          3.7850000858306885,
+          1.562000036239624
+        ]
+      },
+      {
+        "key": "A3",
+        "position": [
+          3.7850000858306885,
+          -1.562000036239624
+        ]
+      },
+      {
+        "key": "A4",
+        "position": [
+          1.562000036239624,
+          -3.7850000858306885
+        ]
+      },
+      {
+        "key": "A5",
+        "position": [
+          -1.562000036239624,
+          -3.7850000858306885
+        ]
+      },
+      {
+        "key": "A6",
+        "position": [
+          -3.7850000858306885,
+          -1.562000036239624
+        ]
+      },
+      {
+        "key": "A7",
+        "position": [
+          -3.7850000858306885,
+          1.562000036239624
+        ]
+      },
+      {
+        "key": "A8",
+        "position": [
+          -1.562000036239624,
+          3.7850000858306885
+        ]
+      },
+      {
+        "key": "B1",
+        "position": [
+          0.8799431920051575,
+          2.124370813369751
+        ]
+      },
+      {
+        "key": "B2",
+        "position": [
+          2.124370813369751,
+          0.879943311214447
+        ]
+      },
+      {
+        "key": "B3",
+        "position": [
+          2.124370813369751,
+          -0.879943311214447
+        ]
+      },
+      {
+        "key": "B4",
+        "position": [
+          0.8799431920051575,
+          -2.124370813369751
+        ]
+      },
+      {
+        "key": "B5",
+        "position": [
+          -0.8799431324005127,
+          -2.12437105178833
+        ]
+      },
+      {
+        "key": "B6",
+        "position": [
+          -2.124370813369751,
+          -0.8799433708190918
+        ]
+      },
+      {
+        "key": "B7",
+        "position": [
+          -2.124370813369751,
+          0.8799431920051575
+        ]
+      },
+      {
+        "key": "B8",
+        "position": [
+          -0.8799435496330261,
+          2.124370813369751
+        ]
+      },
+      {
+        "key": "D1",
+        "position": [
+          0,
+          4.099999904632568
+        ]
+      },
+      {
+        "key": "D2",
+        "position": [
+          2.8991377353668213,
+          2.8991377353668213
+        ]
+      },
+      {
+        "key": "D3",
+        "position": [
+          4.099999904632568,
+          0
+        ]
+      },
+      {
+        "key": "D4",
+        "position": [
+          2.8991377353668213,
+          -2.8991377353668213
+        ]
+      },
+      {
+        "key": "D5",
+        "position": [
+          0,
+          -4.099999904632568
+        ]
+      },
+      {
+        "key": "D6",
+        "position": [
+          -2.8991377353668213,
+          -2.8991377353668213
+        ]
+      },
+      {
+        "key": "D7",
+        "position": [
+          -4.099999904632568,
+          0
+        ]
+      },
+      {
+        "key": "D8",
+        "position": [
+          -2.8991379737854004,
+          2.899137496948242
+        ]
+      },
+      {
+        "key": "E1",
+        "position": [
+          0,
+          2.994999885559082
+        ]
+      },
+      {
+        "key": "E2",
+        "position": [
+          2.1177847385406494,
+          2.1177847385406494
+        ]
+      },
+      {
+        "key": "E3",
+        "position": [
+          2.994999885559082,
+          0
+        ]
+      },
+      {
+        "key": "E4",
+        "position": [
+          2.1177847385406494,
+          -2.1177847385406494
+        ]
+      },
+      {
+        "key": "E5",
+        "position": [
+          0,
+          -2.994999885559082
+        ]
+      },
+      {
+        "key": "E6",
+        "position": [
+          -2.1177847385406494,
+          -2.1177847385406494
+        ]
+      },
+      {
+        "key": "E7",
+        "position": [
+          -2.994999885559082,
+          0
+        ]
+      },
+      {
+        "key": "E8",
+        "position": [
+          -2.1177849769592285,
+          2.1177845001220703
+        ]
+      },
+      {
+        "key": "1",
+        "position": [
+          1.8368805646896362,
+          4.434621810913086
+        ]
+      },
+      {
+        "key": "2",
+        "position": [
+          4.434621810913086,
+          1.8368806838989258
+        ]
+      },
+      {
+        "key": "3",
+        "position": [
+          4.434621810913086,
+          -1.8368806838989258
+        ]
+      },
+      {
+        "key": "4",
+        "position": [
+          1.8368805646896362,
+          -4.434621810913086
+        ]
+      },
+      {
+        "key": "5",
+        "position": [
+          -1.8368803262710571,
+          -4.434622287750244
+        ]
+      },
+      {
+        "key": "6",
+        "position": [
+          -4.434621810913086,
+          -1.8368808031082153
+        ]
+      },
+      {
+        "key": "7",
+        "position": [
+          -4.434621810913086,
+          1.8368805646896362
+        ]
+      },
+      {
+        "key": "8",
+        "position": [
+          -1.8368812799453735,
+          4.434621810913086
+        ]
+      }
+    ],
+    "source": {
+      "fixturePath": "fixtures/visual-maimai/rendering.json",
+      "fixtureSha256": "24524e7890f13a78cebafbf2d32c84cd8742fa6f26375d8b87ac9b0d1176b2e1",
+      "componentId": 3601,
+      "gameObjectId": 201,
+      "positionsAssetId": 1199,
+      "baseTransformId": 2292,
+      "pointerTransformId": 1228,
+      "assetPath": "sharedassets0.assets",
+      "assetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104"
+    }
+  },
+  "touchFirework": {
+    "assetKey": "touch.firework",
+    "size": [
+      1080,
+      1080
+    ],
+    "placements": {
+      "timeline": {
+        "componentId": 1375,
+        "gameObjectId": 452,
+        "rootSize": [
+          100,
+          100
+        ],
+        "image": {
+          "gameObjectId": 613,
+          "imageComponentId": 1381,
+          "size": [
+            40,
+            40
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "anchoredPosition": [
+            0,
+            0
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "active": true,
+          "siblingIndex": 1
+        },
+        "glyphSizes": {
+          "touch": [
+            28,
+            28
+          ],
+          "touchMulti": [
+            28,
+            28
+          ],
+          "touchHold": [
+            35,
+            35
+          ]
+        },
+        "glyphSiblingIndexes": {
+          "touch": 6,
+          "touchMulti": 7,
+          "touchHold": 4
+        },
+        "siblingOrder": [
+          {
+            "index": 0,
+            "name": "Note Raycast"
+          },
+          {
+            "index": 1,
+            "name": "Firework"
+          },
+          {
+            "index": 2,
+            "name": "Touch Hold Length"
+          },
+          {
+            "index": 3,
+            "name": "Touch Hold Selected"
+          },
+          {
+            "index": 4,
+            "name": "Touch Hold"
+          },
+          {
+            "index": 5,
+            "name": "Touch Selected"
+          },
+          {
+            "index": 6,
+            "name": "Touch"
+          },
+          {
+            "index": 7,
+            "name": "Touch Multi"
+          },
+          {
+            "index": 8,
+            "name": "Editing"
+          }
+        ]
+      },
+      "sensor": {
+        "componentId": 1440,
+        "gameObjectId": 453,
+        "rootSize": [
+          0,
+          0
+        ],
+        "image": {
+          "gameObjectId": 614,
+          "imageComponentId": 1382,
+          "size": [
+            110,
+            110
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "anchoredPosition": [
+            0,
+            0
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "active": true,
+          "siblingIndex": 0
+        },
+        "glyphSizes": {
+          "touch": [
+            85,
+            85
+          ],
+          "touchMulti": [
+            85,
+            85
+          ],
+          "touchHold": [
+            100,
+            100
+          ]
+        },
+        "glyphSiblingIndexes": {
+          "touch": 2,
+          "touchMulti": 3,
+          "touchHold": 1
+        },
+        "siblingOrder": [
+          {
+            "index": 0,
+            "name": "Firework"
+          },
+          {
+            "index": 1,
+            "name": "Touch Hold"
+          },
+          {
+            "index": 2,
+            "name": "Touch"
+          },
+          {
+            "index": 3,
+            "name": "Touch Multi"
+          },
+          {
+            "index": 4,
+            "name": "No Multi"
+          }
+        ]
+      },
+      "pointer": {
+        "componentId": 4669,
+        "gameObjectId": 650,
+        "rootSize": [
+          100,
+          100
+        ],
+        "image": {
+          "gameObjectId": 1036,
+          "imageComponentId": 4686,
+          "size": [
+            40,
+            40
+          ],
+          "anchorMin": [
+            0.5,
+            0.5
+          ],
+          "anchorMax": [
+            0.5,
+            0.5
+          ],
+          "anchoredPosition": [
+            0,
+            0
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "color": [
+            1,
+            1,
+            1,
+            0.47058823704719543
+          ],
+          "active": true,
+          "siblingIndex": 1
+        },
+        "glyphSizes": {
+          "touch": [
+            28,
+            28
+          ],
+          "touchMulti": [
+            28,
+            28
+          ],
+          "touchHold": [
+            35,
+            35
+          ]
+        },
+        "glyphSiblingIndexes": {
+          "touch": 6,
+          "touchMulti": 7,
+          "touchHold": 4
+        },
+        "siblingOrder": [
+          {
+            "index": 0,
+            "name": "Note Raycast"
+          },
+          {
+            "index": 1,
+            "name": "Firework"
+          },
+          {
+            "index": 2,
+            "name": "Touch Hold Length"
+          },
+          {
+            "index": 3,
+            "name": "Touch Hold Selected"
+          },
+          {
+            "index": 4,
+            "name": "Touch Hold"
+          },
+          {
+            "index": 5,
+            "name": "Touch Selected"
+          },
+          {
+            "index": 6,
+            "name": "Touch"
+          },
+          {
+            "index": 7,
+            "name": "Touch Multi"
+          },
+          {
+            "index": 8,
+            "name": "Editing"
+          }
+        ]
+      }
+    },
+    "source": {
+      "fixturePath": "fixtures/visual-maimai/rendering.json",
+      "fixtureSha256": "24524e7890f13a78cebafbf2d32c84cd8742fa6f26375d8b87ac9b0d1176b2e1",
+      "sourceAsset": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104",
+      "spriteId": 386,
+      "textureId": 185,
+      "logicalSpriteRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1080
+      },
+      "textureRect": {
+        "x": 3.076120376586914,
+        "y": 3.076120376586914,
+        "width": 1073.84765625,
+        "height": 1073.84765625
+      },
+      "textureRectOffset": [
+        3.076120376586914,
+        3.076120376586914
+      ],
+      "extractedSpriteCropSize": [
+        1074,
+        1074
+      ],
+      "cropPixelOffsetTopLeft": [
+        3,
+        3
+      ],
+      "exportedTextureSize": [
+        1080,
+        1080
+      ],
+      "exportMethod": "Texture2D image exported unchanged after checking Sprite.image against m_RD.textureRect; alpha and visible RGB match, transparent RGB ignored",
+      "displaySources": {
+        "timeline": {
+          "componentId": 1375,
+          "gameObjectId": 452,
+          "fireworkGameObjectId": 613,
+          "fireworkSpriteId": 386,
+          "fireworkTextureId": 185
+        },
+        "sensor": {
+          "componentId": 1440,
+          "gameObjectId": 453,
+          "fireworkGameObjectId": 614,
+          "fireworkSpriteId": 386,
+          "fireworkTextureId": 185
+        },
+        "pointer": {
+          "componentId": 4669,
+          "gameObjectId": 650,
+          "fireworkGameObjectId": 1036,
+          "fireworkSpriteId": 386,
+          "fireworkTextureId": 185
+        }
+      }
+    }
+  },
+  "prefabs": {
+    "tap": {
+      "sortingGroups": [
+        {
+          "sourceId": 861,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 596,
+          "gameObjectName": "Tap",
+          "transformId": 726,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 5,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "sprites": {
+        "singleSprite": {
+          "sourceId": 357,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 122
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "multiSprite": {
+          "sourceId": 260,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 122
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "noteModel": {
+          "sourceId": 357,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 122
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "exModel": {
+          "sourceId": 390,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "breakSprite": {
+          "sourceId": 339,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 122
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        }
+      },
+      "renderers": [
+        {
+          "role": "noteModel",
+          "sprite": {
+            "sourceId": 357,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 122,
+              "height": 122
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1.2200000286102295,
+            1.2200000286102295
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 861,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 596,
+              "gameObjectName": "Tap",
+              "transformId": 726,
+              "transformName": "Tap",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 5,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "exModel",
+          "sprite": {
+            "sourceId": 390,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 128,
+              "height": 128
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1.2200000286102295,
+            1.2200000286102295
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 861,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 596,
+              "gameObjectName": "Tap",
+              "transformId": 726,
+              "transformName": "Tap",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 5,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "hold": {
+      "sortingGroups": [
+        {
+          "sourceId": 853,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 634,
+          "gameObjectName": "Hold",
+          "transformId": 821,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 5,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "sprites": {
+        "singleSprite": {
+          "sourceId": 367,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 200
+          },
+          "pivot": [
+            0.5,
+            0
+          ],
+          "border": [
+            0,
+            61,
+            0,
+            56
+          ],
+          "ppu": 100
+        },
+        "multiSprite": {
+          "sourceId": 388,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 200
+          },
+          "pivot": [
+            0.5,
+            0
+          ],
+          "border": [
+            0,
+            56,
+            0,
+            55
+          ],
+          "ppu": 100
+        },
+        "noteModel": {
+          "sourceId": 367,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 200
+          },
+          "pivot": [
+            0.5,
+            0
+          ],
+          "border": [
+            0,
+            61,
+            0,
+            56
+          ],
+          "ppu": 100
+        },
+        "exModel": {
+          "sourceId": 359,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 200
+          },
+          "pivot": [
+            0.5,
+            0
+          ],
+          "border": [
+            0,
+            48,
+            0,
+            47
+          ],
+          "ppu": 100
+        },
+        "breakSprite": {
+          "sourceId": 304,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 122,
+            "height": 200
+          },
+          "pivot": [
+            0.5,
+            0
+          ],
+          "border": [
+            0,
+            58,
+            0,
+            55
+          ],
+          "ppu": 100
+        },
+        "endPoint": {
+          "sourceId": 335,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "singleEndPoint": {
+          "sourceId": 335,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "multiEndPoint": {
+          "sourceId": 284,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "breakEndPoint": {
+          "sourceId": 309,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        }
+      },
+      "renderers": [
+        {
+          "role": "noteModel",
+          "sprite": {
+            "sourceId": 367,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 122,
+              "height": 200
+            },
+            "pivot": [
+              0.5,
+              0
+            ],
+            "border": [
+              0,
+              61,
+              0,
+              56
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1.2200000286102295,
+            5
+          ],
+          "mode": 1,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 853,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 634,
+              "gameObjectName": "Hold",
+              "transformId": 821,
+              "transformName": "Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 5,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                -0.7300000190734863,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "exModel",
+          "sprite": {
+            "sourceId": 359,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 122,
+              "height": 200
+            },
+            "pivot": [
+              0.5,
+              0
+            ],
+            "border": [
+              0,
+              48,
+              0,
+              47
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1.2200000286102295,
+            5
+          ],
+          "mode": 1,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 853,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 634,
+              "gameObjectName": "Hold",
+              "transformId": 821,
+              "transformName": "Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 5,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                -0.7300000190734863,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "endPoint",
+          "sprite": {
+            "sourceId": 335,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 64,
+              "height": 64
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1.2200000286102295,
+            5
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.7843137383460999
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 853,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 634,
+              "gameObjectName": "Hold",
+              "transformId": 821,
+              "transformName": "Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 5,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                3.609999895095825,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "touch": {
+      "sortingGroups": [
+        {
+          "sourceId": 857,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 629,
+          "gameObjectName": "Touch",
+          "transformId": 803,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 6,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "sprites": {
+        "singleSprite": {
+          "sourceId": 322,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "multiSprite": {
+          "sourceId": 273,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "centerModel": {
+          "sourceId": 361,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "centerSingleSprite": {
+          "sourceId": 361,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "centerMultiSprite": {
+          "sourceId": 366,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.0": {
+          "sourceId": 322,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.1": {
+          "sourceId": 322,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.2": {
+          "sourceId": 322,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.3": {
+          "sourceId": 322,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        }
+      },
+      "renderers": [
+        {
+          "role": "centerModel",
+          "sprite": {
+            "sourceId": 361,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 32,
+              "height": 32
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 2,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 857,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 629,
+              "gameObjectName": "Touch",
+              "transformId": 803,
+              "transformName": "Touch",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 6,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.0",
+          "sprite": {
+            "sourceId": 322,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 1,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 857,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 629,
+              "gameObjectName": "Touch",
+              "transformId": 803,
+              "transformName": "Touch",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 6,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.1",
+          "sprite": {
+            "sourceId": 322,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 857,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 629,
+              "gameObjectName": "Touch",
+              "transformId": 803,
+              "transformName": "Touch",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 6,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.7071068286895752,
+                -0.7071068286895752
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.2",
+          "sprite": {
+            "sourceId": 322,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 1,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 857,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 629,
+              "gameObjectName": "Touch",
+              "transformId": 803,
+              "transformName": "Touch",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 6,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.3",
+          "sprite": {
+            "sourceId": 322,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 857,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 629,
+              "gameObjectName": "Touch",
+              "transformId": 803,
+              "transformName": "Touch",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 6,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.7071068286895752,
+                0.7071068286895752
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "touchHold": {
+      "sortingGroups": [
+        {
+          "sourceId": 859,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 435,
+          "gameObjectName": "Touch Hold",
+          "transformId": 838,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 7,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "sprites": {
+        "singleSprite": null,
+        "multiSprite": null,
+        "centerModel": {
+          "sourceId": 361,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "centerSingleSprite": null,
+        "centerMultiSprite": null,
+        "triangleModels.0": {
+          "sourceId": 314,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.1": {
+          "sourceId": 279,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.2": {
+          "sourceId": 382,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "triangleModels.3": {
+          "sourceId": 324,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 112,
+            "height": 82
+          },
+          "pivot": [
+            0.5,
+            0.7735813856124878
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        },
+        "holdModel": {
+          "sourceId": 300,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 211,
+            "height": 210
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100
+        }
+      },
+      "renderers": [
+        {
+          "role": "centerModel",
+          "sprite": {
+            "sourceId": 361,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 32,
+              "height": 32
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 4,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.0",
+          "sprite": {
+            "sourceId": 314,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 3,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.3826834261417389,
+                0.9238795638084412
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                -2.9802322387695312e-8
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.1",
+          "sprite": {
+            "sourceId": 279,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 2,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.9238796234130859,
+                -0.38268324732780457
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                1.4901159772762185e-7
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.2",
+          "sprite": {
+            "sourceId": 382,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 1,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.9238795638084412,
+                0.3826834261417389
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "triangleModels.3",
+          "sprite": {
+            "sourceId": 324,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 112,
+              "height": 82
+            },
+            "pivot": [
+              0.5,
+              0.7735813856124878
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            1,
+            1
+          ],
+          "mode": 0,
+          "order": 0,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.3826834261417389,
+                0.9238795638084412
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "role": "holdModel",
+          "sprite": {
+            "sourceId": 300,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 211,
+              "height": 210
+            },
+            "pivot": [
+              0.5,
+              0.5
+            ],
+            "border": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ppu": 100
+          },
+          "size": [
+            2.109999895095825,
+            2.0999999046325684
+          ],
+          "mode": 0,
+          "order": -1,
+          "layer": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "sortingGroups": [
+            {
+              "sourceId": 859,
+              "componentClass": "SortingGroup",
+              "gameObjectId": 435,
+              "gameObjectName": "Touch Hold",
+              "transformId": 838,
+              "transformName": "Touch Hold",
+              "sortingLayerId": 0,
+              "sortingLayerRaw": 0,
+              "sortingOrder": 7,
+              "enabled": true,
+              "sortAtRoot": false
+            }
+          ],
+          "transforms": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

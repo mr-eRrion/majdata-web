@@ -1,0 +1,6792 @@
+{
+  "browser": "153.0.8010.12",
+  "accepted": 64,
+  "rejected": 128,
+  "cases": [
+    {
+      "token": "1v1[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1v2[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1v3[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1v4[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1v5[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1v6[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1v7[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1v8[4:2]",
+      "command": "v",
+      "start": 1,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v1[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v2[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2v3[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v4[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v5[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v6[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2v7[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2v8[4:2]",
+      "command": "v",
+      "start": 2,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v1[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v2[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v3[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3v4[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v5[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v6[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3v7[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3v8[4:2]",
+      "command": "v",
+      "start": 3,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v1[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v2[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v3[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v4[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4v5[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v6[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v7[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "4v8[4:2]",
+      "command": "v",
+      "start": 4,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5v1[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5v2[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5v3[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5v4[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5v5[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5v6[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5v7[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5v8[4:2]",
+      "command": "v",
+      "start": 5,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v1[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v2[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6v3[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v4[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v5[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v6[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6v7[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6v8[4:2]",
+      "command": "v",
+      "start": 6,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v1[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v2[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v3[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7v4[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v5[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v6[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7v7[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7v8[4:2]",
+      "command": "v",
+      "start": 7,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7v8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "v",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v1[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v2[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v3[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v4[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8v5[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v6[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v7[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8v7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "v",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "v",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "v",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8v8[4:2]",
+      "command": "v",
+      "start": 8,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s1[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s2[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s3[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s4[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s5[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1s5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "s",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1s6[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s7[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1s8[4:2]",
+      "command": "s",
+      "start": 1,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s1[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s2[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s3[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s4[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s5[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s6[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2s6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "s",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2s7[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2s8[4:2]",
+      "command": "s",
+      "start": 2,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s1[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s2[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s3[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s4[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s5[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s6[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3s7[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3s7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "s",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3s8[4:2]",
+      "command": "s",
+      "start": 3,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s1[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s2[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s3[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s4[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s5[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s6[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s7[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4s8[4:2]",
+      "command": "s",
+      "start": 4,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4s8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "s",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5s1[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5s1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "s",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5s2[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s3[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s4[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s5[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s6[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s7[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5s8[4:2]",
+      "command": "s",
+      "start": 5,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s1[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s2[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6s2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "s",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6s3[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s4[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s5[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s6[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s7[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6s8[4:2]",
+      "command": "s",
+      "start": 6,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s1[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s2[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s3[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7s3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "s",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7s4[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s5[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s6[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s7[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7s8[4:2]",
+      "command": "s",
+      "start": 7,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s1[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s2[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s3[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s4[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8s4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "s",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "s",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "s",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8s5[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s6[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s7[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8s8[4:2]",
+      "command": "s",
+      "start": 8,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z1[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z2[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z3[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z4[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z5[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 5,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}1z5b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 1,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 5,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 1,
+                "command": "z",
+                "endPosition": 5,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "1z6[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z7[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "1z8[4:2]",
+      "command": "z",
+      "start": 1,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z1[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z2[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z3[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z4[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z5[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z6[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 6,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}2z6b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 2,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 6,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 6,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 2,
+                "command": "z",
+                "endPosition": 6,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "2z7[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "2z8[4:2]",
+      "command": "z",
+      "start": 2,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z1[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z2[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z3[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z4[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z5[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z6[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "3z7[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 7,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}3z7b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 3,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 7,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 7,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 3,
+                "command": "z",
+                "endPosition": 7,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "3z8[4:2]",
+      "command": "z",
+      "start": 3,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z1[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z2[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z3[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z4[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z5[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z6[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z7[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "4z8[4:2]",
+      "command": "z",
+      "start": 4,
+      "end": 8,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}4z8b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 4,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 8,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 8,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 4,
+                "command": "z",
+                "endPosition": 8,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5z1[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 1,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}5z1b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 5,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 1,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 1,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 5,
+                "command": "z",
+                "endPosition": 1,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "5z2[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z3[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z4[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z5[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z6[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z7[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "5z8[4:2]",
+      "command": "z",
+      "start": 5,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z1[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z2[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 2,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}6z2b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 6,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 2,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 2,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 6,
+                "command": "z",
+                "endPosition": 2,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "6z3[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z4[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z5[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z6[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z7[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "6z8[4:2]",
+      "command": "z",
+      "start": 6,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z1[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z2[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z3[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 3,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}7z3b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 7,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 3,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 3,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 7,
+                "command": "z",
+                "endPosition": 3,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "7z4[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 4,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z5[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z6[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z7[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "7z8[4:2]",
+      "command": "z",
+      "start": 7,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z1[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 1,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z2[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 2,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z3[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 3,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z4[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 4,
+      "editable": true,
+      "diagnostics": [
+        "slide-validation-pending"
+      ],
+      "notes": 1,
+      "exported": "&first=0\n&inote_1=(120){4}8z4b[4:2],E\n",
+      "note": {
+        "id": "1:26:0",
+        "kind": "slide",
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "position": 8,
+        "firework": false,
+        "forceStar": false,
+        "order": 0,
+        "slide": {
+          "command": "z",
+          "endPosition": 4,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        },
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "sourceRange": {
+          "start": 26,
+          "end": 35
+        },
+        "slidePaths": [
+          {
+            "command": "z",
+            "endPosition": 4,
+            "slideBreak": true,
+            "wait": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 1
+            },
+            "move": {
+              "kind": "beatsAtStartBpm",
+              "division": 4,
+              "beats": 2
+            },
+            "moveStartSeconds": 0.5,
+            "endSeconds": 1.5,
+            "segments": [
+              {
+                "startPosition": 8,
+                "command": "z",
+                "endPosition": 4,
+                "moveStartSeconds": 0.5,
+                "endSeconds": 1.5
+              }
+            ]
+          }
+        ],
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "endSeconds": 1.5,
+        "bpm": 120,
+        "isEach": false,
+        "isSlideEach": false
+      }
+    },
+    {
+      "token": "8z5[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 5,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z6[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 6,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z7[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 7,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    },
+    {
+      "token": "8z8[4:2]",
+      "command": "z",
+      "start": 8,
+      "end": 8,
+      "editable": false,
+      "diagnostics": [
+        "unsupported-slide-path"
+      ],
+      "notes": 0,
+      "preserved": true
+    }
+  ],
+  "errors": []
+}

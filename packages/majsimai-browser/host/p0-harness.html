@@ -1,0 +1,71 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MajSimai WASM P0 harness</title>
+<style>
+  :root { color-scheme: light dark; font: 16px/1.45 system-ui, sans-serif; }
+  body { max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
+  textarea { box-sizing: border-box; width: 100%; min-height: 14rem; font: 14px/1.4 ui-monospace, monospace; }
+  pre { overflow: auto; padding: 1rem; background: color-mix(in srgb, CanvasText 8%, Canvas); }
+  button { padding: .5rem 1rem; }
+</style>
+<h1>MajSimai WASM P0 harness</h1>
+<p>Standalone browser-worker harness for the Release .NET WASM parser. Paste a chart or complete maidata document.</p>
+<textarea id="source" spellcheck="false">&title=P0 harness
+&first=0.25
+&inote_1=(120){4}1/1,2h[4:4],(240)3,4h[#0.25],,E
+</textarea>
+<p><button id="parse" disabled>Initialize…</button> <span id="status">Loading worker</span></p>
+<pre id="result">Waiting for parser runtime.</pre>
+<script type="module">
+  const button = document.querySelector('#parse');
+  const status = document.querySelector('#status');
+  const result = document.querySelector('#result');
+  const worker = new Worker(new URL('./p0-harness.mjs', import.meta.url), { type: 'module' });
+  let nextId = 1;
+  const pending = new Map();
+
+  worker.addEventListener('message', ({ data }) => {
+    if (data.type === 'ready') {
+      status.textContent = `Worker ready in ${data.initMs.toFixed(1)} ms`;
+      button.disabled = false;
+      button.textContent = 'Parse';
+      return;
+    }
+    const request = pending.get(data.id);
+    if (!request) return;
+    pending.delete(data.id);
+    if (data.error) {
+      status.textContent = `Parser error after ${(performance.now() - request.startedAt).toFixed(1)} ms`;
+      result.textContent = data.error;
+      request.reject(new Error(data.error));
+      return;
+    }
+    const roundTripMs = performance.now() - request.startedAt;
+    status.textContent = `Parsed in ${data.parseMs.toFixed(1)} ms; round trip ${roundTripMs.toFixed(1)} ms`;
+    const parsed = JSON.parse(data.json);
+    const noteCount = parsed.charts.reduce((count, chart) => count + chart.notes.length, 0);
+    result.textContent = noteCount <= 1000
+      ? JSON.stringify(parsed, null, 2)
+      : JSON.stringify({ globalEditable: parsed.globalEditable, charts: parsed.charts.map((chart) => ({ difficulty: chart.difficulty, editable: chart.editable, noteCount: chart.notes.length, diagnostics: chart.diagnostics })) }, null, 2);
+    request.resolve({ json: data.json, workerParseMs: data.parseMs, roundTripMs });
+  });
+  worker.addEventListener('error', (event) => {
+    status.textContent = 'Worker initialization failed';
+    result.textContent = event.message;
+    for (const request of pending.values()) request.reject(new Error(event.message));
+    pending.clear();
+  });
+
+  window.__parseMajSimaiSource = (sourceText) => new Promise((resolve, reject) => {
+    const id = nextId++;
+    pending.set(id, { resolve, reject, startedAt: performance.now() });
+    status.textContent = 'Parsing…';
+    worker.postMessage({ id, sourceText });
+  });
+  window.__terminateMajSimaiParser = () => worker.terminate();
+
+  button.addEventListener('click', () => {
+    window.__parseMajSimaiSource(document.querySelector('#source').value).catch(() => {});
+  });
+</script>

@@ -1,0 +1,37 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Local environment files; keep shareable templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and local toolchains
+node_modules/
+.pnpm-store/
+.tools/
+
+# Build output and caches
+dist/
+**/bin/
+**/obj/
+apps/web/public/wasm/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+
+# Local reference installation and personal media
+/Visual Maimai/
+/examples/
+
+# Local planning and working documents
+PLAN*.md
+ROADMAP*.md
+/PROJECT.md
+/REVIEW_REQUEST.md
+/docs/reviews/

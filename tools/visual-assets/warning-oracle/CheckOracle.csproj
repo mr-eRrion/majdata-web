@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <Target Name="RequireDecompileDir" BeforeTargets="CoreCompile">
+    <Error Condition="'$(DecompileDir)' == ''" Text="Pass -p:DecompileDir with the directory containing the original C# sources." />
+    <Error Condition="!Exists('$(DecompileDir)/EditorScene_Check_ChartWatcher.cs')" Text="DecompileDir is missing EditorScene_Check_ChartWatcher.cs." />
+    <Error Condition="!Exists('$(DecompileDir)/EditorScene_Check_CheckResult.cs')" Text="DecompileDir is missing EditorScene_Check_CheckResult.cs." />
+    <Error Condition="!Exists('$(DecompileDir)/Global_Chart_TimeData.cs')" Text="DecompileDir is missing Global_Chart_TimeData.cs." />
+    <Error Condition="!Exists('$(DecompileDir)/Global_Chart_BpmData.cs')" Text="DecompileDir is missing Global_Chart_BpmData.cs." />
+    <Error Condition="!Exists('$(DecompileDir)/Settings_Data_SettingsData.cs')" Text="DecompileDir is missing Settings_Data_SettingsData.cs." />
+  </Target>
+  <ItemGroup>
+    <Compile Include="$(DecompileDir)/EditorScene_Check_ChartWatcher.cs" Link="Original/EditorScene_Check_ChartWatcher.cs" />
+    <Compile Include="$(DecompileDir)/EditorScene_Check_CheckResult.cs" Link="Original/EditorScene_Check_CheckResult.cs" />
+    <Compile Include="$(DecompileDir)/Global_Chart_TimeData.cs" Link="Original/Global_Chart_TimeData.cs" />
+    <Compile Include="$(DecompileDir)/Global_Chart_BpmData.cs" Link="Original/Global_Chart_BpmData.cs" />
+    <Compile Include="$(DecompileDir)/Settings_Data_SettingsData.cs" Link="Original/Settings_Data_SettingsData.cs" />
+  </ItemGroup>
+</Project>

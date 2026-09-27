@@ -1,0 +1,35 @@
+{
+  "collectorStatus": "finished",
+  "coverageStatus": "partial",
+  "reason": "Raw collector classified JSON validity as completion; stderr has three untimed process analysis failures. Subsequent collector separates completion and coverage.",
+  "failedPids": [
+    13141,
+    13142,
+    13143
+  ],
+  "rssPids": [
+    13129,
+    13137,
+    13138,
+    13139,
+    13141,
+    13142,
+    13143,
+    13174
+  ],
+  "footprintPids": [
+    13129,
+    13137,
+    13138,
+    13139,
+    13141,
+    13142,
+    13143,
+    13174
+  ],
+  "vmObjectDirtyAnalysis": true,
+  "footprintSampleCount": 20,
+  "rssSampleCount": 133,
+  "rssPeakDeltaFromBlankBytes": 656015360,
+  "budgetPassed": false
+}

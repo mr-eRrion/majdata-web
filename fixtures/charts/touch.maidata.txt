@@ -1,0 +1,4 @@
+&title=Touch parser fixture
+&first=0
+&inote_1=(120){4}A1b/B8/C/D3h[#0]/E1,E
+&inote_2=(120){4}D4x,E

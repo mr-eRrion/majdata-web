@@ -1,0 +1,18 @@
+{
+  "origin": "Self-authored syntax fixture; note family and positions were checked against pinned MajSimai, while expected normalized values are manual.",
+  "difficulty": 1,
+  "editable": true,
+  "endBeat": { "numerator": 1, "denominator": 1 },
+  "notes": [
+    { "kind": "touch", "touchArea": "A", "position": 1, "break": true, "beat": 0 },
+    { "kind": "touch", "touchArea": "B", "position": 8, "break": false, "beat": 0 },
+    { "kind": "touch", "touchArea": "C", "position": 0, "break": false, "beat": 0 },
+    { "kind": "touchHold", "touchArea": "D", "position": 3, "break": false, "beat": 0, "durationSeconds": 0 },
+    { "kind": "touch", "touchArea": "E", "position": 1, "break": false, "beat": 0 }
+  ],
+  "difficulty2": {
+    "editable": false,
+    "diagnostic": "unsupported-touch-ex",
+    "notes": []
+  }
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>MajSimaiBrowser</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <WasmMainJSPath>p0-harness.mjs</WasmMainJSPath>
+    <WasmBuildNative>true</WasmBuildNative>
+    <PublishTrimmed>true</PublishTrimmed>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DefineConstants>$(DefineConstants);MAJSIMAI_BROWSER</DefineConstants>
+    <EnableDefaultItems>true</EnableDefaultItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../vendor/MajSimai/Runtime/**/*.cs"
+             Link="Upstream/MajSimai/%(RecursiveDir)%(Filename)%(Extension)" />
+    <Content Include="p0-harness.mjs;p0-harness.html" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

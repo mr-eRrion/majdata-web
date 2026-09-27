@@ -1,0 +1,24 @@
+{
+  "browser": "153.0.8010.12",
+  "fixture": "mixed-edit-flow.maidata.txt (&first=0.25)",
+  "referenceTone": "reference-tone.wav · 10.0s · 48kHz · stereo",
+  "crossBpm": {
+    "from": 1.4,
+    "during": 1.6,
+    "releaseBeforeSnap": 1.6,
+    "releaseAfterSnap": 1.6249
+  },
+  "limits": {
+    "lower": -0.25,
+    "upper": 9.75,
+    "reverseDeltaSeconds": 0.01
+  },
+  "pointerCancelClock": 1.6,
+  "playback": {
+    "start": 1.453,
+    "duringDrag": 1.859,
+    "snappedAtRelease": 1.9999000000000002,
+    "afterRelease": 2.214
+  },
+  "errors": []
+}

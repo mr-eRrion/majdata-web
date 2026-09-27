@@ -1,0 +1,10 @@
+.visual-checks { padding: 0 18px 16px; }
+.visual-checks > p { margin: 8px 0; font-size: 11px; }
+.visual-checks > ul { list-style: none; padding: 0; margin: 8px 0 0; max-height: 180px; overflow: auto; }
+.visual-checks li + li { margin-top: 4px; }
+.visual-checks li button { width: 100%; display: flex; gap: 10px; text-align: left; font-size: 11px; padding: 6px 8px; }
+.visual-checks time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.visual-checks .bad { color: #ff9196; }
+.visual-checks .warning { color: #f6c56e; }
+.check-pages { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 11px; margin-top: 8px; }
+.check-pages button { font-size: 11px; padding: 6px 8px; }

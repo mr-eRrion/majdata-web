@@ -1,0 +1,15 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "reverse-endpoint-Hold",
+    "cross-BPM-seconds",
+    "TouchTrack-then-sensor-picker",
+    "right-click-cancel",
+    "undo-redo-export-reopen",
+    "explicit-BPM-head-drag",
+    "Touch-time-only-drag",
+    "same-beat-Touch-group-drag",
+    "clock-shortcuts-and-wheel"
+  ],
+  "errors": []
+}

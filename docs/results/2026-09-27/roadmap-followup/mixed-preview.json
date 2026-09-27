@@ -1,0 +1,165 @@
+{
+  "browser": "153.0.8010.12",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "fixture": "mixed-preview.maidata.txt",
+  "offsets": [
+    {
+      "offset": 0.25,
+      "diagnostics": [
+        "slide-validation-pending · 字符 93–213Slide runtime behavior in the target player has not been validated."
+      ],
+      "editable": true
+    },
+    {
+      "offset": -0.25,
+      "diagnostics": [
+        "slide-validation-pending · 字符 94–214Slide runtime behavior in the target player has not been validated."
+      ],
+      "editable": true
+    }
+  ],
+  "previews": [
+    {
+      "offset": 0.25,
+      "seconds": 1.8,
+      "sha256": "2859f64a31562434c6209f6392c436af99b764ef3d62f40748881636061ae1f7",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.25,
+      "sha256": "77a6160514ebc128b736f36a9ebf74352e6cb37041c3c8c077eff923435f0c90",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.75,
+      "sha256": "ccd1a41258ba71baf945845f35e4ab16ec4b88886ef495d1a5fba30d622f9ef2",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": 0.25,
+      "seconds": 3.25,
+      "sha256": "d2ad9299a7b69488312ad67876ff4417ccdfcbdc9deff48fa7a0fb99c333b3b5",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": 0.25,
+      "seconds": 4.25,
+      "sha256": "52a70fc20b1a230e2a93d5d095f311695a4eb3235e002e3885df365d30a200aa",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": 0.25,
+      "seconds": 2.75,
+      "sha256": "ccd1a41258ba71baf945845f35e4ab16ec4b88886ef495d1a5fba30d622f9ef2",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 1.8,
+      "sha256": "2859f64a31562434c6209f6392c436af99b764ef3d62f40748881636061ae1f7",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.25,
+      "sha256": "77a6160514ebc128b736f36a9ebf74352e6cb37041c3c8c077eff923435f0c90",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.75,
+      "sha256": "ccd1a41258ba71baf945845f35e4ab16ec4b88886ef495d1a5fba30d622f9ef2",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 3.25,
+      "sha256": "d2ad9299a7b69488312ad67876ff4417ccdfcbdc9deff48fa7a0fb99c333b3b5",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 4.25,
+      "sha256": "52a70fc20b1a230e2a93d5d095f311695a4eb3235e002e3885df365d30a200aa",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    },
+    {
+      "offset": -0.25,
+      "seconds": 2.75,
+      "sha256": "ccd1a41258ba71baf945845f35e4ab16ec4b88886ef495d1a5fba30d622f9ef2",
+      "canvas": {
+        "width": 669,
+        "height": 594
+      }
+    }
+  ],
+  "rates": [
+    {
+      "rate": 0.5,
+      "elapsed": 0.806,
+      "chartDelta": 0.40400000000000036
+    },
+    {
+      "rate": 1,
+      "elapsed": 0.805,
+      "chartDelta": 0.8029999999999999
+    },
+    {
+      "rate": 2,
+      "elapsed": 0.816,
+      "chartDelta": 1.6389999999999998
+    }
+  ],
+  "tabPreviewRestoredSeconds": 2.25,
+  "loopTimes": [
+    2.926,
+    2.162,
+    2.39,
+    2.619,
+    2.855,
+    2.085,
+    2.31,
+    2.542
+  ],
+  "errors": [],
+  "frameComparison": "Exact PNG hash of the drawing area excluding the 8px CSS panel corner mask; uncropped frames saved separately.",
+  "limitations": "Production Web state/clock checks with synthesized cues and no loaded song. No native pixel, physical audio, or target-runtime Slide compatibility claim."
+}

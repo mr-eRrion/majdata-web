@@ -1,0 +1,272 @@
+{
+  "pageErrors": [],
+  "environment": {
+    "appUrl": "http://127.0.0.1:4173/",
+    "browser": "153.0.8010.12",
+    "mode": "actual app, sequential 300s/48kHz/stereo WAV decode plus completed waveform build",
+    "heapMeasurement": "CDP Runtime.getHeapUsage for the page target",
+    "livenessMeasurement": "WeakRef.deref() booleans and scalar decode metadata; no old ArrayBuffer/AudioBuffer is retained strongly by the probe",
+    "encodedBufferCaveat": "decodeAudioData detaches its input ArrayBuffer; an alive wrapper with byteLength 0 does not retain the original encoded backing store"
+  },
+  "media": {
+    "durationSeconds": 300,
+    "sampleRateHz": 48000,
+    "channelCount": 2,
+    "encoding": "PCM16 WAV silence fixture",
+    "encodedBytes": 57600044
+  },
+  "replacements": 10,
+  "firstReady": {
+    "label": "first-song-waveform-ready",
+    "diagnosticForcedGc": false,
+    "heapUsage": {
+      "usedSize": 6422372,
+      "backingStorageSize": 117144993,
+      "totalSize": 9568256,
+      "embedderHeapUsedSize": 1694712
+    },
+    "weak": {
+      "entries": [
+        {
+          "sequence": 1,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": true
+        }
+      ]
+    },
+    "alive": {
+      "encoded": 0,
+      "decoded": 1,
+      "oldEncoded": 0,
+      "oldDecoded": 0,
+      "currentEncoded": false,
+      "currentDecoded": true
+    },
+    "trackInfo": "300.0 秒 · 48 kHz · 2 声道"
+  },
+  "tenthReplacementReady": {
+    "label": "tenth-replacement-waveform-ready",
+    "diagnosticForcedGc": false,
+    "heapUsage": {
+      "usedSize": 5426172,
+      "backingStorageSize": 117030305,
+      "totalSize": 10878976,
+      "embedderHeapUsedSize": 1249192
+    },
+    "weak": {
+      "entries": [
+        {
+          "sequence": 1,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 2,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 3,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 4,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 5,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 6,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 7,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 8,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 9,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 10,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 11,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": true
+        }
+      ]
+    },
+    "alive": {
+      "encoded": 0,
+      "decoded": 1,
+      "oldEncoded": 0,
+      "oldDecoded": 0,
+      "currentEncoded": false,
+      "currentDecoded": true
+    },
+    "trackInfo": "300.0 秒 · 48 kHz · 2 声道"
+  },
+  "diagnosticForcedGc": {
+    "label": "after-forced-gc-diagnostic",
+    "diagnosticForcedGc": true,
+    "heapUsage": {
+      "usedSize": 5205820,
+      "backingStorageSize": 116882610,
+      "totalSize": 6160384,
+      "embedderHeapUsedSize": 1165080
+    },
+    "weak": {
+      "entries": [
+        {
+          "sequence": 1,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 2,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 3,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 4,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 5,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 6,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 7,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 8,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 9,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 10,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": false
+        },
+        {
+          "sequence": 11,
+          "encodedBytes": 57600044,
+          "decodedBytes": 115200000,
+          "encodedAlive": false,
+          "encodedCurrentByteLength": null,
+          "decodedAlive": true
+        }
+      ]
+    },
+    "alive": {
+      "encoded": 0,
+      "decoded": 1,
+      "oldEncoded": 0,
+      "oldDecoded": 0,
+      "currentEncoded": false,
+      "currentDecoded": true
+    },
+    "warning": "WeakRef/GC counts are diagnostic only; forced-GC heap and RSS do not determine memory-budget acceptance."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "browser": "153.0.8010.12",
+  "menuItemsInSourceOrder": [
+    "撤销",
+    "重做",
+    "全选",
+    "取消选择",
+    "复制",
+    "剪切",
+    "粘贴",
+    "删除",
+    "左右镜像",
+    "上下镜像",
+    "顺转 45°",
+    "逆转 45°",
+    "设为 Break",
+    "取消 Break",
+    "设为路径 Break",
+    "取消路径 Break",
+    "设为 EX",
+    "取消 EX",
+    "下一处告警（暂未支持）",
+    "上一处告警（暂未支持）"
+  ],
+  "flows": [
+    "right-up-only-open-and-viewport-clamp",
+    "empty-menu-focus-space-block-and-escape",
+    "all-copy-paste-preview-release-anchor-preserves-whole-note-semantics",
+    "paste-right-cancel",
+    "paste-single-undo-redo",
+    "cut-then-keyboard-paste-and-right-cancel",
+    "break-exclude-touch",
+    "path-break-all-shared-branches-preserve-head",
+    "pending-hold-and-slide-right-cancel-priority",
+    "note-right-click-delete-priority",
+    "readonly-selection-copy-and-mutation-gates",
+    "outside-pointer-close",
+    "global-delete-blocked-and-keyboard-wrap",
+    "edited-candidate-export-reopen",
+    "document-replacement-cancels-paste-and-menu",
+    "queued-right-delete"
+  ],
+  "screenshots": [
+    "/tmp/maijdata-edit-menu-open.png",
+    "/tmp/maijdata-edit-menu-paste-ghost.png"
+  ],
+  "finalReadOnlyNotes": 1,
+  "errors": []
+}

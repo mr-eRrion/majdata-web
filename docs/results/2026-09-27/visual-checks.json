@@ -1,0 +1,41 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "three-independent-warning-codes",
+    "cross-bpm-navigation-and-wrap",
+    "result-click-seek",
+    "edit-and-undo-recompute",
+    "derived-results-not-persisted",
+    "candidate-reopen-and-recovery-recompute",
+    "readonly-unchecked-not-clean",
+    "uncheckable-duration-does-not-reject-edit",
+    "all-results-reachable-with-pagination"
+  ],
+  "expected": [
+    {
+      "beat": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "code": 0,
+      "severity": "bad"
+    },
+    {
+      "beat": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "code": 8,
+      "severity": "bad"
+    },
+    {
+      "beat": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "code": 7,
+      "severity": "bad"
+    }
+  ],
+  "errors": []
+}

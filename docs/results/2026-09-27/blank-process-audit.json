@@ -1,0 +1,259 @@
+{
+  "browser": "153.0.8010.12",
+  "launcherPid": 94753,
+  "executableSha256": "8319963f6625accf51c0dd4f55091ceaf9f09ed39e7a52fed4fae12b2a6b668a",
+  "samples": [
+    {
+      "time": 1790493924834,
+      "processes": [
+        {
+          "type": "browser",
+          "id": 94753,
+          "cpuTime": 0.300799
+        },
+        {
+          "type": "renderer",
+          "id": 94767,
+          "cpuTime": 0.033514
+        },
+        {
+          "type": "renderer",
+          "id": 94768,
+          "cpuTime": 0.046898
+        },
+        {
+          "type": "renderer",
+          "id": 94766,
+          "cpuTime": 0.094609
+        },
+        {
+          "type": "GPU",
+          "id": 94761,
+          "cpuTime": 0.082783
+        },
+        {
+          "type": "network.mojom.NetworkService",
+          "id": 94762,
+          "cpuTime": 0.038752
+        },
+        {
+          "type": "storage.mojom.StorageService",
+          "id": 94763,
+          "cpuTime": 0.024963
+        }
+      ],
+      "targets": [
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+          "targetId": "063C13501718EEEAE41DA85ACE45F78A"
+        },
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/",
+          "targetId": "46CA8EEDD0C3F9ECC8DFFCDD2F2A75E1"
+        },
+        {
+          "type": "page",
+          "url": "about:blank",
+          "targetId": "056F754BAB13F424947FC17C3F7508AD"
+        }
+      ],
+      "ps": "94753 94751 182336 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --remote-debugging-pipe --no-startup-window\n94761 94753 114032 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU) --type=gpu-process --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708988185955192\n94762 94753  75424 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708989122997041\n94763 94753  62800 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708990060038890\n94766 94753 143616 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=132990884607 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708991934122588\n94767 94753  82944 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=132990915061 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708993808206286\n94768 94753 107536 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=132990915481 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708992871164437\n",
+      "pages": [
+        [
+          "about:blank"
+        ]
+      ]
+    },
+    {
+      "time": 1790493925843,
+      "processes": [
+        {
+          "type": "browser",
+          "id": 94753,
+          "cpuTime": 0.335263
+        },
+        {
+          "type": "renderer",
+          "id": 94767,
+          "cpuTime": 0.033826
+        },
+        {
+          "type": "renderer",
+          "id": 94768,
+          "cpuTime": 0.048884
+        },
+        {
+          "type": "renderer",
+          "id": 94766,
+          "cpuTime": 0.138403
+        },
+        {
+          "type": "GPU",
+          "id": 94761,
+          "cpuTime": 0.126501
+        },
+        {
+          "type": "network.mojom.NetworkService",
+          "id": 94762,
+          "cpuTime": 0.060894
+        },
+        {
+          "type": "storage.mojom.StorageService",
+          "id": 94763,
+          "cpuTime": 0.024963
+        }
+      ],
+      "targets": [
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+          "targetId": "063C13501718EEEAE41DA85ACE45F78A"
+        },
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/",
+          "targetId": "46CA8EEDD0C3F9ECC8DFFCDD2F2A75E1"
+        },
+        {
+          "type": "page",
+          "url": "about:blank",
+          "targetId": "056F754BAB13F424947FC17C3F7508AD"
+        }
+      ],
+      "ps": "94753 94751 184752 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --remote-debugging-pipe --no-startup-window\n94761 94753 121136 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU) --type=gpu-process --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708988185955192\n94762 94753  80912 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708989122997041\n94763 94753  62800 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708990060038890\n94766 94753 165312 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=132990884607 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708991934122588\n94767 94753  82960 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=132990915061 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708993808206286\n94768 94753 107920 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=132990915481 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708992871164437\n",
+      "pages": [
+        [
+          "about:blank"
+        ]
+      ]
+    },
+    {
+      "time": 1790493926856,
+      "processes": [
+        {
+          "type": "browser",
+          "id": 94753,
+          "cpuTime": 0.387794
+        },
+        {
+          "type": "renderer",
+          "id": 94767,
+          "cpuTime": 0.034056
+        },
+        {
+          "type": "renderer",
+          "id": 94768,
+          "cpuTime": 0.049083
+        },
+        {
+          "type": "renderer",
+          "id": 94766,
+          "cpuTime": 0.144548
+        },
+        {
+          "type": "GPU",
+          "id": 94761,
+          "cpuTime": 0.162564
+        },
+        {
+          "type": "network.mojom.NetworkService",
+          "id": 94762,
+          "cpuTime": 0.07202
+        },
+        {
+          "type": "storage.mojom.StorageService",
+          "id": 94763,
+          "cpuTime": 0.02512
+        }
+      ],
+      "targets": [
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+          "targetId": "063C13501718EEEAE41DA85ACE45F78A"
+        },
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/",
+          "targetId": "46CA8EEDD0C3F9ECC8DFFCDD2F2A75E1"
+        },
+        {
+          "type": "page",
+          "url": "about:blank",
+          "targetId": "056F754BAB13F424947FC17C3F7508AD"
+        }
+      ],
+      "ps": "94753 94751 186736 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --remote-debugging-pipe --no-startup-window\n94761 94753 121456 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU) --type=gpu-process --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708988185955192\n94762 94753  81152 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708989122997041\n94763 94753  62944 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708990060038890\n94766 94753 165760 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=132990884607 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708991934122588\n94767 94753  83136 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=132990915061 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708993808206286\n94768 94753 107968 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=132990915481 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708992871164437\n",
+      "pages": [
+        [
+          "about:blank"
+        ]
+      ]
+    },
+    {
+      "time": 1790493927871,
+      "processes": [
+        {
+          "type": "browser",
+          "id": 94753,
+          "cpuTime": 0.396994
+        },
+        {
+          "type": "renderer",
+          "id": 94767,
+          "cpuTime": 0.034056
+        },
+        {
+          "type": "renderer",
+          "id": 94768,
+          "cpuTime": 0.049211
+        },
+        {
+          "type": "renderer",
+          "id": 94766,
+          "cpuTime": 0.148893
+        },
+        {
+          "type": "GPU",
+          "id": 94761,
+          "cpuTime": 0.172751
+        },
+        {
+          "type": "network.mojom.NetworkService",
+          "id": 94762,
+          "cpuTime": 0.079862
+        },
+        {
+          "type": "storage.mojom.StorageService",
+          "id": 94763,
+          "cpuTime": 0.02512
+        }
+      ],
+      "targets": [
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+          "targetId": "063C13501718EEEAE41DA85ACE45F78A"
+        },
+        {
+          "type": "browser_ui",
+          "url": "chrome://omnibox-popup.top-chrome/",
+          "targetId": "46CA8EEDD0C3F9ECC8DFFCDD2F2A75E1"
+        },
+        {
+          "type": "page",
+          "url": "about:blank",
+          "targetId": "056F754BAB13F424947FC17C3F7508AD"
+        }
+      ],
+      "ps": "94753 94751 187280 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --remote-debugging-pipe --no-startup-window\n94761 94753 121504 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU) --type=gpu-process --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708988185955192\n94762 94753  81600 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --start-stack-profiler --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708989122997041\n94763 94753  62944 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708990060038890\n94766 94753 166208 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=132990884607 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708991934122588\n94767 94753  83136 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=132990915061 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708993808206286\n94768 94753 107968 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-6Ix20z --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=132990915481 --shared-files --field-trial-handle=1718379636,r,17064095512014504211,2465503773667430049,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,12418959911865245518,1727952858233858199,4 --trace-process-track-uuid=3190708992871164437\n",
+      "pages": [
+        [
+          "about:blank"
+        ]
+      ]
+    }
+  ]
+}

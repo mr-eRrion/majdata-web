@@ -1,0 +1,23 @@
+{
+  "browser": "153.0.8010.12",
+  "heldThreeStepsMs": 437,
+  "pausedAfterAdd": 0.125,
+  "flows": [
+    "place-before-lane-step",
+    "display-order-wrap",
+    "relative-hover-clock",
+    "held-repeat-200ms",
+    "zero-Hold",
+    "duplicate-no-history-but-step",
+    "cross-BPM-step",
+    "pending-Hold-gate",
+    "form-select-outside-gates",
+    "blur-stops-repeat",
+    "playing-add-pauses",
+    "playing-duplicate-keeps-playing",
+    "song-end-clamp",
+    "readonly-gate",
+    "undo-redo-export-reopen"
+  ],
+  "errors": []
+}

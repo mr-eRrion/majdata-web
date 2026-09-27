@@ -1,0 +1,18 @@
+{
+  "format": "maijdata-audio-events-v1",
+  "clockDomain": "chart-relative-seconds",
+  "firstOffsetSeconds": -0.25,
+  "events": [
+    { "id": "pre-roll", "chartSeconds": 0.0, "frequencyHz": 660 },
+    { "id": "tap-a", "chartSeconds": 0.3, "frequencyHz": 880 },
+    { "id": "tap-b", "chartSeconds": 0.8, "frequencyHz": 990 },
+    { "id": "loop-a", "chartSeconds": 1.25, "frequencyHz": 740 },
+    { "id": "loop-b", "chartSeconds": 1.75, "frequencyHz": 1100 }
+  ],
+  "expected": {
+    "chartZeroMapsToSongSeconds": -0.25,
+    "chartZeroAudioSourceStartDelaySeconds": 0.25,
+    "chartSeconds1MapsToSongSeconds": 0.75
+  }
+}
+

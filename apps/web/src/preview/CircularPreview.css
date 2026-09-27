@@ -1,0 +1,38 @@
+.circular-preview-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  min-height: 260px;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #283342;
+  border-radius: 8px;
+  background: #10141d;
+  color: #d8e0ea;
+}
+
+.circular-preview-status {
+  z-index: 1;
+  flex: 0 0 27px;
+  padding: 7px 9px 0;
+  color: #9caabd;
+  background: #10141d;
+  font: 10px/1.2 ui-monospace, SFMono-Regular, monospace;
+  pointer-events: none;
+}
+
+.circular-preview-canvas {
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+}
+
+.circular-preview-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

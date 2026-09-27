@@ -1,0 +1,102 @@
+{
+  "flows": [
+    "pending early-click rejection and modal cancel without history",
+    "default one-beat line placement, single undo transaction, export/reopen",
+    "select, rotate whole path, drag in lane/time, copy/paste and reopen",
+    "manual wait, ignored middle lane, Wi-Fi opposite endpoint without modal",
+    "zero wait and zero movement remain legal through actual parser",
+    "cross-BPM waiting/movement pair survives actual WASM export/reparse",
+    "head and path Break properties, explicit duration edit, untouched expression preservation",
+    "same-beat same-lane separate Slide events remain distinct through candidate export",
+    "circle-area arc placement, middle template, head deletion and undo",
+    "endpoint/path/start-position properties and modified Slide checkpoint reload/restore"
+  ],
+  "flowCount": 10,
+  "finalNotes": [
+    {
+      "id": "1:28:0",
+      "kind": "slide",
+      "beat": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "position": 2,
+      "firework": false,
+      "forceStar": false,
+      "order": 0,
+      "slide": {
+        "command": ">",
+        "endPosition": 4,
+        "head": "tap",
+        "slideBreak": false,
+        "wait": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 1
+        },
+        "move": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 1
+        }
+      },
+      "modifiers": {
+        "break": true,
+        "ex": false
+      },
+      "sourceRange": {
+        "start": 28,
+        "end": 38
+      },
+      "slidePaths": [
+        {
+          "command": ">",
+          "endPosition": 4,
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "moveStartSeconds": 0.5,
+          "endSeconds": 1,
+          "segments": [
+            {
+              "startPosition": 2,
+              "command": ">",
+              "endPosition": 4,
+              "moveStartSeconds": 0.5,
+              "endSeconds": 1
+            }
+          ]
+        }
+      ],
+      "startSeconds": 0,
+      "moveStartSeconds": 0.5,
+      "endSeconds": 1,
+      "bpm": 120,
+      "isEach": false,
+      "isSlideEach": false
+    }
+  ],
+  "errors": [],
+  "build": {
+    "entry": "./assets/index-Cc8wAqPq.js",
+    "entrySha256": "76e658a393f110d18b0a3eeb83cd84c86740e814ae17b4685c06f527700125a7",
+    "worker": "assets/chart.worker-aspj87W7.js",
+    "workerSha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd",
+    "parserSchema": 4,
+    "checkpointSchema": 5,
+    "wasmBytes": 5924046
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  }
+}

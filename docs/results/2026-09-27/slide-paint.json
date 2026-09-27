@@ -1,0 +1,20 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "draw 2-6, auto-commit once, undo/redo/export/reopen",
+    "draw 3<7, auto-commit once, undo/redo/export/reopen",
+    "draw 8>2, auto-commit once, undo/redo/export/reopen",
+    "unsupported full-candidate winner rejected without fallback, then valid redraw",
+    "center start ignored and Escape during drawing cancels without history"
+  ],
+  "errors": [],
+  "viewport": [
+    1920,
+    1080
+  ],
+  "deviceScaleFactor": 1,
+  "productionAssets": {
+    "index-B9XpcwhU.js": "8771474ec8ef5d013100fa43035fced28115a958f2ae2a278ec37209b89c5aae",
+    "chart.worker-BspSFETD.js": "bbbc52bca54ca5f0261fd7f1739fe56950d83521dbea78e01fefceae55f1372d"
+  }
+}

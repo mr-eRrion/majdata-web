@@ -1,0 +1,50 @@
+{
+  "browser": "153.0.8010.12",
+  "fixture": "slide-model.maidata.txt",
+  "flow": [
+    "Worker Slide import",
+    "timing and path semantics",
+    "read-only Slide and unsupported syntax",
+    "PNG head and seek-positioned timeline display",
+    "exact source export",
+    "ordinary difficulty edit",
+    "export/reopen",
+    "schema 3 checkpoint restore"
+  ],
+  "supportedSlides": 10,
+  "unsupported": [
+    {
+      "difficulty": 2,
+      "diagnostics": 2,
+      "slideNotes": 0
+    },
+    {
+      "difficulty": 3,
+      "diagnostics": 2,
+      "slideNotes": 0
+    },
+    {
+      "difficulty": 4,
+      "diagnostics": 2,
+      "slideNotes": 0
+    }
+  ],
+  "slideTimeline": {
+    "position": 1,
+    "startSeconds": 0,
+    "initialColorDifference": 242,
+    "soughtColorDifference": 258,
+    "formerLocationColorDifference": 5
+  },
+  "workerRequests": [
+    "initialize",
+    "initialize",
+    "restore",
+    "checkpoint",
+    "export"
+  ],
+  "checkpointSchemaVersion": 3,
+  "originalExportBytes": 460,
+  "editedExportBytes": 470,
+  "errors": []
+}

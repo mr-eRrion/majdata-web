@@ -1,0 +1,4 @@
+&title=Mixed source-skin preview validation
+&artist=maijdata validation
+&first=0.25
+&inote_1=(120){4},,,,1xb/3h[4:4]/A2/B4h[4:3]/5-1b[0.5##1]/7xw3[0.5##1],,C/2>6[0.25##0.75],4/6h[4:2],(240)E1/8-4[240#4:2],,,,,,,,E

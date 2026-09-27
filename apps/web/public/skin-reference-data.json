@@ -1,0 +1,1661 @@
+{
+  "schemaVersion": 1,
+  "fixturePath": "fixtures/visual-maimai/rendering.json",
+  "fixtureSha256": "24524e7890f13a78cebafbf2d32c84cd8742fa6f26375d8b87ac9b0d1176b2e1",
+  "calibration": "Static serialized prefab references and positions only; material tiling and animation are not calibrated.",
+  "stars": [
+    {
+      "variant": "normal",
+      "spriteId": 398,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 126,
+        "height": 126
+      },
+      "pivot": [
+        0.4862258732318878,
+        0.4988521337509155
+      ],
+      "ppu": 100,
+      "image": {
+        "file": "star.png",
+        "src": "./assets/visual-maimai/star.png",
+        "sourcePath": "Visual Maimai/Skins/经典/star.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/star.png",
+        "sha256": "195d9e3b5b8f6d588e99d573ab2fb064504eb24085445985add54eabf52b072d",
+        "width": 126,
+        "height": 126
+      }
+    },
+    {
+      "variant": "each",
+      "spriteId": 400,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 126,
+        "height": 126
+      },
+      "pivot": [
+        0.4862259030342102,
+        0.49885210394859314
+      ],
+      "ppu": 100,
+      "image": {
+        "file": "star_each.png",
+        "src": "./assets/visual-maimai/star_each.png",
+        "sourcePath": "Visual Maimai/Skins/经典/star_each.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/star_each.png",
+        "sha256": "028752d1ab5b378cf236f0f25fe5db0a386e4c06f9aabae695d1a194c159534b",
+        "width": 126,
+        "height": 126
+      }
+    },
+    {
+      "variant": "break",
+      "spriteId": 348,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 126,
+        "height": 126
+      },
+      "pivot": [
+        0.4862259030342102,
+        0.49885210394859314
+      ],
+      "ppu": 100,
+      "image": {
+        "file": "star_break.png",
+        "src": "./assets/visual-maimai/star_break.png",
+        "sourcePath": "Visual Maimai/Skins/经典/star_break.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/star_break.png",
+        "sha256": "0ea3faee10615fbad641fbd118b5c3ad25df837e4c0a965e33834e85f42d0528",
+        "width": 126,
+        "height": 126
+      }
+    },
+    {
+      "variant": "ex",
+      "spriteId": 389,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 126,
+        "height": 126
+      },
+      "pivot": [
+        0.4862259030342102,
+        0.49885210394859314
+      ],
+      "ppu": 100,
+      "image": {
+        "file": "star_ex.png",
+        "src": "./assets/visual-maimai/star_ex.png",
+        "sourcePath": "Visual Maimai/Skins/经典/star_ex.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/star_ex.png",
+        "sha256": "2b35bf15c50470c92360e49d702b1a37c1cba24b27dea8ef910f2144bdb0bf79",
+        "width": 126,
+        "height": 126
+      }
+    }
+  ],
+  "slideTextures": [
+    {
+      "variant": "normal",
+      "materialId": 6,
+      "materialName": "Slide Default",
+      "textureId": 30,
+      "textureWidth": 51,
+      "textureHeight": 94,
+      "textureScale": [
+        1,
+        1
+      ],
+      "textureOffset": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "slide.png",
+        "src": "./assets/visual-maimai/slide.png",
+        "sourcePath": "Visual Maimai/Skins/经典/slide.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/slide.png",
+        "sha256": "392b92727389a153a8556150a873b99aef0b4ace52f14ea650841ac431c6f831",
+        "width": 51,
+        "height": 94
+      }
+    },
+    {
+      "variant": "each",
+      "materialId": 7,
+      "materialName": "Slide Multi",
+      "textureId": 190,
+      "textureWidth": 51,
+      "textureHeight": 94,
+      "textureScale": [
+        1,
+        1
+      ],
+      "textureOffset": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "slide_each.png",
+        "src": "./assets/visual-maimai/slide_each.png",
+        "sourcePath": "Visual Maimai/Skins/经典/slide_each.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/slide_each.png",
+        "sha256": "c69b9975051b53e3c964c0a22fdc67164e4010e0e37b6f842b5bf75f1be8da7e",
+        "width": 51,
+        "height": 94
+      }
+    },
+    {
+      "variant": "break",
+      "materialId": 5,
+      "materialName": "Slide Break",
+      "textureId": 208,
+      "textureWidth": 51,
+      "textureHeight": 94,
+      "textureScale": [
+        1,
+        1
+      ],
+      "textureOffset": [
+        0,
+        0
+      ],
+      "image": {
+        "file": "slide_break.png",
+        "src": "./assets/visual-maimai/slide_break.png",
+        "sourcePath": "Visual Maimai/Skins/经典/slide_break.png",
+        "outputPath": "apps/web/public/assets/visual-maimai/slide_break.png",
+        "sha256": "e82e9cd51ee1d044d62d442fd83d773005d054a6ccdc3bd60aaf57385d771169",
+        "width": 51,
+        "height": 94
+      }
+    }
+  ],
+  "wifi": {
+    "prefab": {
+      "rootId": 588,
+      "groupTransformId": 804,
+      "groupRotation": [
+        0,
+        0,
+        -0.3826834261417389,
+        0.9238795638084412
+      ],
+      "groupScale": [
+        1,
+        1,
+        1
+      ],
+      "ppu": 100,
+      "renderers": [
+        {
+          "index": 0,
+          "rendererId": 884,
+          "gameObjectId": 576,
+          "localPosition": [
+            -1.600000023841858,
+            3.9100000858306885,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            1.1100000143051147,
+            0.6800000071525574
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 1,
+          "rendererId": 914,
+          "gameObjectId": 469,
+          "localPosition": [
+            -1.3799999952316284,
+            3.4000000953674316,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            1.600000023841858,
+            0.8999999761581421
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 2,
+          "rendererId": 882,
+          "gameObjectId": 657,
+          "localPosition": [
+            -1.1399999856948853,
+            2.8299999237060547,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            2.0399999618530273,
+            1.100000023841858
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 3,
+          "rendererId": 909,
+          "gameObjectId": 542,
+          "localPosition": [
+            -0.8999999761581421,
+            2.200000047683716,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            2.5299999713897705,
+            1.3600000143051147
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 4,
+          "rendererId": 875,
+          "gameObjectId": 654,
+          "localPosition": [
+            -0.6299999952316284,
+            1.5800000429153442,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            2.9800000190734863,
+            1.5399999618530273
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 5,
+          "rendererId": 912,
+          "gameObjectId": 694,
+          "localPosition": [
+            -0.33000001311302185,
+            0.8500000238418579,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            3.5299999713897705,
+            1.7899999618530273
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 6,
+          "rendererId": 868,
+          "gameObjectId": 611,
+          "localPosition": [
+            -0.019999999552965164,
+            0.10999999940395355,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            4.099999904632568,
+            2.049999952316284
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 7,
+          "rendererId": 918,
+          "gameObjectId": 506,
+          "localPosition": [
+            0.28999999165534973,
+            -0.6200000047683716,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            4.639999866485596,
+            2.259999990463257
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 8,
+          "rendererId": 871,
+          "gameObjectId": 662,
+          "localPosition": [
+            0.5899999737739563,
+            -1.3300000429153442,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            5.190000057220459,
+            2.509999990463257
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 9,
+          "rendererId": 879,
+          "gameObjectId": 689,
+          "localPosition": [
+            0.8799999952316284,
+            -2.0799999237060547,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            5.710000038146973,
+            2.7100000381469727
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        },
+        {
+          "index": 10,
+          "rendererId": 915,
+          "gameObjectId": 656,
+          "localPosition": [
+            1.2200000286102295,
+            -2.9000000953674316,
+            0
+          ],
+          "localRotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "localScale": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            6.53000020980835,
+            3.130000114440918
+          ],
+          "drawMode": 0,
+          "sortingOrder": 0
+        }
+      ]
+    },
+    "variants": {
+      "normal": [
+        {
+          "index": 0,
+          "spriteId": 275,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_0.png",
+            "src": "./assets/visual-maimai/wifi_0.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_0.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_0.png",
+            "sha256": "dbf860d76809f8d0f6aa096c381ca9dbf41ea9ae0d478bb617f81f6e34a71ed2",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "index": 1,
+          "spriteId": 341,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_1.png",
+            "src": "./assets/visual-maimai/wifi_1.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_1.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_1.png",
+            "sha256": "564220f0be1db04545fd5957bc2210322ac4ecdbe5a01278bdae80443d9d25ae",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "index": 2,
+          "spriteId": 310,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_2.png",
+            "src": "./assets/visual-maimai/wifi_2.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_2.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_2.png",
+            "sha256": "38ab7636666d73c45cfff9f0f78526dc5314d80156bd91a66761fd4d4e763206",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "index": 3,
+          "spriteId": 355,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_3.png",
+            "src": "./assets/visual-maimai/wifi_3.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_3.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_3.png",
+            "sha256": "dae8e58611210338e373341eef0b43785150c3903abd5254a6e633e8b4191c5b",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "index": 4,
+          "spriteId": 351,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_4.png",
+            "src": "./assets/visual-maimai/wifi_4.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_4.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_4.png",
+            "sha256": "ce9e4bf3fb00f8dfd3ac45477a26b400961e2d0eb901371a37ff20c85ff820f1",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "index": 5,
+          "spriteId": 329,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_5.png",
+            "src": "./assets/visual-maimai/wifi_5.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_5.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_5.png",
+            "sha256": "90ceb1f036201b7cce5378467d4eedee0be5ec6ea1a57a569c9e4dfa5c49b535",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "index": 6,
+          "spriteId": 269,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_6.png",
+            "src": "./assets/visual-maimai/wifi_6.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_6.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_6.png",
+            "sha256": "acba1325e1f5181c1bb967e4726402f783c5f6342aa520e220198f8995d1b415",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "index": 7,
+          "spriteId": 336,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_7.png",
+            "src": "./assets/visual-maimai/wifi_7.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_7.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_7.png",
+            "sha256": "5c8f8ba4af2aedfe4d62188fff9b65ebb5172b05318476be2f39472958fcf4f9",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "index": 8,
+          "spriteId": 340,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_8.png",
+            "src": "./assets/visual-maimai/wifi_8.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_8.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_8.png",
+            "sha256": "127c5e082442b699d5ba3d399c743d3218d90dd15c7ff6544a26c45cf593c4f3",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "index": 9,
+          "spriteId": 333,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_9.png",
+            "src": "./assets/visual-maimai/wifi_9.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_9.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_9.png",
+            "sha256": "b326443a4466ad36ede0870018256bdb6a4f28ecb1b24b2f700f95839e76d8a9",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "index": 10,
+          "spriteId": 377,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_10.png",
+            "src": "./assets/visual-maimai/wifi_10.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_10.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_10.png",
+            "sha256": "4da380925cd35fd02d2baebd635b35a10ddec80cbba8dd31dcc2100520b8b17e",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ],
+      "each": [
+        {
+          "index": 0,
+          "spriteId": 296,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_0.png",
+            "src": "./assets/visual-maimai/wifi_each_0.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_0.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_0.png",
+            "sha256": "3d97c3dbf81804fdf9f920510b79cdb7aea2d8aa87a2ff1f222a0852d2fa28fa",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "index": 1,
+          "spriteId": 298,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_1.png",
+            "src": "./assets/visual-maimai/wifi_each_1.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_1.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_1.png",
+            "sha256": "05e436905864d466850464eba7600fba23043c772d1e9b0f42bd4a5fab70fdb8",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "index": 2,
+          "spriteId": 352,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_2.png",
+            "src": "./assets/visual-maimai/wifi_each_2.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_2.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_2.png",
+            "sha256": "3ab5fe2a506f09a5c2447bb2174c3c29eac5036466cbf757aaaa928abcb95b13",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "index": 3,
+          "spriteId": 291,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_3.png",
+            "src": "./assets/visual-maimai/wifi_each_3.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_3.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_3.png",
+            "sha256": "79b27e882f944c2a68e1f3cce0b538fe126a50e761747de2c545d42c65feaa41",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "index": 4,
+          "spriteId": 397,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_4.png",
+            "src": "./assets/visual-maimai/wifi_each_4.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_4.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_4.png",
+            "sha256": "183bb59a06dbc9ce1c91b0c2cb826e6493c3e5994adcf0458d00d40ee73b4add",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "index": 5,
+          "spriteId": 277,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_5.png",
+            "src": "./assets/visual-maimai/wifi_each_5.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_5.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_5.png",
+            "sha256": "84eca982fae3f1fe78d7de9f01275bc5b61b736481c414deee907e3f2c0e528f",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "index": 6,
+          "spriteId": 316,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_6.png",
+            "src": "./assets/visual-maimai/wifi_each_6.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_6.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_6.png",
+            "sha256": "09cd09dea90a3fa5382190a2463432e4c0539338c3d54fa024b28dc1cc094fdf",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "index": 7,
+          "spriteId": 325,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_7.png",
+            "src": "./assets/visual-maimai/wifi_each_7.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_7.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_7.png",
+            "sha256": "6210883b495bf0f0f39adcf770b5553cb8aae595688a787bb80f21f8cfd2b562",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "index": 8,
+          "spriteId": 331,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_8.png",
+            "src": "./assets/visual-maimai/wifi_each_8.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_8.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_8.png",
+            "sha256": "b78a4037473087cb0f10593b7cb1f8b0f7546912486715b71ce827bbff9bbf19",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "index": 9,
+          "spriteId": 347,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_9.png",
+            "src": "./assets/visual-maimai/wifi_each_9.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_9.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_9.png",
+            "sha256": "2bd386080c1151e244f4d481b1a629da8bde08388b16dee9fd9874e5d6242034",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "index": 10,
+          "spriteId": 399,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_each_10.png",
+            "src": "./assets/visual-maimai/wifi_each_10.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_each_10.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_10.png",
+            "sha256": "9e5b734e7cb480480a1342945593f3f2aa90b3a2560f701719cad0f1403c0d08",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ],
+      "break": [
+        {
+          "index": 0,
+          "spriteId": 259,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_0.png",
+            "src": "./assets/visual-maimai/wifi_break_0.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_0.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_0.png",
+            "sha256": "573731cf9820473f114a3e27b9656e5b0df245cd9c7b34a0a17ed9f5385ec5ea",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "index": 1,
+          "spriteId": 330,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_1.png",
+            "src": "./assets/visual-maimai/wifi_break_1.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_1.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_1.png",
+            "sha256": "c94bd9a4794070a38de4d49920cb57001c6186928fe6aacf8a8259750d7483c6",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "index": 2,
+          "spriteId": 311,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_2.png",
+            "src": "./assets/visual-maimai/wifi_break_2.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_2.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_2.png",
+            "sha256": "1036bd0e87be55571736498365aa8991d9afb44e161c3724677b67347faf9a6e",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "index": 3,
+          "spriteId": 258,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_3.png",
+            "src": "./assets/visual-maimai/wifi_break_3.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_3.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_3.png",
+            "sha256": "a46a08cef32055e16987619ffa0002d815f9ba1f86191858a3e059bbf20169c0",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "index": 4,
+          "spriteId": 297,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_4.png",
+            "src": "./assets/visual-maimai/wifi_break_4.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_4.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_4.png",
+            "sha256": "ec6dbe4b598458d7e15861c40978d84df44598400ca26e503b13bb3786cd3e64",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "index": 5,
+          "spriteId": 312,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_5.png",
+            "src": "./assets/visual-maimai/wifi_break_5.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_5.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_5.png",
+            "sha256": "481263214701c289935401e3d3c0e89fe16aa4d48f870375d1d198f1ffed95a6",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "index": 6,
+          "spriteId": 364,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_6.png",
+            "src": "./assets/visual-maimai/wifi_break_6.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_6.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_6.png",
+            "sha256": "237972e490454a80718cf048cbb70ea2227dbd019a09f045edd2e3a5374c3d6b",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "index": 7,
+          "spriteId": 290,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_7.png",
+            "src": "./assets/visual-maimai/wifi_break_7.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_7.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_7.png",
+            "sha256": "cd4c8b75c172fb52d16f74a20bf23801e42d2074bd19326ed1bc2473ad9d15d3",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "index": 8,
+          "spriteId": 396,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_8.png",
+            "src": "./assets/visual-maimai/wifi_break_8.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_8.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_8.png",
+            "sha256": "6224b67ee7949edab4fc0c1a1b136399794048420d2f10463f56a9cf22c0c86e",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "index": 9,
+          "spriteId": 274,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_9.png",
+            "src": "./assets/visual-maimai/wifi_break_9.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_9.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_9.png",
+            "sha256": "31c21dbd63b89b569e0c6724174827b2cd0bc3dbb18bb11bdee533294b0d31f3",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "index": 10,
+          "spriteId": 286,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "ppu": 100,
+          "image": {
+            "file": "wifi_break_10.png",
+            "src": "./assets/visual-maimai/wifi_break_10.png",
+            "sourcePath": "Visual Maimai/Skins/经典/wifi_break_10.png",
+            "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_10.png",
+            "sha256": "557f5cbf8d9df573dca1982369ad56984aed9d69b097b6317b0e8497ba468559",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ]
+    },
+    "composition": "Each image uses its SpriteRenderer array index, prefab local position/rotation/scale, renderer size and Sprite pivot; Wifi Base transform is included."
+  },
+  "images": [
+    {
+      "file": "star.png",
+      "src": "./assets/visual-maimai/star.png",
+      "sourcePath": "Visual Maimai/Skins/经典/star.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/star.png",
+      "sha256": "195d9e3b5b8f6d588e99d573ab2fb064504eb24085445985add54eabf52b072d",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "file": "star_each.png",
+      "src": "./assets/visual-maimai/star_each.png",
+      "sourcePath": "Visual Maimai/Skins/经典/star_each.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_each.png",
+      "sha256": "028752d1ab5b378cf236f0f25fe5db0a386e4c06f9aabae695d1a194c159534b",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "file": "star_break.png",
+      "src": "./assets/visual-maimai/star_break.png",
+      "sourcePath": "Visual Maimai/Skins/经典/star_break.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_break.png",
+      "sha256": "0ea3faee10615fbad641fbd118b5c3ad25df837e4c0a965e33834e85f42d0528",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "file": "star_ex.png",
+      "src": "./assets/visual-maimai/star_ex.png",
+      "sourcePath": "Visual Maimai/Skins/经典/star_ex.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_ex.png",
+      "sha256": "2b35bf15c50470c92360e49d702b1a37c1cba24b27dea8ef910f2144bdb0bf79",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "file": "slide.png",
+      "src": "./assets/visual-maimai/slide.png",
+      "sourcePath": "Visual Maimai/Skins/经典/slide.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide.png",
+      "sha256": "392b92727389a153a8556150a873b99aef0b4ace52f14ea650841ac431c6f831",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "file": "slide_each.png",
+      "src": "./assets/visual-maimai/slide_each.png",
+      "sourcePath": "Visual Maimai/Skins/经典/slide_each.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide_each.png",
+      "sha256": "c69b9975051b53e3c964c0a22fdc67164e4010e0e37b6f842b5bf75f1be8da7e",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "file": "slide_break.png",
+      "src": "./assets/visual-maimai/slide_break.png",
+      "sourcePath": "Visual Maimai/Skins/经典/slide_break.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide_break.png",
+      "sha256": "e82e9cd51ee1d044d62d442fd83d773005d054a6ccdc3bd60aaf57385d771169",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "file": "wifi_0.png",
+      "src": "./assets/visual-maimai/wifi_0.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_0.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_0.png",
+      "sha256": "dbf860d76809f8d0f6aa096c381ca9dbf41ea9ae0d478bb617f81f6e34a71ed2",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "file": "wifi_1.png",
+      "src": "./assets/visual-maimai/wifi_1.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_1.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_1.png",
+      "sha256": "564220f0be1db04545fd5957bc2210322ac4ecdbe5a01278bdae80443d9d25ae",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "file": "wifi_2.png",
+      "src": "./assets/visual-maimai/wifi_2.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_2.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_2.png",
+      "sha256": "38ab7636666d73c45cfff9f0f78526dc5314d80156bd91a66761fd4d4e763206",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "file": "wifi_3.png",
+      "src": "./assets/visual-maimai/wifi_3.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_3.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_3.png",
+      "sha256": "dae8e58611210338e373341eef0b43785150c3903abd5254a6e633e8b4191c5b",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "file": "wifi_4.png",
+      "src": "./assets/visual-maimai/wifi_4.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_4.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_4.png",
+      "sha256": "ce9e4bf3fb00f8dfd3ac45477a26b400961e2d0eb901371a37ff20c85ff820f1",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "file": "wifi_5.png",
+      "src": "./assets/visual-maimai/wifi_5.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_5.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_5.png",
+      "sha256": "90ceb1f036201b7cce5378467d4eedee0be5ec6ea1a57a569c9e4dfa5c49b535",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "file": "wifi_6.png",
+      "src": "./assets/visual-maimai/wifi_6.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_6.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_6.png",
+      "sha256": "acba1325e1f5181c1bb967e4726402f783c5f6342aa520e220198f8995d1b415",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "file": "wifi_7.png",
+      "src": "./assets/visual-maimai/wifi_7.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_7.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_7.png",
+      "sha256": "5c8f8ba4af2aedfe4d62188fff9b65ebb5172b05318476be2f39472958fcf4f9",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "file": "wifi_8.png",
+      "src": "./assets/visual-maimai/wifi_8.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_8.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_8.png",
+      "sha256": "127c5e082442b699d5ba3d399c743d3218d90dd15c7ff6544a26c45cf593c4f3",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "file": "wifi_9.png",
+      "src": "./assets/visual-maimai/wifi_9.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_9.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_9.png",
+      "sha256": "b326443a4466ad36ede0870018256bdb6a4f28ecb1b24b2f700f95839e76d8a9",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "file": "wifi_10.png",
+      "src": "./assets/visual-maimai/wifi_10.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_10.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_10.png",
+      "sha256": "4da380925cd35fd02d2baebd635b35a10ddec80cbba8dd31dcc2100520b8b17e",
+      "width": 653,
+      "height": 313
+    },
+    {
+      "file": "wifi_each_0.png",
+      "src": "./assets/visual-maimai/wifi_each_0.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_0.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_0.png",
+      "sha256": "3d97c3dbf81804fdf9f920510b79cdb7aea2d8aa87a2ff1f222a0852d2fa28fa",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "file": "wifi_each_1.png",
+      "src": "./assets/visual-maimai/wifi_each_1.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_1.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_1.png",
+      "sha256": "05e436905864d466850464eba7600fba23043c772d1e9b0f42bd4a5fab70fdb8",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "file": "wifi_each_2.png",
+      "src": "./assets/visual-maimai/wifi_each_2.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_2.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_2.png",
+      "sha256": "3ab5fe2a506f09a5c2447bb2174c3c29eac5036466cbf757aaaa928abcb95b13",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "file": "wifi_each_3.png",
+      "src": "./assets/visual-maimai/wifi_each_3.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_3.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_3.png",
+      "sha256": "79b27e882f944c2a68e1f3cce0b538fe126a50e761747de2c545d42c65feaa41",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "file": "wifi_each_4.png",
+      "src": "./assets/visual-maimai/wifi_each_4.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_4.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_4.png",
+      "sha256": "183bb59a06dbc9ce1c91b0c2cb826e6493c3e5994adcf0458d00d40ee73b4add",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "file": "wifi_each_5.png",
+      "src": "./assets/visual-maimai/wifi_each_5.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_5.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_5.png",
+      "sha256": "84eca982fae3f1fe78d7de9f01275bc5b61b736481c414deee907e3f2c0e528f",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "file": "wifi_each_6.png",
+      "src": "./assets/visual-maimai/wifi_each_6.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_6.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_6.png",
+      "sha256": "09cd09dea90a3fa5382190a2463432e4c0539338c3d54fa024b28dc1cc094fdf",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "file": "wifi_each_7.png",
+      "src": "./assets/visual-maimai/wifi_each_7.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_7.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_7.png",
+      "sha256": "6210883b495bf0f0f39adcf770b5553cb8aae595688a787bb80f21f8cfd2b562",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "file": "wifi_each_8.png",
+      "src": "./assets/visual-maimai/wifi_each_8.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_8.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_8.png",
+      "sha256": "b78a4037473087cb0f10593b7cb1f8b0f7546912486715b71ce827bbff9bbf19",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "file": "wifi_each_9.png",
+      "src": "./assets/visual-maimai/wifi_each_9.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_9.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_9.png",
+      "sha256": "2bd386080c1151e244f4d481b1a629da8bde08388b16dee9fd9874e5d6242034",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "file": "wifi_each_10.png",
+      "src": "./assets/visual-maimai/wifi_each_10.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_10.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_10.png",
+      "sha256": "9e5b734e7cb480480a1342945593f3f2aa90b3a2560f701719cad0f1403c0d08",
+      "width": 653,
+      "height": 313
+    },
+    {
+      "file": "wifi_break_0.png",
+      "src": "./assets/visual-maimai/wifi_break_0.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_0.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_0.png",
+      "sha256": "573731cf9820473f114a3e27b9656e5b0df245cd9c7b34a0a17ed9f5385ec5ea",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "file": "wifi_break_1.png",
+      "src": "./assets/visual-maimai/wifi_break_1.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_1.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_1.png",
+      "sha256": "c94bd9a4794070a38de4d49920cb57001c6186928fe6aacf8a8259750d7483c6",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "file": "wifi_break_2.png",
+      "src": "./assets/visual-maimai/wifi_break_2.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_2.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_2.png",
+      "sha256": "1036bd0e87be55571736498365aa8991d9afb44e161c3724677b67347faf9a6e",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "file": "wifi_break_3.png",
+      "src": "./assets/visual-maimai/wifi_break_3.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_3.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_3.png",
+      "sha256": "a46a08cef32055e16987619ffa0002d815f9ba1f86191858a3e059bbf20169c0",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "file": "wifi_break_4.png",
+      "src": "./assets/visual-maimai/wifi_break_4.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_4.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_4.png",
+      "sha256": "ec6dbe4b598458d7e15861c40978d84df44598400ca26e503b13bb3786cd3e64",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "file": "wifi_break_5.png",
+      "src": "./assets/visual-maimai/wifi_break_5.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_5.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_5.png",
+      "sha256": "481263214701c289935401e3d3c0e89fe16aa4d48f870375d1d198f1ffed95a6",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "file": "wifi_break_6.png",
+      "src": "./assets/visual-maimai/wifi_break_6.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_6.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_6.png",
+      "sha256": "237972e490454a80718cf048cbb70ea2227dbd019a09f045edd2e3a5374c3d6b",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "file": "wifi_break_7.png",
+      "src": "./assets/visual-maimai/wifi_break_7.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_7.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_7.png",
+      "sha256": "cd4c8b75c172fb52d16f74a20bf23801e42d2074bd19326ed1bc2473ad9d15d3",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "file": "wifi_break_8.png",
+      "src": "./assets/visual-maimai/wifi_break_8.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_8.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_8.png",
+      "sha256": "6224b67ee7949edab4fc0c1a1b136399794048420d2f10463f56a9cf22c0c86e",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "file": "wifi_break_9.png",
+      "src": "./assets/visual-maimai/wifi_break_9.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_9.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_9.png",
+      "sha256": "31c21dbd63b89b569e0c6724174827b2cd0bc3dbb18bb11bdee533294b0d31f3",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "file": "wifi_break_10.png",
+      "src": "./assets/visual-maimai/wifi_break_10.png",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_10.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_10.png",
+      "sha256": "557f5cbf8d9df573dca1982369ad56984aed9d69b097b6317b0e8497ba468559",
+      "width": 653,
+      "height": 313
+    }
+  ]
+}

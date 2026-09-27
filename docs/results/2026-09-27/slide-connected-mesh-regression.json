@@ -1,0 +1,12 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "legacy connected branches import with one head, one total duration, continuous length-weighted segments and exact bytes",
+    "route editing keeps draft isolated and Escape discards all fragments",
+    "append, right-click remove-last, single-transaction save, undo/redo, schema 5 restore and export/reopen",
+    "promoting a shared-head branch preserves its complete connected route and head modifiers",
+    "new connected placement rejects a disconnected stroke, accepts a continuous stroke, records one transaction and preserves the selected whole-route timing",
+    "modern multi-bracket and Wi-Fi chaining remain read-only with exact source preservation"
+  ],
+  "errors": []
+}

@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "key": "hold.end.base",
+      "sourcePath": "fixtures/visual-maimai/hold_end.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/embedded/hold_end.png",
+      "sha256": "708d704dde504720a28aebf5d94ba2f7f79e4555ae1549645ddf4f115e5d0da3",
+      "width": 64,
+      "height": 64,
+      "sourceAsset": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104",
+      "spriteId": 335,
+      "textureId": 115
+    },
+    {
+      "key": "hold.end.each",
+      "sourcePath": "fixtures/visual-maimai/hold_end_each.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/embedded/hold_end_each.png",
+      "sha256": "c631fe578bedf0917b8db83c9a74c62eccedf9549d418a960a33f26b9efc98b7",
+      "width": 64,
+      "height": 64,
+      "sourceAsset": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104",
+      "spriteId": 284,
+      "textureId": 51
+    },
+    {
+      "key": "hold.end.break",
+      "sourcePath": "fixtures/visual-maimai/hold_end_break.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/embedded/hold_end_break.png",
+      "sha256": "9f737a84ebcc46f11afad602754d91b5f68ee939f7d0e6d7020dfd0b1f079901",
+      "width": 64,
+      "height": 64,
+      "sourceAsset": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104",
+      "spriteId": 309,
+      "textureId": 83
+    },
+    {
+      "key": "touch.firework",
+      "sourcePath": "fixtures/visual-maimai/touch_firework.png",
+      "outputPath": "apps/web/public/assets/visual-maimai/embedded/touch_firework.png",
+      "sha256": "b97333cb22c82b130760e0c9c29b872ba263438298bc0b1ca985e2a551c70c4a",
+      "width": 1080,
+      "height": 1080,
+      "sourceAsset": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104",
+      "spriteId": 386,
+      "textureId": 185,
+      "logicalSpriteRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1080
+      },
+      "textureRect": {
+        "x": 3.076120376586914,
+        "y": 3.076120376586914,
+        "width": 1073.84765625,
+        "height": 1073.84765625
+      },
+      "textureRectOffset": [
+        3.076120376586914,
+        3.076120376586914
+      ],
+      "extractedSpriteCropSize": [
+        1074,
+        1074
+      ],
+      "cropPixelOffsetTopLeft": [
+        3,
+        3
+      ],
+      "exportMethod": "Texture2D image exported unchanged after checking Sprite.image against m_RD.textureRect; alpha and visible RGB match, transparent RGB ignored"
+    }
+  ]
+}

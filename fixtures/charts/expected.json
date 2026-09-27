@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "origin": "Self-authored synthetic chart; all timing expectations computed manually.",
+    "firstSeconds": 0.25,
+    "difficulty1": [
+      { "lane": 1, "chartStartSeconds": 0, "songStartSeconds": 0.25, "durationSeconds": 0 },
+      { "lane": 1, "chartStartSeconds": 0, "songStartSeconds": 0.25, "durationSeconds": 0 },
+      { "lane": 2, "chartStartSeconds": 0.5, "songStartSeconds": 0.75, "durationSeconds": 2 },
+      { "lane": 3, "chartStartSeconds": 1, "songStartSeconds": 1.25, "durationSeconds": 0 },
+      { "lane": 4, "chartStartSeconds": 1.25, "songStartSeconds": 1.5, "durationSeconds": 0.25 }
+    ],
+    "difficulty2Editable": false,
+    "difficulty2Reason": "Connected Slide target-player timing and geometry have not been verified."
+  },
+  "strictCases": [
+    { "chart": "(120){4}1h,E", "expect": "valid parameterless zero-duration short Hold" },
+    { "chart": "(120){#0.5}1,(240)2,3,E", "expect": "valid notes at beats 0, 1, 2 and pinned start times 0, 0.5, 0.75 seconds after BPM switch" },
+    { "chart": "(120){4}1h[#0.00001],E", "expect": "valid very short Hold with explicit seconds" },
+    { "chart": "(120){4}1h[4:bad],E", "expect": "read-only with localized duration diagnostic" },
+    { "chart": "(120){4}1h[0:1],E", "expect": "read-only with localized duration diagnostic" },
+    { "chart": "(120){4}1-9[4:1],E", "expect": "read-only; no silent note deletion" },
+    { "chart": "(120){4}1/1,E", "expect": "two distinct source nodes and stable IDs" },
+    { "chart": "(120){4}1garbage,E", "expect": "read-only with unconsumed-content diagnostic" },
+    { "chart": "(120){4}1,E junk", "expect": "read-only with trailing-content diagnostic" }
+  ]
+}

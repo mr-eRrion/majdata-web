@@ -1,0 +1,2981 @@
+{
+  "environment": {
+    "appUrl": "http://127.0.0.1:4173/",
+    "executablePath": "/Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "executableSha256": "8319963f6625accf51c0dd4f55091ceaf9f09ed39e7a52fed4fae12b2a6b668a",
+    "blankTargets": [
+      {
+        "type": "browser_ui",
+        "url": "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+        "targetId": "7E6AADB45250EDD695EDB53BD63AFEA4"
+      },
+      {
+        "type": "browser_ui",
+        "url": "chrome://omnibox-popup.top-chrome/",
+        "targetId": "3F98AF5B9909BF02B7912946E3733E77"
+      },
+      {
+        "type": "page",
+        "url": "about:blank",
+        "targetId": "030C3CE4CA71CDF582A0A71E0921090A"
+      }
+    ],
+    "blankPages": [
+      [
+        "about:blank"
+      ]
+    ],
+    "blankProcessCommands": "95449 95448 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --remote-debugging-pipe --no-startup-window\n95456 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (GPU).app/Contents/MacOS/Google Chrome for Testing Helper (GPU) --type=gpu-process --no-sandbox --disable-breakpad --headless --enable-unsafe-swiftshader --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708988185955192\n95457 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --start-stack-profiler --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708989122997041\n95458 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper.app/Contents/MacOS/Google Chrome for Testing Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --no-sandbox --mute-audio --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708990060038890\n95460 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --top-chrome-webui --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=133495853521 --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708991934122588\n95461 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=133495875241 --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708993808206286\n95462 95449 /Users/errion/Work/Projects/maijdata/.tools/playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/Frameworks/Google Chrome for Testing Framework.framework/Versions/153.0.8010.12/Helpers/Google Chrome for Testing Helper (Renderer).app/Contents/MacOS/Google Chrome for Testing Helper (Renderer) --type=renderer --noerrdialogs --user-data-dir=/var/folders/fw/t5f817hd5hx9mq4fnr8vgc6h0000gn/T/playwright_chromiumdev_profile-LkZ6WX --no-sandbox --disable-back-forward-cache --disable-background-timer-throttling --disable-breakpad --force-color-profile=srgb --remote-debugging-pipe --allow-pre-commit-input --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=133495875672 --shared-files --field-trial-handle=1718379636,r,11978367646817523831,17370967902576434998,262144 --enable-features=CDPScreenshotNewSurface --disable-features=AutoDeElevate,AvoidUnnecessaryBeforeUnloadCheckSync,BlockOriginHeaderModificationOnRedirect,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,OptimizationHints,PaintHolding,ThirdPartyStoragePartitioning,Translate,msEdgeUpdateLaunchServicesPreferredVersion,msForceBrowserSignIn --variations-seed-version --pseudonymization-salt-handle=1935764596,r,6761024597776425160,12798054624779249470,4 --trace-process-track-uuid=3190708992871164437\n",
+    "browser": "153.0.8010.12",
+    "mode": "headless Chromium, one real production-app audio import; no CPU/network throttling and no forced GC",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "deviceScaleFactor": 1,
+    "distIndexAtStart": {
+      "sha256": "feb4980193a54e328e22df7aef307723b5b7271045239b07945cc6725b932ff0",
+      "bytes": 904
+    },
+    "servedIndex": {
+      "sha256": "feb4980193a54e328e22df7aef307723b5b7271045239b07945cc6725b932ff0",
+      "bytes": 904
+    },
+    "distIndexAtEnd": {
+      "sha256": "feb4980193a54e328e22df7aef307723b5b7271045239b07945cc6725b932ff0",
+      "bytes": 904
+    },
+    "distIndexUnchanged": true,
+    "processMeasurement": "CDP SystemInfo.getProcessInfo PID/type plus ps RSS; group totals are summed from the same sampled PID RSS values.",
+    "sampleIntervalMs": 100,
+    "noForcedGarbageCollection": true
+  },
+  "audio": {
+    "source": "Generated silent PCM16 WAV; loaded once through the production song file input.",
+    "filename": "single-5m-stereo.wav",
+    "durationSeconds": 300,
+    "inputSampleRateHz": 48000,
+    "channelCount": 2,
+    "encodedBytes": 57600044,
+    "theoreticalFloatPcmBytes": 115200000,
+    "inputToWaveformReadyMs": 704,
+    "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+    "decodeEvents": [
+      {
+        "event": "start",
+        "elapsedMs": 1119.3999999910593,
+        "encodedBytes": 57600044
+      },
+      {
+        "event": "complete",
+        "durationMs": 104.5,
+        "sampleRateHz": 48000,
+        "frameCount": 14400000,
+        "channelCount": 2,
+        "durationSeconds": 300,
+        "decodedBytes": 115200000
+      }
+    ],
+    "waveform": {
+      "requests": [
+        {
+          "id": 1,
+          "startBin": 0,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 2,
+          "startBin": 512,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 3,
+          "startBin": 1024,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 4,
+          "startBin": 1536,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 5,
+          "startBin": 2048,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 6,
+          "startBin": 2560,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 7,
+          "startBin": 3072,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 8,
+          "startBin": 3584,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 9,
+          "startBin": 4096,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 10,
+          "startBin": 4608,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 11,
+          "startBin": 5120,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 12,
+          "startBin": 5632,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 13,
+          "startBin": 6144,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 14,
+          "startBin": 6656,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 15,
+          "startBin": 7168,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 16,
+          "startBin": 7680,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 17,
+          "startBin": 8192,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 18,
+          "startBin": 8704,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 19,
+          "startBin": 9216,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 20,
+          "startBin": 9728,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 21,
+          "startBin": 10240,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 22,
+          "startBin": 10752,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 23,
+          "startBin": 11264,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 24,
+          "startBin": 11776,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 25,
+          "startBin": 12288,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 26,
+          "startBin": 12800,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 27,
+          "startBin": 13312,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 28,
+          "startBin": 13824,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 29,
+          "startBin": 14336,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 30,
+          "startBin": 14848,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 31,
+          "startBin": 15360,
+          "frameCount": 450048,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        },
+        {
+          "id": 32,
+          "startBin": 15872,
+          "frameCount": 448512,
+          "samplesPerBaseBin": 879,
+          "channelCount": 2
+        }
+      ],
+      "responses": [
+        {
+          "id": 1,
+          "startBin": 0,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 2,
+          "startBin": 512,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 3,
+          "startBin": 1024,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 4,
+          "startBin": 1536,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 5,
+          "startBin": 2048,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 6,
+          "startBin": 2560,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 7,
+          "startBin": 3072,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 8,
+          "startBin": 3584,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 9,
+          "startBin": 4096,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 10,
+          "startBin": 4608,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 11,
+          "startBin": 5120,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 12,
+          "startBin": 5632,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 13,
+          "startBin": 6144,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 14,
+          "startBin": 6656,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 15,
+          "startBin": 7168,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 16,
+          "startBin": 7680,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 17,
+          "startBin": 8192,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 18,
+          "startBin": 8704,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 19,
+          "startBin": 9216,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 20,
+          "startBin": 9728,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 21,
+          "startBin": 10240,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 22,
+          "startBin": 10752,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 23,
+          "startBin": 11264,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 24,
+          "startBin": 11776,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 25,
+          "startBin": 12288,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 26,
+          "startBin": 12800,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 27,
+          "startBin": 13312,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 28,
+          "startBin": 13824,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 29,
+          "startBin": 14336,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 30,
+          "startBin": 14848,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 31,
+          "startBin": 15360,
+          "channelCount": 2,
+          "error": null
+        },
+        {
+          "id": 32,
+          "startBin": 15872,
+          "channelCount": 2,
+          "error": null
+        }
+      ],
+      "requestCount": 32,
+      "responseCount": 32,
+      "workersTerminated": 1,
+      "inputPcmBytesTransferred": 115200000
+    }
+  },
+  "memory": {
+    "totalSamples": 37,
+    "blankRssBytes": 831668224,
+    "previewReady": {
+      "samples": 4,
+      "rssBytes": 1154449408,
+      "perProcessTypeRssBytes": {
+        "GPU": 140115968,
+        "audio.mojom.AudioService": 74760192,
+        "browser": 208945152,
+        "network.mojom.NetworkService": 91832320,
+        "renderer": 573931520,
+        "storage.mojom.StorageService": 64864256
+      },
+      "medianGroupSumBytes": 1154449408,
+      "medianGroupSumDeltaBytes": 0,
+      "maxUnsampledProcessCount": 0
+    },
+    "beforeInput": {
+      "samples": 4,
+      "rssBytes": 1155137536,
+      "perProcessTypeRssBytes": {
+        "GPU": 140115968,
+        "audio.mojom.AudioService": 74760192,
+        "browser": 209584128,
+        "network.mojom.NetworkService": 91865088,
+        "renderer": 573964288,
+        "storage.mojom.StorageService": 64864256
+      },
+      "medianGroupSumBytes": 1155137536,
+      "medianGroupSumDeltaBytes": 0,
+      "maxUnsampledProcessCount": 0
+    },
+    "phases": {
+      "about-blank-baseline": {
+        "samples": 4,
+        "rssBytes": 831668224,
+        "perProcessTypeRssBytes": {
+          "GPU": 123879424,
+          "browser": 192184320,
+          "network.mojom.NetworkService": 83378176,
+          "renderer": 367935488,
+          "storage.mojom.StorageService": 64290816
+        },
+        "medianGroupSumBytes": 831668224,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "app-navigation-and-startup": {
+        "samples": 3,
+        "rssBytes": 1039302656,
+        "perProcessTypeRssBytes": {
+          "GPU": 127844352,
+          "audio.mojom.AudioService": 74907648,
+          "browser": 207421440,
+          "network.mojom.NetworkService": 91668480,
+          "renderer": 472350720,
+          "storage.mojom.StorageService": 65044480
+        },
+        "medianGroupSumBytes": 1039302656,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "app-and-preview-ready": {
+        "samples": 7,
+        "rssBytes": 1154449408,
+        "perProcessTypeRssBytes": {
+          "GPU": 140115968,
+          "audio.mojom.AudioService": 74760192,
+          "browser": 208945152,
+          "network.mojom.NetworkService": 91832320,
+          "renderer": 573931520,
+          "storage.mojom.StorageService": 64864256
+        },
+        "medianGroupSumBytes": 1154449408,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "before-audio-file-selection": {
+        "samples": 7,
+        "rssBytes": 1155137536,
+        "perProcessTypeRssBytes": {
+          "GPU": 140115968,
+          "audio.mojom.AudioService": 74760192,
+          "browser": 209584128,
+          "network.mojom.NetworkService": 91865088,
+          "renderer": 573947904,
+          "storage.mojom.StorageService": 64864256
+        },
+        "medianGroupSumBytes": 1155137536,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "decode-start": {
+        "samples": 3,
+        "rssBytes": 1226326016,
+        "perProcessTypeRssBytes": {
+          "GPU": 140115968,
+          "audio.mojom.AudioService": 74760192,
+          "browser": 210829312,
+          "network.mojom.NetworkService": 91865088,
+          "renderer": 643891200,
+          "storage.mojom.StorageService": 64864256
+        },
+        "medianGroupSumBytes": 1226326016,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "decode-complete": {
+        "samples": 1,
+        "rssBytes": 1372405760,
+        "perProcessTypeRssBytes": {
+          "GPU": 123879424,
+          "audio.mojom.AudioService": 67649536,
+          "browser": 197918720,
+          "network.mojom.NetworkService": 84393984,
+          "renderer": 840056832,
+          "storage.mojom.StorageService": 58507264
+        },
+        "medianGroupSumBytes": 1372405760,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "waveform-chunks": {
+        "samples": 1,
+        "rssBytes": 1321304064,
+        "perProcessTypeRssBytes": {
+          "GPU": 123879424,
+          "audio.mojom.AudioService": 67649536,
+          "browser": 198950912,
+          "network.mojom.NetworkService": 84393984,
+          "renderer": 787922944,
+          "storage.mojom.StorageService": 58507264
+        },
+        "medianGroupSumBytes": 1321304064,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "waveform-complete": {
+        "samples": 1,
+        "rssBytes": 1269694464,
+        "perProcessTypeRssBytes": {
+          "GPU": 122994688,
+          "audio.mojom.AudioService": 67436544,
+          "browser": 198459392,
+          "network.mojom.NetworkService": 82345984,
+          "renderer": 740065280,
+          "storage.mojom.StorageService": 58392576
+        },
+        "medianGroupSumBytes": 1269694464,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      },
+      "stable-after-waveform": {
+        "samples": 9,
+        "rssBytes": 1179729920,
+        "perProcessTypeRssBytes": {
+          "GPU": 121044992,
+          "audio.mojom.AudioService": 55492608,
+          "browser": 192462848,
+          "network.mojom.NetworkService": 78872576,
+          "renderer": 673497088,
+          "storage.mojom.StorageService": 58359808
+        },
+        "medianGroupSumBytes": 1179729920,
+        "medianGroupSumDeltaBytes": 0,
+        "maxUnsampledProcessCount": 0
+      }
+    },
+    "peakRssBytes": 1372405760,
+    "peakPhase": "decode-complete",
+    "peakDeltaFromPreviewReadyBytes": 217956352,
+    "peakByPhaseAndProcessTypeRssBytes": {
+      "about-blank-baseline": {
+        "browser": 192184320,
+        "renderer": 367935488,
+        "GPU": 123879424,
+        "network.mojom.NetworkService": 83378176,
+        "storage.mojom.StorageService": 64290816
+      },
+      "app-navigation-and-startup": {
+        "browser": 207962112,
+        "renderer": 557318144,
+        "GPU": 128860160,
+        "network.mojom.NetworkService": 91734016,
+        "storage.mojom.StorageService": 65044480,
+        "audio.mojom.AudioService": 74907648
+      },
+      "app-and-preview-ready": {
+        "browser": 208961536,
+        "renderer": 573947904,
+        "GPU": 140115968,
+        "network.mojom.NetworkService": 91865088,
+        "storage.mojom.StorageService": 64864256,
+        "audio.mojom.AudioService": 74760192
+      },
+      "before-audio-file-selection": {
+        "browser": 209584128,
+        "renderer": 573964288,
+        "GPU": 140115968,
+        "network.mojom.NetworkService": 91865088,
+        "storage.mojom.StorageService": 64864256,
+        "audio.mojom.AudioService": 74760192
+      },
+      "file-selection-and-read": {
+        "browser": 209584128,
+        "renderer": 573947904,
+        "GPU": 140115968,
+        "network.mojom.NetworkService": 91865088,
+        "storage.mojom.StorageService": 64864256,
+        "audio.mojom.AudioService": 74760192
+      },
+      "decode-start": {
+        "browser": 210829312,
+        "renderer": 840056832,
+        "GPU": 140115968,
+        "network.mojom.NetworkService": 91865088,
+        "storage.mojom.StorageService": 64864256,
+        "audio.mojom.AudioService": 74760192
+      },
+      "decode-complete": {
+        "browser": 197918720,
+        "renderer": 840056832,
+        "GPU": 123879424,
+        "network.mojom.NetworkService": 84393984,
+        "storage.mojom.StorageService": 58507264,
+        "audio.mojom.AudioService": 67649536
+      },
+      "waveform-chunks": {
+        "browser": 198950912,
+        "renderer": 787922944,
+        "GPU": 123879424,
+        "network.mojom.NetworkService": 84393984,
+        "storage.mojom.StorageService": 58507264,
+        "audio.mojom.AudioService": 67649536
+      },
+      "waveform-complete": {
+        "browser": 198459392,
+        "renderer": 740065280,
+        "GPU": 122994688,
+        "network.mojom.NetworkService": 82345984,
+        "storage.mojom.StorageService": 58392576,
+        "audio.mojom.AudioService": 67436544
+      },
+      "stable-after-waveform": {
+        "browser": 198459392,
+        "renderer": 740081664,
+        "GPU": 122994688,
+        "network.mojom.NetworkService": 82345984,
+        "storage.mojom.StorageService": 58392576,
+        "audio.mojom.AudioService": 67436544
+      }
+    },
+    "processGroupSumCheck": {
+      "samplesChecked": 37,
+      "failedSamples": 0,
+      "allMatch": true,
+      "maximumAbsoluteDeltaBytes": 0
+    },
+    "limitations": "RSS is a process-resident estimate and may double-count shared pages. It includes Chromium renderer, GPU, decoder, allocator and cache memory; it does not identify retained JS objects or GPU-only memory. CDP-to-ps sampling can miss short peaks and processes may exit between enumeration and ps. No forced GC was used; stable RSS is not proof of a leak or of release. The exposed phase hooks add small boundary-sampling overhead and the input is silent PCM16 WAV, not a representative codec corpus.",
+    "samples": [
+      {
+        "elapsedMs": 8,
+        "phase": "about-blank-baseline",
+        "processCount": 7,
+        "sampledProcessCount": 7,
+        "rssBytes": 830963712,
+        "groupedRssBytes": 830963712,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 191774720,
+          "renderer": 367935488,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 83083264,
+          "storage.mojom.StorageService": 64290816
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 191774720
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 113426432
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169459712
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 83083264
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64290816
+          }
+        ]
+      },
+      {
+        "elapsedMs": 124,
+        "phase": "about-blank-baseline",
+        "processCount": 7,
+        "sampledProcessCount": 7,
+        "rssBytes": 831602688,
+        "groupedRssBytes": 831602688,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192118784,
+          "renderer": 367935488,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 83378176,
+          "storage.mojom.StorageService": 64290816
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192118784
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 113426432
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169459712
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 83378176
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64290816
+          }
+        ]
+      },
+      {
+        "elapsedMs": 243,
+        "phase": "about-blank-baseline",
+        "processCount": 7,
+        "sampledProcessCount": 7,
+        "rssBytes": 831668224,
+        "groupedRssBytes": 831668224,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192184320,
+          "renderer": 367935488,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 83378176,
+          "storage.mojom.StorageService": 64290816
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192184320
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 113426432
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169459712
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 83378176
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64290816
+          }
+        ]
+      },
+      {
+        "elapsedMs": 360,
+        "phase": "about-blank-baseline",
+        "processCount": 7,
+        "sampledProcessCount": 7,
+        "rssBytes": 831668224,
+        "groupedRssBytes": 831668224,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192184320,
+          "renderer": 367935488,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 83378176,
+          "storage.mojom.StorageService": 64290816
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192184320
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 113426432
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169459712
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 83378176
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64290816
+          }
+        ]
+      },
+      {
+        "elapsedMs": 466,
+        "phase": "app-navigation-and-startup",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 946094080,
+        "groupedRssBytes": 946094080,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 204292096,
+          "renderer": 437010432,
+          "GPU": 127401984,
+          "network.mojom.NetworkService": 86605824,
+          "storage.mojom.StorageService": 65044480,
+          "audio.mojom.AudioService": 25739264
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 204292096
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 182468608
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169492480
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 127401984
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 86605824
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 65044480
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 25739264
+          }
+        ]
+      },
+      {
+        "elapsedMs": 570,
+        "phase": "app-navigation-and-startup",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1039302656,
+        "groupedRssBytes": 1039302656,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 207421440,
+          "renderer": 472350720,
+          "GPU": 127844352,
+          "network.mojom.NetworkService": 91734016,
+          "storage.mojom.StorageService": 65044480,
+          "audio.mojom.AudioService": 74907648
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 207421440
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 217743360
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169558016
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 127844352
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91734016
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 65044480
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74907648
+          }
+        ]
+      },
+      {
+        "elapsedMs": 670,
+        "phase": "app-navigation-and-startup",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1125761024,
+        "groupedRssBytes": 1125761024,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 207962112,
+          "renderer": 557318144,
+          "GPU": 128860160,
+          "network.mojom.NetworkService": 91668480,
+          "storage.mojom.StorageService": 65044480,
+          "audio.mojom.AudioService": 74907648
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 207962112
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 85049344
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 302710784
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169558016
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 128860160
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91668480
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 65044480
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74907648
+          }
+        ]
+      },
+      {
+        "elapsedMs": 728,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1153171456,
+        "groupedRssBytes": 1153171456,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208551936,
+          "renderer": 573358080,
+          "GPU": 139886592,
+          "network.mojom.NetworkService": 91799552,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74711040
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208551936
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319275008
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 139886592
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91799552
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74711040
+          }
+        ]
+      },
+      {
+        "elapsedMs": 770,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1153466368,
+        "groupedRssBytes": 1153466368,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208551936,
+          "renderer": 573390848,
+          "GPU": 140099584,
+          "network.mojom.NetworkService": 91799552,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208551936
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319307776
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140099584
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91799552
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 835,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154170880,
+        "groupedRssBytes": 1154170880,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208814080,
+          "renderer": 573800448,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91815936,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208814080
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319717376
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91815936
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 873,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154449408,
+        "groupedRssBytes": 1154449408,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208945152,
+          "renderer": 573931520,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91832320,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208945152
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319848448
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91832320
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 945,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154449408,
+        "groupedRssBytes": 1154449408,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208945152,
+          "renderer": 573931520,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91832320,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208945152
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319848448
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91832320
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 977,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154498560,
+        "groupedRssBytes": 1154498560,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208961536,
+          "renderer": 573931520,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208961536
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319848448
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1061,
+        "phase": "app-and-preview-ready",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154514944,
+        "groupedRssBytes": 1154514944,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208961536,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208961536
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1071,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154514944,
+        "groupedRssBytes": 1154514944,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208961536,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208961536
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1079,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1154514944,
+        "groupedRssBytes": 1154514944,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 208961536,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 208961536
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1189,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155137536,
+        "groupedRssBytes": 1155137536,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209567744,
+          "renderer": 573964288,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209567744
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319881216
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1290,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155153920,
+        "groupedRssBytes": 1155153920,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209584128,
+          "renderer": 573964288,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209584128
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319881216
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1300,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155153920,
+        "groupedRssBytes": 1155153920,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209584128,
+          "renderer": 573964288,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209584128
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319881216
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1392,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155137536,
+        "groupedRssBytes": 1155137536,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209584128,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209584128
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1412,
+        "phase": "before-audio-file-selection",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155137536,
+        "groupedRssBytes": 1155137536,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209584128,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209584128
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1419,
+        "phase": "file-selection-and-read",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1155137536,
+        "groupedRssBytes": 1155137536,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 209584128,
+          "renderer": 573947904,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 209584128
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 319864832
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169279488
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1482,
+        "phase": "decode-start",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1224228864,
+        "groupedRssBytes": 1224228864,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 210829312,
+          "renderer": 641794048,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 210829312
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 387694592
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169295872
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1488,
+        "phase": "decode-start",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1226326016,
+        "groupedRssBytes": 1226326016,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 210829312,
+          "renderer": 643891200,
+          "GPU": 140115968,
+          "network.mojom.NetworkService": 91865088,
+          "storage.mojom.StorageService": 64864256,
+          "audio.mojom.AudioService": 74760192
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 210829312
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 84803584
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 389791744
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 169295872
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 140115968
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 91865088
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 64864256
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 74760192
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1592,
+        "phase": "decode-start",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1372258304,
+        "groupedRssBytes": 1372258304,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 197771264,
+          "renderer": 840056832,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 84393984,
+          "storage.mojom.StorageService": 58507264,
+          "audio.mojom.AudioService": 67649536
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 197771264
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 79101952
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 620855296
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 140099584
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 84393984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58507264
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67649536
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1599,
+        "phase": "decode-complete",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1372405760,
+        "groupedRssBytes": 1372405760,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 197918720,
+          "renderer": 840056832,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 84393984,
+          "storage.mojom.StorageService": 58507264,
+          "audio.mojom.AudioService": 67649536
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 197918720
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 79101952
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 620855296
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 140099584
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 84393984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58507264
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67649536
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1611,
+        "phase": "waveform-chunks",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1321304064,
+        "groupedRssBytes": 1321304064,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 198950912,
+          "renderer": 787922944,
+          "GPU": 123879424,
+          "network.mojom.NetworkService": 84393984,
+          "storage.mojom.StorageService": 58507264,
+          "audio.mojom.AudioService": 67649536
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 198950912
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 79101952
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 568721408
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 140099584
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 123879424
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 84393984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58507264
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67649536
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1670,
+        "phase": "waveform-complete",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1269694464,
+        "groupedRssBytes": 1269694464,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 198459392,
+          "renderer": 740065280,
+          "GPU": 122994688,
+          "network.mojom.NetworkService": 82345984,
+          "storage.mojom.StorageService": 58392576,
+          "audio.mojom.AudioService": 67436544
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 198459392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 521224192
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139853824
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 122994688
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 82345984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58392576
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67436544
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1674,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1269694464,
+        "groupedRssBytes": 1269694464,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 198459392,
+          "renderer": 740065280,
+          "GPU": 122994688,
+          "network.mojom.NetworkService": 82345984,
+          "storage.mojom.StorageService": 58392576,
+          "audio.mojom.AudioService": 67436544
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 198459392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 521224192
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139853824
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 122994688
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 82345984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58392576
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67436544
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1690,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1269710848,
+        "groupedRssBytes": 1269710848,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 198459392,
+          "renderer": 740081664,
+          "GPU": 122994688,
+          "network.mojom.NetworkService": 82345984,
+          "storage.mojom.StorageService": 58392576,
+          "audio.mojom.AudioService": 67436544
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 198459392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 521240576
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139853824
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 122994688
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 82345984
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58392576
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 67436544
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1782,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1222901760,
+        "groupedRssBytes": 1222901760,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 196263936,
+          "renderer": 711294976,
+          "GPU": 121274368,
+          "network.mojom.NetworkService": 80183296,
+          "storage.mojom.StorageService": 58392576,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 196263936
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 492486656
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139821056
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121274368
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 80183296
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58392576
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1790,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1216364544,
+        "groupedRssBytes": 1216364544,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 196263936,
+          "renderer": 704757760,
+          "GPU": 121274368,
+          "network.mojom.NetworkService": 80183296,
+          "storage.mojom.StorageService": 58392576,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 196263936
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 485949440
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139821056
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121274368
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 80183296
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58392576
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1890,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1179729920,
+        "groupedRssBytes": 1179729920,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192462848,
+          "renderer": 673497088,
+          "GPU": 121044992,
+          "network.mojom.NetworkService": 78872576,
+          "storage.mojom.StorageService": 58359808,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192462848
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 455393280
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139116544
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121044992
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 78872576
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58359808
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 1895,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1179729920,
+        "groupedRssBytes": 1179729920,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192462848,
+          "renderer": 673497088,
+          "GPU": 121044992,
+          "network.mojom.NetworkService": 78872576,
+          "storage.mojom.StorageService": 58359808,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192462848
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 455393280
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 139116544
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121044992
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 78872576
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58359808
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 2006,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1170112512,
+        "groupedRssBytes": 1170112512,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192315392,
+          "renderer": 664109056,
+          "GPU": 121012224,
+          "network.mojom.NetworkService": 78872576,
+          "storage.mojom.StorageService": 58310656,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192315392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 446365696
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 138756096
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121012224
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 78872576
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58310656
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 2109,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1170128896,
+        "groupedRssBytes": 1170128896,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192315392,
+          "renderer": 664125440,
+          "GPU": 121012224,
+          "network.mojom.NetworkService": 78872576,
+          "storage.mojom.StorageService": 58310656,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192315392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 446382080
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 138756096
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121012224
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 78872576
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58310656
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      },
+      {
+        "elapsedMs": 2117,
+        "phase": "stable-after-waveform",
+        "processCount": 8,
+        "sampledProcessCount": 8,
+        "rssBytes": 1170128896,
+        "groupedRssBytes": 1170128896,
+        "groupingDeltaBytes": 0,
+        "groupTotalsBytes": {
+          "browser": 192315392,
+          "renderer": 664125440,
+          "GPU": 121012224,
+          "network.mojom.NetworkService": 78872576,
+          "storage.mojom.StorageService": 58310656,
+          "audio.mojom.AudioService": 55492608
+        },
+        "processes": [
+          {
+            "pid": 95449,
+            "type": "browser",
+            "rssBytes": 192315392
+          },
+          {
+            "pid": 95461,
+            "type": "renderer",
+            "rssBytes": 78987264
+          },
+          {
+            "pid": 95462,
+            "type": "renderer",
+            "rssBytes": 446382080
+          },
+          {
+            "pid": 95460,
+            "type": "renderer",
+            "rssBytes": 138756096
+          },
+          {
+            "pid": 95456,
+            "type": "GPU",
+            "rssBytes": 121012224
+          },
+          {
+            "pid": 95457,
+            "type": "network.mojom.NetworkService",
+            "rssBytes": 78872576
+          },
+          {
+            "pid": 95458,
+            "type": "storage.mojom.StorageService",
+            "rssBytes": 58310656
+          },
+          {
+            "pid": 95503,
+            "type": "audio.mojom.AudioService",
+            "rssBytes": 55492608
+          }
+        ]
+      }
+    ]
+  },
+  "phaseEvents": [
+    {
+      "elapsedMs": 1419,
+      "phase": "file-selection-and-read",
+      "details": {},
+      "sampleIndex": 21
+    },
+    {
+      "elapsedMs": 1482,
+      "phase": "decode-start",
+      "details": {
+        "encodedBytes": 57600044
+      },
+      "sampleIndex": 22
+    },
+    {
+      "elapsedMs": 1599,
+      "phase": "decode-complete",
+      "details": {
+        "event": "complete",
+        "durationMs": 104.5,
+        "sampleRateHz": 48000,
+        "frameCount": 14400000,
+        "channelCount": 2,
+        "durationSeconds": 300,
+        "decodedBytes": 115200000
+      },
+      "sampleIndex": 25
+    },
+    {
+      "elapsedMs": 1611,
+      "phase": "waveform-chunks",
+      "details": {
+        "firstStartBin": 0,
+        "frameCount": 450048,
+        "channelCount": 2
+      },
+      "sampleIndex": 26
+    },
+    {
+      "elapsedMs": 1670,
+      "phase": "waveform-complete",
+      "details": {
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道"
+      },
+      "sampleIndex": 27
+    }
+  ],
+  "pageErrors": [],
+  "samplingErrors": []
+}

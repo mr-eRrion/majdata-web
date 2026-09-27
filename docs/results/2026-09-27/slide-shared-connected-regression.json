@@ -1,0 +1,25 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "three branches import as one head with independent duration, path Each, and byte preservation",
+    "branch-specific duration, head change, first-branch deletion, undo/redo, whole-head rotation and export/reopen",
+    "same-hit same-lane append keeps one head, one undo transaction, schema 5 recovery and export/reopen",
+    "copy/paste preserves all paths and shifts each branch by the same head offset",
+    "connected segments and branch-local head flags remain read-only and preserve bytes"
+  ],
+  "errors": [],
+  "build": {
+    "entry": "./assets/index-Cc8wAqPq.js",
+    "entrySha256": "76e658a393f110d18b0a3eeb83cd84c86740e814ae17b4685c06f527700125a7",
+    "worker": "assets/chart.worker-aspj87W7.js",
+    "workerSha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd",
+    "parserSchema": 4,
+    "checkpointSchema": 5,
+    "wasmBytes": 5924046
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  }
+}

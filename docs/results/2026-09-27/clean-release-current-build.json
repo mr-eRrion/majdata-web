@@ -1,0 +1,44 @@
+{
+  "sourceDirectory": "/tmp/maijdata-final-rebuild.7G1vIk/source",
+  "dependencyInstall": {
+    "offline": true,
+    "packages": 63,
+    "downloaded": 0
+  },
+  "reused": [
+    ".NET SDK",
+    "CLI home",
+    "NuGet cache"
+  ],
+  "regenerated": [
+    "node_modules",
+    "obj",
+    "bin",
+    "WASM publish",
+    "dist"
+  ],
+  "mainEntry": {
+    "path": "assets/index-BYynT38X.js",
+    "sha256": "291710770fe10335a0c9a1903e315fc4f1bed3f5d89d80fac851b9bc1f439199"
+  },
+  "worker": {
+    "path": "assets/chart.worker-aspj87W7.js",
+    "sha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd"
+  },
+  "releaseReport": "clean-release-current.json",
+  "warnings": [
+    "Existing .NET platform/async analysis warnings",
+    "Vite bundle size advisory"
+  ],
+  "sourceCodeMatchesWorkspace": true,
+  "sourceCodeVerification": {
+    "roots": [
+      "apps/web/src",
+      "packages/chart-core/src",
+      "packages/majsimai-browser/src",
+      "packages/majsimai-browser/host"
+    ],
+    "filesCompared": 89,
+    "allByteEqual": true
+  }
+}

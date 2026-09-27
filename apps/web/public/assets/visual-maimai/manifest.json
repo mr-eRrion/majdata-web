@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "Visual Maimai/Skins/经典/",
+  "assets": [
+    {
+      "key": "hold.base",
+      "sourcePath": "Visual Maimai/Skins/经典/hold.png",
+      "sha256": "110f284f001563fb6824f0846d726920e32d7806c39074a27e1e827a8dd1147b",
+      "outputPath": "apps/web/public/assets/visual-maimai/hold.png",
+      "width": 122,
+      "height": 200
+    },
+    {
+      "key": "hold.break",
+      "sourcePath": "Visual Maimai/Skins/经典/hold_break.png",
+      "sha256": "f591f165dcbb710a031ea3f7f1a4c6a9c0fc3e63c605cac547792bd45de46176",
+      "outputPath": "apps/web/public/assets/visual-maimai/hold_break.png",
+      "width": 122,
+      "height": 200
+    },
+    {
+      "key": "hold.each",
+      "sourcePath": "Visual Maimai/Skins/经典/hold_each.png",
+      "sha256": "acf08d05ba50926869294764e2e2d1334e0a73428817e36cc9142edd9bc19418",
+      "outputPath": "apps/web/public/assets/visual-maimai/hold_each.png",
+      "width": 122,
+      "height": 200
+    },
+    {
+      "key": "hold.ex",
+      "sourcePath": "Visual Maimai/Skins/经典/hold_ex.png",
+      "sha256": "5fa90b23135f897f1fcf572108e1f6ca9c77b8b5d374394b6af32cdba4b57b10",
+      "outputPath": "apps/web/public/assets/visual-maimai/hold_ex.png",
+      "width": 122,
+      "height": 200
+    },
+    {
+      "key": "slide.base",
+      "sourcePath": "Visual Maimai/Skins/经典/slide.png",
+      "sha256": "392b92727389a153a8556150a873b99aef0b4ace52f14ea650841ac431c6f831",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide.png",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "key": "slide.break",
+      "sourcePath": "Visual Maimai/Skins/经典/slide_break.png",
+      "sha256": "e82e9cd51ee1d044d62d442fd83d773005d054a6ccdc3bd60aaf57385d771169",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide_break.png",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "key": "slide.each",
+      "sourcePath": "Visual Maimai/Skins/经典/slide_each.png",
+      "sha256": "c69b9975051b53e3c964c0a22fdc67164e4010e0e37b6f842b5bf75f1be8da7e",
+      "outputPath": "apps/web/public/assets/visual-maimai/slide_each.png",
+      "width": 51,
+      "height": 94
+    },
+    {
+      "key": "star.base",
+      "sourcePath": "Visual Maimai/Skins/经典/star.png",
+      "sha256": "195d9e3b5b8f6d588e99d573ab2fb064504eb24085445985add54eabf52b072d",
+      "outputPath": "apps/web/public/assets/visual-maimai/star.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.break",
+      "sourcePath": "Visual Maimai/Skins/经典/star_break.png",
+      "sha256": "0ea3faee10615fbad641fbd118b5c3ad25df837e4c0a965e33834e85f42d0528",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_break.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.each",
+      "sourcePath": "Visual Maimai/Skins/经典/star_each.png",
+      "sha256": "028752d1ab5b378cf236f0f25fe5db0a386e4c06f9aabae695d1a194c159534b",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_each.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.ex",
+      "sourcePath": "Visual Maimai/Skins/经典/star_ex.png",
+      "sha256": "2b35bf15c50470c92360e49d702b1a37c1cba24b27dea8ef910f2144bdb0bf79",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_ex.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.double.base",
+      "sourcePath": "Visual Maimai/Skins/经典/star_double.png",
+      "sha256": "d06350f85a1227d03c2ad1ff89266634462ff2df2ee6242cd59fa1417b832fe1",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_double.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.double.break",
+      "sourcePath": "Visual Maimai/Skins/经典/star_double_break.png",
+      "sha256": "3f99ce1805e111f355e1250a50e273010a14fbf1d4e566fbe5179440789cfc85",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_double_break.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.double.each",
+      "sourcePath": "Visual Maimai/Skins/经典/star_double_each.png",
+      "sha256": "c8efe20946b1f4ebbaee8559a26022fb97432aec980e742eccd1cb1e941c882d",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_double_each.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "star.double.ex",
+      "sourcePath": "Visual Maimai/Skins/经典/star_double_ex.png",
+      "sha256": "a99207d1f2d1f9c1eeca35d7b2ae6d4677a4f20cb95a6a69bf792b9f87f4a2b4",
+      "outputPath": "apps/web/public/assets/visual-maimai/star_double_ex.png",
+      "width": 126,
+      "height": 126
+    },
+    {
+      "key": "tap.base",
+      "sourcePath": "Visual Maimai/Skins/经典/tap.png",
+      "sha256": "7b3fbbcf9eda6b8285e68bbad833eae85c5945017bd8117796cb66c157e386e8",
+      "outputPath": "apps/web/public/assets/visual-maimai/tap.png",
+      "width": 122,
+      "height": 122
+    },
+    {
+      "key": "tap.break",
+      "sourcePath": "Visual Maimai/Skins/经典/tap_break.png",
+      "sha256": "29b997cf52bb3cf842c9eb99a416793d613922f07fa60298c93f5dd503bc3826",
+      "outputPath": "apps/web/public/assets/visual-maimai/tap_break.png",
+      "width": 122,
+      "height": 122
+    },
+    {
+      "key": "tap.each",
+      "sourcePath": "Visual Maimai/Skins/经典/tap_each.png",
+      "sha256": "e3efbf0d28f8de2a26947dac01e9f93fe47024739121a532b005bcf607670cd6",
+      "outputPath": "apps/web/public/assets/visual-maimai/tap_each.png",
+      "width": 122,
+      "height": 122
+    },
+    {
+      "key": "tap.ex",
+      "sourcePath": "Visual Maimai/Skins/经典/tap_ex.png",
+      "sha256": "102ff33fbe6d0b074c80980e2a7eb62ff6862501284fc67696f14ccdc928243e",
+      "outputPath": "apps/web/public/assets/visual-maimai/tap_ex.png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "key": "touch.base",
+      "sourcePath": "Visual Maimai/Skins/经典/touch.png",
+      "sha256": "12faf824109bfbd49d40248566670b4b7eaae4681e8222440fadffdcd97fbaec",
+      "outputPath": "apps/web/public/assets/visual-maimai/touch.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touch.each",
+      "sourcePath": "Visual Maimai/Skins/经典/touch_each.png",
+      "sha256": "f5fa61178f4557387be3eaa17430597f21a16368e7fcc687d2af1dd88ec3a080",
+      "outputPath": "apps/web/public/assets/visual-maimai/touch_each.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touch.point.base",
+      "sourcePath": "Visual Maimai/Skins/经典/touch_point.png",
+      "sha256": "a1dce856190aed06ba5b546e95b7525a00da644a5a89bb988d7d07a4862042e5",
+      "outputPath": "apps/web/public/assets/visual-maimai/touch_point.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "touch.point.each",
+      "sourcePath": "Visual Maimai/Skins/经典/touch_point_each.png",
+      "sha256": "ac2fc3871697d8de769990953e410065e5240c8c479c16d26a3f1f9ccac54168",
+      "outputPath": "apps/web/public/assets/visual-maimai/touch_point_each.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "touchhold.0",
+      "sourcePath": "Visual Maimai/Skins/经典/touchhold_0.png",
+      "sha256": "6000ce964b8643c5846a9f189eedfa7ab212d384253ac4274a32d95301f65c99",
+      "outputPath": "apps/web/public/assets/visual-maimai/touchhold_0.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touchhold.1",
+      "sourcePath": "Visual Maimai/Skins/经典/touchhold_1.png",
+      "sha256": "f771f253cd927dfe4e7a9f8a3dd04f37f65fcf26edd4ede612bf527ebb92ef70",
+      "outputPath": "apps/web/public/assets/visual-maimai/touchhold_1.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touchhold.2",
+      "sourcePath": "Visual Maimai/Skins/经典/touchhold_2.png",
+      "sha256": "37beecc40ae957d291fc52ae71c20129c5b1710d7ad7eeaa387a8b1c216d87b7",
+      "outputPath": "apps/web/public/assets/visual-maimai/touchhold_2.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touchhold.3",
+      "sourcePath": "Visual Maimai/Skins/经典/touchhold_3.png",
+      "sha256": "edaa35efa56ff13ae229bb282aa2c585a82278a3e11a3b27540a2a4de24cfd54",
+      "outputPath": "apps/web/public/assets/visual-maimai/touchhold_3.png",
+      "width": 112,
+      "height": 82
+    },
+    {
+      "key": "touchhold.border",
+      "sourcePath": "Visual Maimai/Skins/经典/touchhold_border.png",
+      "sha256": "326ed5bc54f744861d9414f9e42fb2f980c2fe2623e14c51460f1ba4640a54f4",
+      "outputPath": "apps/web/public/assets/visual-maimai/touchhold_border.png",
+      "width": 211,
+      "height": 210
+    },
+    {
+      "key": "wifi.base.0",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_0.png",
+      "sha256": "dbf860d76809f8d0f6aa096c381ca9dbf41ea9ae0d478bb617f81f6e34a71ed2",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_0.png",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "key": "wifi.base.1",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_1.png",
+      "sha256": "564220f0be1db04545fd5957bc2210322ac4ecdbe5a01278bdae80443d9d25ae",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_1.png",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "key": "wifi.base.2",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_2.png",
+      "sha256": "38ab7636666d73c45cfff9f0f78526dc5314d80156bd91a66761fd4d4e763206",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_2.png",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "key": "wifi.base.3",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_3.png",
+      "sha256": "dae8e58611210338e373341eef0b43785150c3903abd5254a6e633e8b4191c5b",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_3.png",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "key": "wifi.base.4",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_4.png",
+      "sha256": "ce9e4bf3fb00f8dfd3ac45477a26b400961e2d0eb901371a37ff20c85ff820f1",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_4.png",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "key": "wifi.base.5",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_5.png",
+      "sha256": "90ceb1f036201b7cce5378467d4eedee0be5ec6ea1a57a569c9e4dfa5c49b535",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_5.png",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "key": "wifi.base.6",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_6.png",
+      "sha256": "acba1325e1f5181c1bb967e4726402f783c5f6342aa520e220198f8995d1b415",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_6.png",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "key": "wifi.base.7",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_7.png",
+      "sha256": "5c8f8ba4af2aedfe4d62188fff9b65ebb5172b05318476be2f39472958fcf4f9",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_7.png",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "key": "wifi.base.8",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_8.png",
+      "sha256": "127c5e082442b699d5ba3d399c743d3218d90dd15c7ff6544a26c45cf593c4f3",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_8.png",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "key": "wifi.base.9",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_9.png",
+      "sha256": "b326443a4466ad36ede0870018256bdb6a4f28ecb1b24b2f700f95839e76d8a9",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_9.png",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "key": "wifi.base.10",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_10.png",
+      "sha256": "4da380925cd35fd02d2baebd635b35a10ddec80cbba8dd31dcc2100520b8b17e",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_10.png",
+      "width": 653,
+      "height": 313
+    },
+    {
+      "key": "wifi.break.0",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_0.png",
+      "sha256": "573731cf9820473f114a3e27b9656e5b0df245cd9c7b34a0a17ed9f5385ec5ea",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_0.png",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "key": "wifi.break.1",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_1.png",
+      "sha256": "c94bd9a4794070a38de4d49920cb57001c6186928fe6aacf8a8259750d7483c6",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_1.png",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "key": "wifi.break.2",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_2.png",
+      "sha256": "1036bd0e87be55571736498365aa8991d9afb44e161c3724677b67347faf9a6e",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_2.png",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "key": "wifi.break.3",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_3.png",
+      "sha256": "a46a08cef32055e16987619ffa0002d815f9ba1f86191858a3e059bbf20169c0",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_3.png",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "key": "wifi.break.4",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_4.png",
+      "sha256": "ec6dbe4b598458d7e15861c40978d84df44598400ca26e503b13bb3786cd3e64",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_4.png",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "key": "wifi.break.5",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_5.png",
+      "sha256": "481263214701c289935401e3d3c0e89fe16aa4d48f870375d1d198f1ffed95a6",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_5.png",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "key": "wifi.break.6",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_6.png",
+      "sha256": "237972e490454a80718cf048cbb70ea2227dbd019a09f045edd2e3a5374c3d6b",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_6.png",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "key": "wifi.break.7",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_7.png",
+      "sha256": "cd4c8b75c172fb52d16f74a20bf23801e42d2074bd19326ed1bc2473ad9d15d3",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_7.png",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "key": "wifi.break.8",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_8.png",
+      "sha256": "6224b67ee7949edab4fc0c1a1b136399794048420d2f10463f56a9cf22c0c86e",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_8.png",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "key": "wifi.break.9",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_9.png",
+      "sha256": "31c21dbd63b89b569e0c6724174827b2cd0bc3dbb18bb11bdee533294b0d31f3",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_9.png",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "key": "wifi.break.10",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_break_10.png",
+      "sha256": "557f5cbf8d9df573dca1982369ad56984aed9d69b097b6317b0e8497ba468559",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_break_10.png",
+      "width": 653,
+      "height": 313
+    },
+    {
+      "key": "wifi.each.0",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_0.png",
+      "sha256": "3d97c3dbf81804fdf9f920510b79cdb7aea2d8aa87a2ff1f222a0852d2fa28fa",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_0.png",
+      "width": 111,
+      "height": 68
+    },
+    {
+      "key": "wifi.each.1",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_1.png",
+      "sha256": "05e436905864d466850464eba7600fba23043c772d1e9b0f42bd4a5fab70fdb8",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_1.png",
+      "width": 160,
+      "height": 90
+    },
+    {
+      "key": "wifi.each.2",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_2.png",
+      "sha256": "3ab5fe2a506f09a5c2447bb2174c3c29eac5036466cbf757aaaa928abcb95b13",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_2.png",
+      "width": 204,
+      "height": 110
+    },
+    {
+      "key": "wifi.each.3",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_3.png",
+      "sha256": "79b27e882f944c2a68e1f3cce0b538fe126a50e761747de2c545d42c65feaa41",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_3.png",
+      "width": 253,
+      "height": 136
+    },
+    {
+      "key": "wifi.each.4",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_4.png",
+      "sha256": "183bb59a06dbc9ce1c91b0c2cb826e6493c3e5994adcf0458d00d40ee73b4add",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_4.png",
+      "width": 298,
+      "height": 154
+    },
+    {
+      "key": "wifi.each.5",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_5.png",
+      "sha256": "84eca982fae3f1fe78d7de9f01275bc5b61b736481c414deee907e3f2c0e528f",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_5.png",
+      "width": 353,
+      "height": 179
+    },
+    {
+      "key": "wifi.each.6",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_6.png",
+      "sha256": "09cd09dea90a3fa5382190a2463432e4c0539338c3d54fa024b28dc1cc094fdf",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_6.png",
+      "width": 410,
+      "height": 205
+    },
+    {
+      "key": "wifi.each.7",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_7.png",
+      "sha256": "6210883b495bf0f0f39adcf770b5553cb8aae595688a787bb80f21f8cfd2b562",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_7.png",
+      "width": 464,
+      "height": 226
+    },
+    {
+      "key": "wifi.each.8",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_8.png",
+      "sha256": "b78a4037473087cb0f10593b7cb1f8b0f7546912486715b71ce827bbff9bbf19",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_8.png",
+      "width": 519,
+      "height": 251
+    },
+    {
+      "key": "wifi.each.9",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_9.png",
+      "sha256": "2bd386080c1151e244f4d481b1a629da8bde08388b16dee9fd9874e5d6242034",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_9.png",
+      "width": 571,
+      "height": 271
+    },
+    {
+      "key": "wifi.each.10",
+      "sourcePath": "Visual Maimai/Skins/经典/wifi_each_10.png",
+      "sha256": "9e5b734e7cb480480a1342945593f3f2aa90b3a2560f701719cad0f1403c0d08",
+      "outputPath": "apps/web/public/assets/visual-maimai/wifi_each_10.png",
+      "width": 653,
+      "height": 313
+    }
+  ]
+}

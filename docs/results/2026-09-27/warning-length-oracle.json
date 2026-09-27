@@ -1,0 +1,270 @@
+{
+  "Arithmetic": "System.Numerics.Vector3.Distance \u002B MathUtility.Sum float loop",
+  "PathCount": 29,
+  "EnterAreaEventCount": 87,
+  "MaxUlpDistance": 0,
+  "MaxAbsoluteDifference": 0,
+  "Paths": [
+    {
+      "PathId": "1200",
+      "PointCount": 21,
+      "EnterAreaCount": 2,
+      "Actual": 6.7868104,
+      "Expected": 6.7868104,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1201",
+      "PointCount": 21,
+      "EnterAreaCount": 1,
+      "Actual": 8.867395,
+      "Expected": 8.867395,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1202",
+      "PointCount": 21,
+      "EnterAreaCount": 1,
+      "Actual": 9.597999,
+      "Expected": 9.597999,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1203",
+      "PointCount": 21,
+      "EnterAreaCount": 1,
+      "Actual": 8.867396,
+      "Expected": 8.867396,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1204",
+      "PointCount": 21,
+      "EnterAreaCount": 2,
+      "Actual": 6.786811,
+      "Expected": 6.786811,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1245",
+      "PointCount": 61,
+      "EnterAreaCount": 1,
+      "Actual": 14.272162,
+      "Expected": 14.272162,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1246",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598002,
+      "Expected": 9.598002,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1247",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598002,
+      "Expected": 9.598002,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1248",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598002,
+      "Expected": 9.598002,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1249",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598002,
+      "Expected": 9.598002,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1250",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598002,
+      "Expected": 9.598002,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1251",
+      "PointCount": 41,
+      "EnterAreaCount": 1,
+      "Actual": 9.598003,
+      "Expected": 9.598003,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1252",
+      "PointCount": 61,
+      "EnterAreaCount": 1,
+      "Actual": 14.341482,
+      "Expected": 14.341482,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1253",
+      "PointCount": 51,
+      "EnterAreaCount": 8,
+      "Actual": 30.13315,
+      "Expected": 30.13315,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1254",
+      "PointCount": 51,
+      "EnterAreaCount": 7,
+      "Actual": 26.370586,
+      "Expected": 26.370586,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1255",
+      "PointCount": 51,
+      "EnterAreaCount": 6,
+      "Actual": 22.606369,
+      "Expected": 22.606369,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1256",
+      "PointCount": 51,
+      "EnterAreaCount": 5,
+      "Actual": 18.840778,
+      "Expected": 18.840778,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1257",
+      "PointCount": 51,
+      "EnterAreaCount": 4,
+      "Actual": 15.074015,
+      "Expected": 15.074015,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1258",
+      "PointCount": 51,
+      "EnterAreaCount": 3,
+      "Actual": 11.306324,
+      "Expected": 11.306324,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1259",
+      "PointCount": 51,
+      "EnterAreaCount": 2,
+      "Actual": 7.537936,
+      "Expected": 7.537936,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1260",
+      "PointCount": 51,
+      "EnterAreaCount": 1,
+      "Actual": 3.7690854,
+      "Expected": 3.7690854,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1261",
+      "PointCount": 51,
+      "EnterAreaCount": 8,
+      "Actual": 30.133152,
+      "Expected": 30.133152,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1262",
+      "PointCount": 51,
+      "EnterAreaCount": 1,
+      "Actual": 3.7690852,
+      "Expected": 3.7690852,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1263",
+      "PointCount": 51,
+      "EnterAreaCount": 2,
+      "Actual": 7.537939,
+      "Expected": 7.537939,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1264",
+      "PointCount": 51,
+      "EnterAreaCount": 3,
+      "Actual": 11.306326,
+      "Expected": 11.306326,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1265",
+      "PointCount": 51,
+      "EnterAreaCount": 4,
+      "Actual": 15.074014,
+      "Expected": 15.074014,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1266",
+      "PointCount": 51,
+      "EnterAreaCount": 5,
+      "Actual": 18.84078,
+      "Expected": 18.84078,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1267",
+      "PointCount": 51,
+      "EnterAreaCount": 6,
+      "Actual": 22.60637,
+      "Expected": 22.60637,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    },
+    {
+      "PathId": "1268",
+      "PointCount": 51,
+      "EnterAreaCount": 7,
+      "Actual": 26.370586,
+      "Expected": 26.370586,
+      "AbsoluteDifference": 0,
+      "UlpDistance": 0
+    }
+  ]
+}

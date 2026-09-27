@@ -1,0 +1,41 @@
+.edit-context-menu {
+  position: fixed;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  min-width: 196px;
+  max-width: min(320px, calc(100vw - 16px));
+  max-height: calc(100vh - 16px);
+  max-height: calc(100dvh - 16px);
+  overflow: auto;
+  padding: 5px;
+  border: 1px solid #3b4c63;
+  border-radius: 8px;
+  background: #141c29;
+  box-shadow: 0 12px 36px rgb(0 0 0 / 48%);
+  overscroll-behavior: contain;
+}
+.edit-context-menu-entry { display: contents; }
+.edit-context-menu-entry > button {
+  width: 100%;
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+.edit-context-menu-entry > button:hover:not(:disabled),
+.edit-context-menu-entry > button:focus-visible {
+  background: #26374c;
+}
+.edit-context-menu-entry > button:focus-visible { outline-offset: -2px; }
+.edit-context-menu-entry > button:disabled { opacity: .42; }
+.edit-context-menu-separator {
+  height: 1px;
+  margin: 5px 4px;
+  background: #2a3548;
+}

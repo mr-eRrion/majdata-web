@@ -1,0 +1,25 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "draw 2-6, auto-commit once, undo/redo/export/reopen",
+    "draw 3<7, auto-commit once, undo/redo/export/reopen",
+    "draw 8>2, auto-commit once, undo/redo/export/reopen",
+    "unsupported full-candidate winner rejected without fallback, then valid redraw",
+    "center start ignored and Escape during drawing cancels without history"
+  ],
+  "errors": [],
+  "build": {
+    "entry": "./assets/index-Cc8wAqPq.js",
+    "entrySha256": "76e658a393f110d18b0a3eeb83cd84c86740e814ae17b4685c06f527700125a7",
+    "worker": "assets/chart.worker-aspj87W7.js",
+    "workerSha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd",
+    "parserSchema": 4,
+    "checkpointSchema": 5,
+    "wasmBytes": 5924046
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "browser": "153.0.8010.12",
+  "independentPlacement": [
+    "v",
+    "s",
+    "z"
+  ],
+  "unsupportedReadOnly": "1s3",
+  "connectedShared": {
+    "head": "star",
+    "modifiers": {
+      "break": false,
+      "ex": false
+    },
+    "paths": [
+      {
+        "command": "v",
+        "endPosition": 3,
+        "wait": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 1
+        },
+        "move": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 4
+        },
+        "continuations": [
+          {
+            "command": "s",
+            "endPosition": 7
+          },
+          {
+            "command": "z",
+            "endPosition": 3
+          },
+          {
+            "command": "z",
+            "endPosition": 7
+          }
+        ]
+      },
+      {
+        "command": "v",
+        "endPosition": 2,
+        "wait": {
+          "kind": "seconds",
+          "seconds": 0.25
+        },
+        "move": {
+          "kind": "seconds",
+          "seconds": 1.5
+        },
+        "continuations": []
+      }
+    ],
+    "timing": [
+      {
+        "command": "v",
+        "endPosition": 3,
+        "moveStartSeconds": 1,
+        "endSeconds": 3,
+        "segments": [
+          [
+            1,
+            "v",
+            3,
+            1,
+            1.365268429153173
+          ],
+          [
+            3,
+            "s",
+            7,
+            1.365268429153173,
+            1.9084201134632908
+          ],
+          [
+            7,
+            "z",
+            3,
+            1.9084201134632908,
+            2.4542100567316454
+          ],
+          [
+            3,
+            "z",
+            7,
+            2.4542100567316454,
+            3
+          ]
+        ]
+      },
+      {
+        "command": "v",
+        "endPosition": 2,
+        "moveStartSeconds": 0.75,
+        "endSeconds": 2.25,
+        "segments": [
+          [
+            1,
+            "v",
+            2,
+            0.75,
+            2.25
+          ]
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "/tmp/maijdata-slide-v-middle.png",
+    "/tmp/maijdata-slide-s-middle.png",
+    "/tmp/maijdata-slide-z-middle.png"
+  ],
+  "versionAfterEditUndoRedo": [
+    1,
+    2,
+    3
+  ],
+  "routeEditVersion": 1,
+  "recoveryVersion": 3,
+  "reopenedText": "&title=V S Z shared connected validation\n&first=0\n&lv_1=12\n&inote_1=(120){4},{4}1v3s7z3z7[4:4]*v2[0.25##1.5],E\n",
+  "errors": []
+}

@@ -1,0 +1,52 @@
+diff --git a/Runtime/SimaiParser.cs b/Runtime/SimaiParser.cs
+index aa1b5a0..1ad127f 100644
+--- a/Runtime/SimaiParser.cs
++++ b/Runtime/SimaiParser.cs
+@@ -38,8 +38,13 @@ namespace MajSimai
+             var rentedArrayForCharts = ArrayPool<SimaiChart>.Shared.Rent(7);
+             try
+             {
++#if MAJSIMAI_BROWSER
++                for (var i = 0; i < 7; i++)
++                {
++#else
+                 Parallel.For(0, 7, i =>
+                 {
++#endif
+                     var fumen = metadata.Fumens[i];
+                     var designer = metadata.Designers[i];
+                     var level = metadata.Levels[i];
+@@ -52,7 +57,11 @@ namespace MajSimai
+                         rentedArrayForCharts[i] = new SimaiChart(metadata.Levels[i], metadata.Designers[i], metadata.Fumens[i], Array.Empty<SimaiTimingPoint>());
+                         Console.WriteLine(ex);
+                     }
++#if !MAJSIMAI_BROWSER
+                 });
++#else
++                }
++#endif
+                 var simaiFile = new SimaiFile(metadata.Title, metadata.Artist, metadata.Offset, metadata.Hash, rentedArrayForCharts, null, metadata.FinalDesigner);
+                 var cmds = simaiFile.Commands;
+                 var cmdCount = metadata.Commands.Length;
+@@ -929,12 +938,21 @@ namespace MajSimai
+                 commaTimingBuffer[commaTimingBufIndex++] = new SimaiTimingPoint(time, null, string.Empty, Xcount, Ycount, bpm, 1, curSVeloc, fumen.Length, signatureNumerator, signatureDenominator);
+                 
+                 var noteTimingPoints = new SimaiTimingPoint[noteRawTimingBufIndex];
++#if MAJSIMAI_BROWSER
++                for (var i = 0; i < noteRawTimingBufIndex; i++)
++                {
++#else
+                 Parallel.For(0, noteRawTimingBufIndex, i =>
+                 {
++#endif
+                     var rawTiming = noteRawTimingBuffer[i];
+                     var timingPoint = rawTiming.Parse();
+                     noteTimingPoints[i] = timingPoint;
++#if !MAJSIMAI_BROWSER
+                 });
++#else
++                }
++#endif
+ 
+                 return new SimaiChart(level, 
+                                       designer, 

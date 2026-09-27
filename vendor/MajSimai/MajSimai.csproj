@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Lingfeng-bbben.$(AssemblyName)</PackageId>
+    <Authors>bbben;Lezi;Moying</Authors>
+    <Company>Majdata</Company>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>2.2.1</Version>
+    <IsTrimmable>True</IsTrimmable>
+    <IsAotCompatible>True</IsAotCompatible>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NativeLib>Shared</NativeLib>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(PublishAot)' == 'true'">
+	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <TargetFrameworks>net7.0;net8.0;net9.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.2" />
+  </ItemGroup>
+
+</Project>

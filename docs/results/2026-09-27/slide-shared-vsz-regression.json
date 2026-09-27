@@ -1,0 +1,1822 @@
+{
+  "browser": "153.0.8010.12",
+  "results": [
+    {
+      "token": "1-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "star",
+      "flags": "",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 65
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 64
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 62
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "star",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 64
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1b-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "star",
+      "flags": "b",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 66
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 65
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 63
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "star",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 65
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1x-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "star",
+      "flags": "x",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 66
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 65
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 63
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "star",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 65
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1xb-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "star",
+      "flags": "xb",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 67
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 66
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 64
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "star",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 66
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1@-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "tap",
+      "flags": "",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 66
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 65
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 63
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "tap",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 65
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1@b-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "tap",
+      "flags": "b",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 67
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 66
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 64
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "tap",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 66
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1@x-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "tap",
+      "flags": "x",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 67
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 66
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 64
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "tap",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 66
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1@xb-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "tap",
+      "flags": "xb",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 68
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 67
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 65
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "tap",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 67
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1!-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "none",
+      "flags": "",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 66
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 65
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 63
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "none",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 65
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1!b-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "none",
+      "flags": "b",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 67
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 66
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 64
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "none",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": false
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 66
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1!x-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "none",
+      "flags": "x",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 67
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 66
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 64
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "none",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": false,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 66
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1!xb-5b[4:1]*<7[0.25##1.5]*w5b[240#8:1]",
+      "head": "none",
+      "flags": "xb",
+      "schemaVersion": 4,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": true,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 68
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 67
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [
+          {
+            "id": "1:26:0",
+            "kind": "slide",
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "position": 1,
+            "firework": false,
+            "forceStar": false,
+            "order": 0,
+            "sourceRange": {
+              "start": 26,
+              "end": 65
+            },
+            "startSeconds": 0,
+            "durationSeconds": 1.75,
+            "moveStartSeconds": 0.5,
+            "slide": {
+              "command": "-",
+              "endPosition": 5,
+              "head": "none",
+              "slideBreak": true,
+              "wait": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "move": {
+                "kind": "beatsAtStartBpm",
+                "division": 4,
+                "beats": 1
+              },
+              "continuations": [],
+              "additionalPaths": [
+                {
+                  "command": "<",
+                  "endPosition": 7,
+                  "slideBreak": false,
+                  "wait": {
+                    "kind": "seconds",
+                    "seconds": 0.25
+                  },
+                  "move": {
+                    "kind": "seconds",
+                    "seconds": 1.5
+                  },
+                  "continuations": []
+                },
+                {
+                  "command": "w",
+                  "endPosition": 5,
+                  "slideBreak": true,
+                  "wait": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 4,
+                    "beats": 1
+                  },
+                  "move": {
+                    "kind": "beatsAtBpm",
+                    "bpm": 240,
+                    "division": 8,
+                    "beats": 1
+                  },
+                  "continuations": []
+                }
+              ]
+            },
+            "modifiers": {
+              "break": true,
+              "ex": true
+            }
+          }
+        ],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 67
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1-5[4:1]*",
+      "unsupported": true,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": false,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 38
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 37
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "unsupported-slide-branch",
+            "message": "An additional shared-head path must use supported connected segments, optional path b, and one final total-duration bracket.",
+            "severity": "error",
+            "range": {
+              "start": 26,
+              "end": 35
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 37
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1-5[4:1]**<7[4:1]",
+      "unsupported": true,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": false,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 46
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 45
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "unsupported-slide-branch",
+            "message": "An additional shared-head path must use supported connected segments, optional path b, and one final total-duration bracket.",
+            "severity": "error",
+            "range": {
+              "start": 26,
+              "end": 43
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 45
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1-5[4:1]*x<7[4:1]",
+      "unsupported": true,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": false,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 46
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 45
+        },
+        "endBeat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "notes": [],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "unsupported-slide-branch",
+            "message": "An additional shared-head path must use supported connected segments, optional path b, and one final total-duration bracket.",
+            "severity": "error",
+            "range": {
+              "start": 35,
+              "end": 36
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "unsupported-state-command",
+            "message": "HS/SV state commands are preserved as source and make this difficulty read-only.",
+            "severity": "error",
+            "range": {
+              "start": 36,
+              "end": 44
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 45
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1-5[4:1]*<7[4:1]-3[4:1]",
+      "unsupported": true,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": false,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 52
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 51
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "unsupported-connected-slide-timing",
+            "message": "A connected route's single duration bracket must follow its final segment; per-segment timing remains read-only.",
+            "severity": "error",
+            "range": {
+              "start": 42,
+              "end": 44
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 51
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    },
+    {
+      "token": "1-5[4:1]*p7[4:1]",
+      "unsupported": true,
+      "chart": {
+        "difficulty": 1,
+        "level": "",
+        "designer": "",
+        "editable": false,
+        "modified": false,
+        "fieldRange": {
+          "start": 9,
+          "end": 45
+        },
+        "sourceRange": {
+          "start": 18,
+          "end": 44
+        },
+        "endBeat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "notes": [],
+        "bpms": [
+          {
+            "beat": {
+              "numerator": 0,
+              "denominator": 1
+            },
+            "bpm": 120,
+            "sourceRange": {
+              "start": 18,
+              "end": 23
+            }
+          }
+        ],
+        "diagnostics": [
+          {
+            "code": "unsupported-slide-branch",
+            "message": "An additional shared-head path must use supported connected segments, optional path b, and one final total-duration bracket.",
+            "severity": "error",
+            "range": {
+              "start": 35,
+              "end": 42
+            },
+            "difficulty": 1
+          },
+          {
+            "code": "slide-validation-pending",
+            "message": "Slide runtime behavior in the target player has not been validated.",
+            "severity": "warning",
+            "range": {
+              "start": 18,
+              "end": 44
+            },
+            "difficulty": 1
+          }
+        ]
+      }
+    }
+  ]
+}

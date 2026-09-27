@@ -1,0 +1,39 @@
+{
+  "origin": "Self-authored synthetic chart; expected values manually derived from pinned source code, not produced by a running parser or game build.",
+  "fixture": "p3-touch.maidata.txt",
+  "firstSeconds": 0,
+  "difficulty1": {
+    "editableCandidate": true,
+    "notes": [
+      { "kind": "touch", "touchArea": "B", "position": 1, "chartStartSeconds": 0, "durationSeconds": 0, "break": false, "ex": false, "sourceOrder": 0 },
+      { "kind": "touch", "touchArea": "B", "position": 2, "chartStartSeconds": 0, "durationSeconds": 0, "break": false, "ex": false, "sourceOrder": 1 },
+      { "kind": "touch", "touchArea": "A", "position": 8, "chartStartSeconds": 0.5, "durationSeconds": 0, "break": true, "ex": false },
+      { "kind": "touch", "touchArea": "C", "position": 0, "chartStartSeconds": 1, "durationSeconds": 0, "break": false, "ex": false },
+      { "kind": "touch", "touchArea": "D", "position": 4, "chartStartSeconds": 1.5, "durationSeconds": 0, "break": false, "ex": false },
+      { "kind": "touchHold", "touchArea": "E", "position": 7, "chartStartSeconds": 2, "durationSeconds": 2, "break": false, "ex": false },
+      { "kind": "touchHold", "touchArea": "B", "position": 2, "chartStartSeconds": 2.5, "durationSeconds": 0.25, "break": true, "ex": false }
+    ]
+  },
+  "difficulty2": {
+    "editable": false,
+    "notes": [],
+    "upstreamSourceMeaning": [
+      { "token": "D4x", "sourceMeaning": { "kind": "touch", "touchArea": "D", "position": 4, "ex": true }, "targetLoaderForwardsEx": false }
+    ],
+    "reason": "Pinned MajdataPlay Touch loader sets IsEX=false."
+  },
+  "pendingRoundtripCases": [
+    { "token": "B1h[#0]", "reason": "Explicit zero duration is not rejected by the core model, but strict parser/serializer round-trip is not yet confirmed." }
+  ],
+  "readonlyCases": [
+    { "token": "B1h", "reason": "README lists the short form, but parser passes a failed bracket-duration parse as 0 and the target runtime appearance/semantics are unverified." },
+    { "token": "B1hx[4:4]", "reason": "Pinned TouchHold loader drops EX by forcing IsEX=false." },
+    { "token": "B1hxb[#0.25]", "reason": "Parser can recognize both flags, but target loader forwards Break and drops EX." },
+    { "token": "B1h[-0.25]", "reason": "Negative duration is invalid at the strict input boundary." },
+    { "token": "B1h[#NaN]", "reason": "Non-finite absolute duration is invalid at the strict input boundary." },
+    { "token": "B10", "reason": "Pinned parser reads only one position character; strict app parsing must reject unconsumed or out-of-range input." },
+    { "token": "C1", "reason": "Pinned parser treats C as a single center sensor and uses position 8 only as an internal sentinel; trailing input must be rejected." },
+    { "token": "B1m / B1f", "reason": "Upstream parser and game loader have Mine/Hanabi fields, but current chart model does not preserve them." },
+    { "token": "B1`B2", "reason": "Backtick fake-each semantics are not represented by the current chart model/source mapping." }
+  ]
+}

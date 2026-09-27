@@ -1,0 +1,17 @@
+{
+  "name": "dev.majdata.majsimai",
+  "displayName": "MajSimai",
+  "author": {
+    "name": "bbben",
+    "url": "https://github.com/LingFeng-bbben/MajSimai"
+  },
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "description": "",
+  "keywords": [
+    "Majdata",
+    "Simai"
+  ],
+  "license": "",
+  "dependencies": {}
+}

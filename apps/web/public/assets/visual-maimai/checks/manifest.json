@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourceAssets": {
+    "path": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+    "sha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104"
+  },
+  "sourceStream": {
+    "path": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets.resS",
+    "sha256": "1136f83ca2d3a765131eeb96d376257900c58ea58bcec6b1a1034c957660ec85"
+  },
+  "displayReference": {
+    "rootGameObject": {
+      "objectId": 637,
+      "name": "Check Result"
+    },
+    "rootRectTransform": {
+      "objectId": 1140,
+      "anchorMin": [
+        0.5,
+        0
+      ],
+      "anchorMax": [
+        0.5,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "size": [
+        42,
+        42
+      ]
+    },
+    "checkResultKeyframe": {
+      "objectId": 1421,
+      "fieldReferences": [
+        {
+          "field": "image",
+          "fileId": 0,
+          "pathId": 1323
+        },
+        {
+          "field": "warningSprite",
+          "fileId": 0,
+          "pathId": 375
+        },
+        {
+          "field": "badSprite",
+          "fileId": 0,
+          "pathId": 303
+        },
+        {
+          "field": "text",
+          "fileId": 0,
+          "pathId": 1353
+        },
+        {
+          "field": "bar",
+          "fileId": 0,
+          "pathId": 652
+        }
+      ],
+      "referencesReadFrom": "MonoBehaviour serialized PPtrs after the 32-byte Unity header; declaration order confirmed against CheckResultKeyframe source metadata."
+    },
+    "evidenceBoundary": "Serialized sharedassets0 prefab references and RectTransform values; this does not establish runtime visibility or animation."
+  },
+  "extractionMethod": "Export Texture2D RGBA PNG unchanged; verify its decoded pixels exactly equal the referenced Sprite.image and the Sprite textureRect covers the full 84x84 texture.",
+  "assets": [
+    {
+      "key": "check.warning",
+      "sourcePath": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceSpriteId": 375,
+      "sourceTextureId": 170,
+      "sprite": {
+        "objectId": 375,
+        "name": "Warning",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 84,
+          "height": 84
+        },
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "pixelsPerUnit": 100,
+        "textureRect": {
+          "x": 0,
+          "y": 0,
+          "width": 84,
+          "height": 84
+        },
+        "textureRectOffset": [
+          0,
+          0
+        ],
+        "atlasRectOffset": [
+          -1,
+          -1
+        ],
+        "texture": {
+          "fileId": 0,
+          "pathId": 170
+        }
+      },
+      "texture": {
+        "objectId": 170,
+        "name": "Warning",
+        "width": 84,
+        "height": 84
+      },
+      "file": "warning.png",
+      "fixturePath": "fixtures/visual-maimai/check-icons/warning.png",
+      "sha256": "88fc073807ef844c88ffc035ca954f6741cba954f6526a76be56950939eec6ab",
+      "width": 84,
+      "height": 84,
+      "outputPath": "apps/web/public/assets/visual-maimai/checks/warning.png"
+    },
+    {
+      "key": "check.bad",
+      "sourcePath": "Visual Maimai/Visual Maimai_Data/sharedassets0.assets",
+      "sourceSpriteId": 303,
+      "sourceTextureId": 76,
+      "sprite": {
+        "objectId": 303,
+        "name": "Bad",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 84,
+          "height": 84
+        },
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "pixelsPerUnit": 100,
+        "textureRect": {
+          "x": 0,
+          "y": 0,
+          "width": 84,
+          "height": 84
+        },
+        "textureRectOffset": [
+          0,
+          0
+        ],
+        "atlasRectOffset": [
+          -1,
+          -1
+        ],
+        "texture": {
+          "fileId": 0,
+          "pathId": 76
+        }
+      },
+      "texture": {
+        "objectId": 76,
+        "name": "Bad",
+        "width": 84,
+        "height": 84
+      },
+      "file": "bad.png",
+      "fixturePath": "fixtures/visual-maimai/check-icons/bad.png",
+      "sha256": "d2695df99c08e2b865a094d790f774d92de190e44e1b615a0395567577cc5055",
+      "width": 84,
+      "height": 84,
+      "outputPath": "apps/web/public/assets/visual-maimai/checks/bad.png"
+    }
+  ]
+}

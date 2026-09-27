@@ -1,0 +1,17 @@
+{
+  "browser": "153.0.8010.12",
+  "input": "user local Pure Ruby (Short Version)",
+  "options": [
+    "难度 5"
+  ],
+  "count": "时间轴\n1,021 个音符",
+  "notices": [
+    "此难度只读，导出时保留原文。请查看下方诊断。",
+    "已识别 44 个单段 Slide。Slide 暂不绘制或发声，其余音符仅供参考。"
+  ],
+  "originalBytes": 4192,
+  "byteIdenticalExport": true,
+  "audio": "track.mp3\n\n157.3 秒 · 48 kHz · 2 声道",
+  "errors": [],
+  "scope": "Read-only import, source export, MP3 decode and waveform completion; not full Slide playback validation."
+}

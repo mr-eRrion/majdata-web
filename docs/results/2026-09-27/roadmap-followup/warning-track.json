@@ -1,0 +1,79 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "source-gutter-and-sprite-pixels",
+    "same-beat-source-order-and-bad-priority",
+    "hover-all-reasons",
+    "marker-clicks-do-not-edit-or-seek",
+    "seek-and-zoom-alignment",
+    "difficulty-switch",
+    "edit-and-undo",
+    "readonly-clears-markers"
+  ],
+  "initial": [
+    {
+      "marker": {
+        "beat": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "key": "0/1",
+        "seconds": 0,
+        "severity": "warning",
+        "codes": [
+          3
+        ]
+      },
+      "x": 60,
+      "y": 657
+    },
+    {
+      "marker": {
+        "beat": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "key": "1/1",
+        "seconds": 0.5,
+        "severity": "bad",
+        "codes": [
+          7,
+          8,
+          0,
+          1,
+          4
+        ]
+      },
+      "x": 60,
+      "y": 507
+    },
+    {
+      "marker": {
+        "beat": {
+          "numerator": 2,
+          "denominator": 1
+        },
+        "key": "2/1",
+        "seconds": 1,
+        "severity": "bad",
+        "codes": [
+          0,
+          1
+        ]
+      },
+      "x": 60,
+      "y": 357
+    }
+  ],
+  "pixels": [
+    {
+      "red": 8,
+      "yellow": 121
+    },
+    {
+      "red": 194,
+      "yellow": 0
+    }
+  ],
+  "errors": []
+}

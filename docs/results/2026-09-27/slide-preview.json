@@ -1,0 +1,179 @@
+{
+  "status": "pass",
+  "baseUrl": "http://127.0.0.1:5175/",
+  "browserVersion": "153.0.8010.12",
+  "dimensions": "640x640",
+  "notes": [
+    {
+      "id": "straight-1-5",
+      "command": "-",
+      "stages": [
+        {
+          "name": "before-hit",
+          "now": -0.1,
+          "changedPixels": 8568,
+          "path": "/tmp/maijdata-slide-preview-straight-1-5-before-hit.png",
+          "sha256": "1013971a18641f01ed7c32753b7ee69e2037e65be6a7454b9dbbfffd7b589eff",
+          "byteLength": 37023
+        },
+        {
+          "name": "waiting",
+          "now": 0.25,
+          "changedPixels": 11414,
+          "path": "/tmp/maijdata-slide-preview-straight-1-5-waiting.png",
+          "sha256": "ba685b0d4bcf8c29a47db406c91329d751d54059e2140d4789a6c6371dd201a3",
+          "byteLength": 40544
+        },
+        {
+          "name": "moving",
+          "now": 1,
+          "changedPixels": 7479,
+          "path": "/tmp/maijdata-slide-preview-straight-1-5-moving.png",
+          "sha256": "d1de711774b4e4c88005bf3f97a61deb0c32d661d71a271204fb5bc44393f0f9",
+          "byteLength": 32919
+        },
+        {
+          "name": "ended",
+          "now": 1.5,
+          "changedPixels": 0,
+          "path": "/tmp/maijdata-slide-preview-straight-1-5-ended.png",
+          "sha256": "4276c571220586406625f65f4529c7f800f343e67cae368db4a51644ec201567",
+          "byteLength": 10604
+        },
+        {
+          "name": "seek-waiting",
+          "now": 0.25,
+          "changedPixels": 11414,
+          "path": "/tmp/maijdata-slide-preview-straight-1-5-seek-waiting.png",
+          "sha256": "ba685b0d4bcf8c29a47db406c91329d751d54059e2140d4789a6c6371dd201a3",
+          "byteLength": 40544
+        }
+      ],
+      "waitMovePixelDifference": 8040,
+      "seekMatchesWaitPng": true,
+      "replayMatchesWaitPng": true,
+      "replayChangedPixels": 11414
+    },
+    {
+      "id": "arc-2-6",
+      "command": "<",
+      "stages": [
+        {
+          "name": "before-hit",
+          "now": -0.1,
+          "changedPixels": 13982,
+          "path": "/tmp/maijdata-slide-preview-arc-2-6-before-hit.png",
+          "sha256": "01ab0868bb89061970601a625dedfc4b9e18a0656aaaec10d7068c7467d10ccc",
+          "byteLength": 48924
+        },
+        {
+          "name": "waiting",
+          "now": 0.25,
+          "changedPixels": 17526,
+          "path": "/tmp/maijdata-slide-preview-arc-2-6-waiting.png",
+          "sha256": "059db26ced679fdc2ba50cfbdbb3fd8a7bc057ec81fe6c1caedb594f95f5b501",
+          "byteLength": 52747
+        },
+        {
+          "name": "moving",
+          "now": 1,
+          "changedPixels": 10418,
+          "path": "/tmp/maijdata-slide-preview-arc-2-6-moving.png",
+          "sha256": "0118007aa954664b45821108f889574b622b135040d4351d2565911ee7479ab6",
+          "byteLength": 39519
+        },
+        {
+          "name": "ended",
+          "now": 1.5,
+          "changedPixels": 0,
+          "path": "/tmp/maijdata-slide-preview-arc-2-6-ended.png",
+          "sha256": "4276c571220586406625f65f4529c7f800f343e67cae368db4a51644ec201567",
+          "byteLength": 10604
+        },
+        {
+          "name": "seek-waiting",
+          "now": 0.25,
+          "changedPixels": 17526,
+          "path": "/tmp/maijdata-slide-preview-arc-2-6-seek-waiting.png",
+          "sha256": "059db26ced679fdc2ba50cfbdbb3fd8a7bc057ec81fe6c1caedb594f95f5b501",
+          "byteLength": 52747
+        }
+      ],
+      "waitMovePixelDifference": 11240,
+      "seekMatchesWaitPng": true,
+      "replayMatchesWaitPng": true,
+      "replayChangedPixels": 17526
+    },
+    {
+      "id": "wifi-1-5",
+      "command": "w",
+      "stages": [
+        {
+          "name": "before-hit",
+          "now": -0.1,
+          "changedPixels": 26794,
+          "path": "/tmp/maijdata-slide-preview-wifi-1-5-before-hit.png",
+          "sha256": "770ce97a5e14f8d4986fd51e5cbd6af96a796e189a0a20bfb666e8c079ec3c1a",
+          "byteLength": 33865
+        },
+        {
+          "name": "waiting",
+          "now": 0.25,
+          "changedPixels": 28476,
+          "path": "/tmp/maijdata-slide-preview-wifi-1-5-waiting.png",
+          "sha256": "2dec2222b6632aa750c05578f742549a29256b86a02144c28b86d78730ed07e8",
+          "byteLength": 39105
+        },
+        {
+          "name": "moving",
+          "now": 1,
+          "changedPixels": 26941,
+          "path": "/tmp/maijdata-slide-preview-wifi-1-5-moving.png",
+          "sha256": "b8ee22bbf486264546d6d6df73aa84157b1c4d198bedc3efc7967ad4f6500960",
+          "byteLength": 51846
+        },
+        {
+          "name": "ended",
+          "now": 1.5,
+          "changedPixels": 0,
+          "path": "/tmp/maijdata-slide-preview-wifi-1-5-ended.png",
+          "sha256": "4276c571220586406625f65f4529c7f800f343e67cae368db4a51644ec201567",
+          "byteLength": 10604
+        },
+        {
+          "name": "seek-waiting",
+          "now": 0.25,
+          "changedPixels": 28476,
+          "path": "/tmp/maijdata-slide-preview-wifi-1-5-seek-waiting.png",
+          "sha256": "2dec2222b6632aa750c05578f742549a29256b86a02144c28b86d78730ed07e8",
+          "byteLength": 39105
+        }
+      ],
+      "waitMovePixelDifference": 15526,
+      "seekMatchesWaitPng": true,
+      "replayMatchesWaitPng": true,
+      "replayChangedPixels": 28476
+    }
+  ],
+  "wifiMidpointSpriteCounts": {
+    "totalSprites": 9,
+    "arrows": 6,
+    "stars": 3
+  },
+  "rebuildWithCachedTextures": {
+    "matchesWifiWaitPng": true,
+    "changedPixels": 28476,
+    "path": "/tmp/maijdata-slide-preview-wifi-rebuilt.png",
+    "sha256": "2dec2222b6632aa750c05578f742549a29256b86a02144c28b86d78730ed07e8",
+    "byteLength": 39105
+  },
+  "pageErrors": [],
+  "limitations": [
+    "没有目标参考图；只验证可见性、状态差异、绝对时间 seek 和缓存重建，不声明像素一致。"
+  ],
+  "blank": {
+    "path": "/tmp/maijdata-slide-preview-blank.png",
+    "sha256": "4276c571220586406625f65f4529c7f800f343e67cae368db4a51644ec201567",
+    "byteLength": 10604
+  }
+}

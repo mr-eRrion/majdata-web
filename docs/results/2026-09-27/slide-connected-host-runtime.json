@@ -1,0 +1,162 @@
+{
+  "command": "node tools/dotnet/measure-runtime.mjs",
+  "exitCode": 0,
+  "build": {
+    "entry": "./assets/index-Cc8wAqPq.js",
+    "entrySha256": "76e658a393f110d18b0a3eeb83cd84c86740e814ae17b4685c06f527700125a7",
+    "worker": "assets/chart.worker-aspj87W7.js",
+    "workerSha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd",
+    "parserSchema": 4,
+    "checkpointSchema": 5,
+    "wasmBytes": 5924046
+  },
+  "reports": [
+    {
+      "type": "load-results",
+      "oneK": {
+        "noteCount": 1000,
+        "holdCount": 10,
+        "slideSegments": 0,
+        "wifiCount": 0,
+        "durationSeconds": 300,
+        "subdivisionCount": 9600,
+        "maxSimultaneousStarts": 1,
+        "note": "Synthetic supported Tap/Hold load. Slide performance is outside the current unverified scope.",
+        "sourceUtf16Length": 10731,
+        "warmupRuns": 2,
+        "measuredRuns": 10,
+        "workerParseMs": {
+          "median": 24.850000008940697,
+          "p95": 41.5
+        },
+        "pageWorkerRoundTripMs": {
+          "median": 33,
+          "p95": 42.5
+        },
+        "driverEvaluationMs": {
+          "median": 62.638770999999906,
+          "p95": 86.17495800000006
+        },
+        "editable": true,
+        "parsedNotes": 1000
+      },
+      "tenKPressure": {
+        "noteCount": 10000,
+        "holdCount": 100,
+        "slideSegments": 0,
+        "wifiCount": 0,
+        "durationSeconds": 300,
+        "subdivisionCount": 9600,
+        "maxSimultaneousStarts": 2,
+        "note": "Synthetic supported Tap/Hold load. Slide performance is outside the current unverified scope.",
+        "sourceUtf16Length": 20672,
+        "workerParseMs": 129.80000001192093,
+        "pageWorkerRoundTripMs": 130.7000000178814,
+        "driverEvaluationMs": 197.6645000000001,
+        "editable": true,
+        "parsedNotes": 10000
+      }
+    },
+    {
+      "browser": "Playwright Chromium headless",
+      "browserVersion": "153.0.8010.12",
+      "platform": "darwin-arm64",
+      "url": "http://127.0.0.1:56128/p0-harness.html",
+      "runtimeUrl": "http://127.0.0.1:56128/_framework/dotnet.js",
+      "coldReadyMs": 150.709,
+      "workerReady": "Worker ready in 82.8 ms",
+      "baseline": {
+        "chart1Notes": [
+          [
+            1,
+            0,
+            0.25,
+            "tap"
+          ],
+          [
+            1,
+            0,
+            0.25,
+            "tap"
+          ],
+          [
+            2,
+            1,
+            0.75,
+            "hold"
+          ],
+          [
+            3,
+            2,
+            1.25,
+            "tap"
+          ],
+          [
+            4,
+            3,
+            1.5,
+            "hold"
+          ]
+        ],
+        "chart2Editable": false,
+        "firstSeconds": 0.25
+      },
+      "strictCases": 15,
+      "touchFixture": {
+        "editableNotes": 5,
+        "readOnlyNotes": 0
+      },
+      "p3TouchFixture": {
+        "editableNotes": 7,
+        "readOnlyNotes": 0
+      },
+      "utf16CrLfBom": "passed",
+      "loadResults": {
+        "oneK": {
+          "noteCount": 1000,
+          "holdCount": 10,
+          "slideSegments": 0,
+          "wifiCount": 0,
+          "durationSeconds": 300,
+          "subdivisionCount": 9600,
+          "maxSimultaneousStarts": 1,
+          "note": "Synthetic supported Tap/Hold load. Slide performance is outside the current unverified scope.",
+          "sourceUtf16Length": 10731,
+          "warmupRuns": 2,
+          "measuredRuns": 10,
+          "workerParseMs": {
+            "median": 24.850000008940697,
+            "p95": 41.5
+          },
+          "pageWorkerRoundTripMs": {
+            "median": 33,
+            "p95": 42.5
+          },
+          "driverEvaluationMs": {
+            "median": 62.638770999999906,
+            "p95": 86.17495800000006
+          },
+          "editable": true,
+          "parsedNotes": 1000
+        },
+        "tenKPressure": {
+          "noteCount": 10000,
+          "holdCount": 100,
+          "slideSegments": 0,
+          "wifiCount": 0,
+          "durationSeconds": 300,
+          "subdivisionCount": 9600,
+          "maxSimultaneousStarts": 2,
+          "note": "Synthetic supported Tap/Hold load. Slide performance is outside the current unverified scope.",
+          "sourceUtf16Length": 20672,
+          "workerParseMs": 129.80000001192093,
+          "pageWorkerRoundTripMs": 130.7000000178814,
+          "driverEvaluationMs": 197.6645000000001,
+          "editable": true,
+          "parsedNotes": 10000
+        }
+      },
+      "browserErrors": []
+    }
+  ]
+}

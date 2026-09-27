@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>maijdata audio validation harness</title>
+    <style>
+      body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem; max-width: 54rem; }
+      button { font: inherit; padding: 0.5rem 0.8rem; }
+      pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+    </style>
+  </head>
+  <body>
+    <h1>Audio timing validation</h1>
+    <p>This runs synthetic reference audio and reports AudioContext software timing. It does not measure physical speaker or Bluetooth latency.</p>
+    <button id="run" type="button">Run browser check</button>
+    <pre id="result">Ready</pre>
+    <script type="module">
+      import { runAudioBrowserHarness } from '../../apps/web/src/audio/audio-browser-harness.ts';
+
+      const button = document.querySelector('#run');
+      const result = document.querySelector('#result');
+      button.addEventListener('click', async () => {
+        button.disabled = true;
+        result.textContent = 'Running…';
+        try {
+          result.textContent = JSON.stringify(await runAudioBrowserHarness(), null, 2);
+        } catch (error) {
+          result.textContent = error instanceof Error ? `${error.name}: ${error.message}\n${error.stack ?? ''}` : String(error);
+        } finally {
+          button.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>
+

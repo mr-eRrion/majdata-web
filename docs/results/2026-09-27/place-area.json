@@ -1,0 +1,25 @@
+{
+  "browser": "153.0.8010.12",
+  "areas": 41,
+  "flows": [
+    "41-source-centers",
+    "fast-cross-family-stroke",
+    "inflight-and-confirmed-duplicate-rejection",
+    "per-note-undo-redo",
+    "add-delete-add-before-acknowledgement",
+    "continuous-right-delete",
+    "queued-circle-add-before-timeline-delete",
+    "independent-Hold-and-TouchHold-pending",
+    "tool-switch-preserves-pending",
+    "TouchHold-timeline-end",
+    "queued-TouchHold-start-before-timeline-end",
+    "zero-Hold-keeps-first-lane",
+    "delete-within-Hold",
+    "export-reopen",
+    "outside-negative-playing-readonly-gates",
+    "secondary-pointer-does-not-cancel-stroke",
+    "blur-cancels-stroke",
+    "document-replacement-gates-input"
+  ],
+  "errors": []
+}

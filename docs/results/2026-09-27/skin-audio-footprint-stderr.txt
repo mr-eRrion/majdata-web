@@ -1,0 +1,7 @@
+Sampling at 0.5s interval... (<ctrl-c> to stop)
+footprint: Unable to analyze process with pid 13143 (try as root?)
+footprint: Unable to analyze process with pid 13141 (try as root?)
+footprint: Unable to analyze process with pid 13142 (try as root?)
+
+Stopping...
+Analyzing and writing output...

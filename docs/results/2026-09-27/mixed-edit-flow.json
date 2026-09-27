@@ -1,0 +1,20 @@
+{
+  "browser": "153.0.8010.12",
+  "fixture": "mixed-edit-flow.maidata.txt",
+  "flows": [
+    "two editable difficulties import with all current note families and pending Slide warning",
+    "shared Slide branch horizontal mirror transforms endpoints and command; undo/redo restores the complete chart",
+    "explicit beat-to-seconds checks cover cross-BPM note timing and connected-route total movement; BPM undo/redo is exact",
+    "reload restores both complete chart snapshots and exact candidate export bytes",
+    "candidate export reopens with full per-difficulty semantics and byte-stable re-export"
+  ],
+  "derivedTimeToleranceSeconds": 1e-8,
+  "manualTiming": {
+    "beat4At120Then240": 1.75,
+    "beat4At120Then180": 1.8333333333333333,
+    "connectedBeat2Start": 1,
+    "connectedWaitSeconds": 0.5,
+    "connectedMoveSeconds": 2
+  },
+  "errors": []
+}

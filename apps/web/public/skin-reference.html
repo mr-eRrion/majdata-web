@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>maijdata · 皮肤静态参考</title>
+    <style>
+      :root {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #e9eff8;
+        background: #0a1018;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+      }
+
+      * { box-sizing: border-box; }
+      body { margin: 0; min-width: 320px; }
+      main { width: min(1440px, calc(100% - 40px)); margin: 0 auto; padding: 44px 0 72px; }
+      header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 22px; margin-bottom: 28px; }
+      .eyebrow { color: #80d9d3; font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+      h1 { margin: 7px 0 0; font-size: clamp(25px, 4vw, 38px); letter-spacing: -.035em; }
+      .lede { max-width: 610px; margin: 12px 0 0; color: #aab6c7; font-size: 14px; line-height: 1.65; }
+      .notice { max-width: 510px; padding: 13px 16px; border: 1px solid #725c2f; border-radius: 10px; background: #211b10; color: #e8d7a9; font-size: 12px; line-height: 1.55; }
+      section { margin-top: 30px; }
+      .section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 0 0 13px; }
+      h2 { margin: 0; font-size: 16px; letter-spacing: -.01em; }
+      .section-note { margin: 0; color: #8795a9; font-size: 12px; }
+      .grid { display: grid; gap: 12px; }
+      .star-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .slide-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .wifi-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .card { min-width: 0; overflow: hidden; border: 1px solid #263347; border-radius: 12px; background: #111a26; }
+      .card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-bottom: 1px solid #263347; }
+      .card-title { margin: 0; font-size: 13px; font-weight: 650; }
+      .badge { border: 1px solid #35485e; border-radius: 999px; padding: 3px 8px; color: #91a6bf; font-size: 10px; white-space: nowrap; }
+      .preview { display: grid; place-items: center; min-height: 166px; padding: 18px; background-color: #0c141f; background-image: linear-gradient(45deg, #172230 25%, transparent 25%), linear-gradient(-45deg, #172230 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #172230 75%), linear-gradient(-45deg, transparent 75%, #172230 75%); background-size: 18px 18px; background-position: 0 0, 0 9px, 9px -9px, -9px 0; }
+      .preview img { display: block; max-width: 100%; max-height: 124px; object-fit: contain; image-rendering: auto; }
+      .meta { display: grid; gap: 4px; padding: 11px 14px 13px; color: #92a0b2; font-size: 10px; line-height: 1.5; }
+      .meta strong { color: #cbd5e2; font-weight: 550; }
+      .slide-card .preview { min-height: 202px; }
+      .slide-card .preview img { max-height: 156px; }
+      .wifi-card .card-top { padding-bottom: 10px; }
+      .wifi-canvas-wrap { padding: 8px; background: #0c141f; }
+      canvas { display: block; width: 100%; height: 270px; }
+      .wifi-meta { padding-top: 8px; }
+      .load-error { margin-top: 20px; border: 1px solid #784a4a; border-radius: 10px; padding: 12px; background: #281717; color: #f0b8b8; }
+      footer { margin-top: 26px; color: #728198; font-size: 11px; line-height: 1.6; }
+      code { color: #9db5d3; }
+
+      @media (max-width: 900px) {
+        main { width: min(100% - 28px, 720px); padding-top: 28px; }
+        .star-grid, .slide-grid, .wifi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      @media (max-width: 560px) {
+        main { width: calc(100% - 22px); }
+        .star-grid, .slide-grid, .wifi-grid { grid-template-columns: 1fr; }
+        .notice { max-width: none; }
+        canvas { height: 250px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <div class="eyebrow">MAIJDTA · LOCAL REFERENCE</div>
+          <h1>皮肤静态参考</h1>
+          <p class="lede">独立素材校准页，展示 Star 变体、Slide 原始条带贴图，以及按 Unity prefab 相对坐标组合的 WiFi 片段。</p>
+        </div>
+        <aside class="notice">当前仅展示静态 PNG 和序列化相对位置。Slide 材质平铺、LineRenderer 的最终描边效果，以及 WiFi 动画都尚未校准。</aside>
+      </header>
+
+      <section aria-labelledby="star-heading">
+        <div class="section-heading">
+          <h2 id="star-heading">Star 素材</h2>
+          <p class="section-note">从 Star prefab 引用的原始皮肤 PNG</p>
+        </div>
+        <div id="star-grid" class="grid star-grid"></div>
+      </section>
+
+      <section aria-labelledby="slide-heading">
+        <div class="section-heading">
+          <h2 id="slide-heading">Slide 条带贴图</h2>
+          <p class="section-note">单张纹理原尺寸比例；不模拟 LineRenderer 重复采样</p>
+        </div>
+        <div id="slide-grid" class="grid slide-grid"></div>
+      </section>
+
+      <section aria-labelledby="wifi-heading">
+        <div class="section-heading">
+          <h2 id="wifi-heading">WiFi prefab 片段</h2>
+          <p class="section-note">11 个 SpriteRenderer 按数组索引、局部位置、旋转、缩放和 size 静态叠放</p>
+        </div>
+        <div id="wifi-grid" class="grid wifi-grid"></div>
+      </section>
+
+      <div id="load-error" class="load-error" hidden></div>
+      <footer>
+        数据来自 <code>rendering.json</code> 的真实对象引用和 Transform。WiFi 样例把每个 SpriteRenderer 的 PNG 按 prefab 的局部坐标合成到同一参考画布，便于检查素材顺序和尺寸；它不代表完整 Slide 渲染器，也不说明运行时动画状态。
+      </footer>
+    </main>
+    <script type="module">
+      const errorBox = document.querySelector("#load-error");
+      const number = (value) => Number(value).toFixed(3).replace(/\.?0+$/, "");
+
+      function card(title, badge, image, metaLines, className = "") {
+        const article = document.createElement("article");
+        article.className = `card ${className}`;
+        const top = document.createElement("div");
+        top.className = "card-top";
+        const heading = document.createElement("h3");
+        heading.className = "card-title";
+        heading.textContent = title;
+        const label = document.createElement("span");
+        label.className = "badge";
+        label.textContent = badge;
+        top.append(heading, label);
+        const preview = document.createElement("div");
+        preview.className = "preview";
+        const img = document.createElement("img");
+        img.src = image.src;
+        img.alt = title;
+        img.width = image.width;
+        img.height = image.height;
+        preview.append(img);
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        for (const line of metaLines) {
+          const row = document.createElement("div");
+          row.textContent = line;
+          meta.append(row);
+        }
+        article.append(top, preview, meta);
+        return article;
+      }
+
+      function rotate(x, y, angle, sx = 1, sy = sx) {
+        const scaledX = x * sx;
+        const scaledY = y * sy;
+        const c = Math.cos(angle);
+        const s = Math.sin(angle);
+        return [scaledX * c - scaledY * s, scaledX * s + scaledY * c];
+      }
+
+      function quatAngle(q) {
+        return Math.atan2(2 * q[3] * q[2], 1 - 2 * q[2] * q[2]);
+      }
+
+      function composeShapes(data, variant) {
+        const rotation = quatAngle(data.wifi.prefab.groupRotation);
+        const groupScale = data.wifi.prefab.groupScale;
+        return data.wifi.prefab.renderers.map((renderer) => {
+          const source = data.wifi.variants[variant][renderer.index];
+          const [x, y] = rotate(renderer.localPosition[0], renderer.localPosition[1], rotation, groupScale[0], groupScale[1]);
+          const childAngle = quatAngle(renderer.localRotation);
+          return {
+            ...renderer,
+            image: source.image,
+            pivot: source.pivot,
+            centerX: x,
+            centerY: y,
+            angle: rotation + childAngle,
+            width: renderer.size[0] * groupScale[0] * renderer.localScale[0],
+            height: renderer.size[1] * groupScale[1] * renderer.localScale[1],
+          };
+        });
+      }
+
+      function shapeBounds(shapes) {
+        const points = [];
+        for (const shape of shapes) {
+          for (const u of [0, 1]) for (const v of [0, 1]) {
+            const x = (u - shape.pivot[0]) * shape.width;
+            const y = (1 - v - shape.pivot[1]) * shape.height;
+            const c = Math.cos(shape.angle);
+            const s = Math.sin(shape.angle);
+            points.push([shape.centerX + x * c - y * s, shape.centerY + x * s + y * c]);
+          }
+        }
+        return {
+          minX: Math.min(...points.map((p) => p[0])),
+          maxX: Math.max(...points.map((p) => p[0])),
+          minY: Math.min(...points.map((p) => p[1])),
+          maxY: Math.max(...points.map((p) => p[1])),
+        };
+      }
+
+      async function drawWifi(canvas, data, variant) {
+        const shapes = composeShapes(data, variant);
+        const images = await Promise.all(shapes.map(({ image }) => new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => resolve(img);
+          img.onerror = () => reject(new Error(`PNG could not be loaded: ${image.src}`));
+          img.src = image.src;
+        })));
+        const rect = canvas.getBoundingClientRect();
+        const ratio = Math.min(window.devicePixelRatio || 1, 2);
+        const width = Math.max(1, Math.round(rect.width * ratio));
+        const height = Math.max(1, Math.round(rect.height * ratio));
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, width, height);
+        ctx.imageSmoothingEnabled = true;
+        const bounds = shapeBounds(shapes);
+        const spanX = bounds.maxX - bounds.minX;
+        const spanY = bounds.maxY - bounds.minY;
+        const margin = 18 * ratio;
+        const scale = Math.min((width - margin * 2) / spanX, (height - margin * 2) / spanY);
+        const screenX = (x) => margin + (x - bounds.minX) * scale;
+        const screenY = (y) => height - margin - (y - bounds.minY) * scale;
+        shapes.forEach((shape, index) => {
+          const img = images[index];
+          const w = shape.width * scale;
+          const h = shape.height * scale;
+          ctx.save();
+          ctx.translate(screenX(shape.centerX), screenY(shape.centerY));
+          ctx.rotate(-shape.angle);
+          ctx.drawImage(img, -shape.pivot[0] * w, -(1 - shape.pivot[1]) * h, w, h);
+          ctx.restore();
+        });
+        canvas.dataset.ready = "true";
+      }
+
+      function wifiCard(variant, data) {
+        const article = document.createElement("article");
+        article.className = "card wifi-card";
+        const top = document.createElement("div");
+        top.className = "card-top";
+        const heading = document.createElement("h3");
+        heading.className = "card-title";
+        heading.textContent = `WiFi · ${variant}`;
+        const badge = document.createElement("span");
+        badge.className = "badge";
+        badge.textContent = "11 片 · PPU 100";
+        top.append(heading, badge);
+        const wrap = document.createElement("div");
+        wrap.className = "wifi-canvas-wrap";
+        const canvas = document.createElement("canvas");
+        canvas.setAttribute("aria-label", `WiFi ${variant} prefab 的静态片段组合`);
+        canvas.width = 900;
+        canvas.height = 540;
+        wrap.append(canvas);
+        const meta = document.createElement("div");
+        meta.className = "meta wifi-meta";
+        const groupDegrees = quatAngle(data.wifi.prefab.groupRotation) * 180 / Math.PI;
+        meta.textContent = `Wifi Base · ${number(groupDegrees)}°；root #${data.wifi.prefab.rootId}；按 renderer index 0–10 叠放`;
+        article.append(top, wrap, meta);
+        drawWifi(canvas, data, variant).catch((error) => {
+          errorBox.hidden = false;
+          errorBox.textContent = error.message;
+        });
+        return article;
+      }
+
+      try {
+        const response = await fetch("./skin-reference-data.json");
+        if (!response.ok) throw new Error(`Reference data returned ${response.status}`);
+        const data = await response.json();
+
+        const variantNames = { normal: "普通", each: "Each", break: "Break", ex: "EX" };
+        const starGrid = document.querySelector("#star-grid");
+        for (const star of data.stars) {
+          starGrid.append(card(`Star · ${variantNames[star.variant]}`, `Sprite #${star.spriteId}`, star.image, [
+            `rect ${star.rect.width}×${star.rect.height} · pivot (${number(star.pivot[0])}, ${number(star.pivot[1])})`,
+            `PPU ${star.ppu} · 原图 ${star.image.width}×${star.image.height}`,
+          ]));
+        }
+
+        const slideGrid = document.querySelector("#slide-grid");
+        for (const slide of data.slideTextures) {
+          slideGrid.append(card(`Slide · ${variantNames[slide.variant]}`, `Material #${slide.materialId}`, slide.image, [
+            `${slide.materialName} → Texture #${slide.textureId}`,
+            `${slide.textureWidth}×${slide.textureHeight} · MainTex scale (${slide.textureScale.join(", ")})`,
+          ], "slide-card"));
+        }
+
+        const wifiGrid = document.querySelector("#wifi-grid");
+        for (const variant of ["normal", "each", "break"]) wifiGrid.append(wifiCard(variant, data));
+        for (const img of document.images) img.loading = "lazy";
+      } catch (error) {
+        errorBox.hidden = false;
+        errorBox.textContent = `${error.message}. 请从 Vite 本地服务打开 /skin-reference.html。`;
+      }
+    </script>
+  </body>
+</html>

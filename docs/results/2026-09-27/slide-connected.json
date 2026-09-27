@@ -1,0 +1,26 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "legacy connected branches import with one head, one total duration, continuous length-weighted segments and exact bytes",
+    "route editing keeps draft isolated and Escape discards all fragments",
+    "append, right-click remove-last, single-transaction save, undo/redo, schema 5 restore and export/reopen",
+    "promoting a shared-head branch preserves its complete connected route and head modifiers",
+    "new connected placement rejects a disconnected stroke, accepts a continuous stroke, records one transaction and preserves the selected whole-route timing",
+    "modern multi-bracket and Wi-Fi chaining remain read-only with exact source preservation"
+  ],
+  "errors": [],
+  "build": {
+    "entry": "./assets/index-Cc8wAqPq.js",
+    "entrySha256": "76e658a393f110d18b0a3eeb83cd84c86740e814ae17b4685c06f527700125a7",
+    "worker": "assets/chart.worker-aspj87W7.js",
+    "workerSha256": "4ad3810c7cd9f77da082f4558cf2608f1f45029f313ac9c61a85c2a5aca531dd",
+    "parserSchema": 4,
+    "checkpointSchema": 5,
+    "wasmBytes": 5924046
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  }
+}

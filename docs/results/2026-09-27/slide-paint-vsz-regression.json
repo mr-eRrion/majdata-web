@@ -1,0 +1,11 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "draw 2-6, auto-commit once, undo/redo/export/reopen",
+    "draw 3<7, auto-commit once, undo/redo/export/reopen",
+    "draw 8>2, auto-commit once, undo/redo/export/reopen",
+    "unsupported full-candidate winner rejected without fallback, then valid redraw",
+    "center start ignored and Escape during drawing cancels without history"
+  ],
+  "errors": []
+}

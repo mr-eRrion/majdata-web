@@ -1,0 +1,49 @@
+{
+  "environment": {
+    "browser": "153.0.8010.12",
+    "mode": "headless; foreground page; no CPU/network throttling",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4",
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 1
+  },
+  "workload": {
+    "noteCount": 1000,
+    "holdCount": 10,
+    "slideSegments": 0,
+    "durationSeconds": 300,
+    "subdivisionCount": 9600,
+    "maxSimultaneousStarts": 1,
+    "note": "Synthetic supported Tap/Hold load. Slide performance is outside the current unverified scope."
+  },
+  "workloadRole": "normal acceptance",
+  "initializationMs": 151.19999998807907,
+  "warmImport": {
+    "samples": 10,
+    "medianMs": 29.599999994039536,
+    "p95Ms": 82.29999999701977,
+    "scope": "page postMessage through real WASM parser + TS model + snapshot receipt; file read and React paint excluded"
+  },
+  "frames": {
+    "count": 292,
+    "medianMs": 16.699999999999818,
+    "p95Ms": 16.800000000000182,
+    "over33_3Fraction": 0.017123287671232876
+  },
+  "seek": {
+    "p95Ms": 47.599999994039536,
+    "scope": "input dispatch through two animation frames; no loaded media"
+  },
+  "inputFeedback": {
+    "p95Ms": 31.899999991059303,
+    "samples": 10,
+    "scope": "real pointerdown to two animation frames; placement preview, before Worker commit"
+  },
+  "mainPageJsHeapUsedBytes": 16164680,
+  "memoryLimitations": "CDP page heap is not total memory; excludes some worker/WASM/GPU/audio allocations. No physical output latency claim.",
+  "errors": []
+}

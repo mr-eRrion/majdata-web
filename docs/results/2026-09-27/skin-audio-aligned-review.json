@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "sources": {"rss": "/tmp/maijdata-skin-audio-resource-results-aligned.json", "footprint": "/tmp/maijdata-footprint-aligned.json", "status": "/tmp/maijdata-footprint-aligned-status.json"},
+  "coverage": {"rssSamples": 140, "footprintSamples": 21, "status": "complete", "analysisFailurePids": [], "missingFromFootprint": []},
+  "alignment": {
+    "algorithm": "Convert RSS sampledAt and footprint start_time.date to UTC; match footprint samples to nearest RSS timestamp.",
+    "withinRssWindow": {"count": 16, "medianDifferenceMs": 12.5, "maxDifferenceMs": 47},
+    "blankWindow": {"selection": "First 11 explicit blank samples by array order, not phase label.", "count": 11, "first": "2026-09-27T10:40:15.958Z", "last": "2026-09-27T10:40:17.064Z", "elapsedMs": [7, 1113], "footprintIndexes": [5, 6], "footprintMiB": [396.757, 414.585]},
+    "phaseLabelGap": "Two later RSS samples (elapsed 1220/1334 ms) remain tagged about-blank-baseline after this explicit window; excluded from baseline."
+  },
+  "footprint": {
+    "unit": "MiB; top-level total footprint. Per-PID values overlap slightly.",
+    "blankToPeak": {"blankMedian": 405.671, "peak": 806.478, "increase": 400.807, "peakIndex": 18, "peakAt": "2026-09-27T18:40:22.721+08:00", "nearestRssPhase": "audio-08-waveform-ready", "nearestRssDeltaMs": 10},
+    "blankToPeakPidGroupsMiB": {"renderer": [113.691, 402.348], "gpu": [196.462, 273.110], "blankShareOfPidSumPercent": {"renderer": 27.89, "gpu": 48.20}, "peakShareOfPidSumPercent": {"renderer": 49.70, "gpu": 33.74}},
+    "trackReadyFirstLast": {"total": [756.759, 747.603], "rendererGroup": [342.567, 346.942], "gpuGroup": [283.079, 269.689], "rendererPid15984": [257.174, 266.846]},
+    "rssPeakRelation": "RSS peak is audio-09 decode-and-waveform at 10:40:22.874Z, 153 ms after footprint peak; the 0.5 s footprint sampling missed the short peak."
+  },
+  "rss": {
+    "unit": "MiB; byte values divided by 1048576.",
+    "blankBaseline": 796.562,
+    "peak": {"total": 1290.562, "deltaFromBlank": 494.0, "phase": "audio-09-decode-and-waveform"},
+    "blankToPeakTypeMiB": {"renderer": [351.281, 800.359], "gpu": [121.438, 111.266], "audioService": [0, 71.688], "blankSharePercent": {"renderer": 44.10, "gpu": 15.25}, "peakSharePercent": {"renderer": 62.02, "gpu": 8.62}},
+    "stageMiB": [["blank", 796.562], ["appBeforeSkinDecode", 993.344], ["skinDecoded", 992.719], ["previewReady", 1015.953], ["firstTrackReady", 1235.906], ["lastTrackReady", 1246.734]],
+    "stableReady": {"tracks": 11, "first": 1235.906, "last": 1246.734, "growthBytes": 11354112, "growthMiB": 10.828, "slopeBytesPerReplacement": 814583, "slopeMiBPerReplacement": 0.776847, "rSquared": 0.74318, "adjacentIncreases": 8, "rendererGroup": [747.188, 758.562], "gpuGroup": [111.047, 111.094], "rendererPid15984": [555.75, 566.453]},
+    "afterPageCloseMedian": 490.266
+  },
+  "assessment": {
+    "supported": ["RSS peak growth is renderer-dominated; GPU RSS is below blank baseline.", "The bounded 11-load stable RSS trend is positive; renderer grows while GPU RSS is flat.", "Top-level footprint rises about 400.8 MiB from timestamp-matched blank and includes GPU cost; footprint GPU share also rises blank-to-peak."],
+    "notEstablished": ["Process totals do not identify retained JS objects or prove a leak.", "RSS/footprint cannot separate decoded PCM, decoder/Web Audio allocations, allocator retention, or other page resources.", "Budget pass/fail is not assessed: the budget is not explicitly RSS-specific and the metrics are not interchangeable."]
+  }
+}

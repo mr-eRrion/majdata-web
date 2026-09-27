@@ -1,0 +1,40 @@
+{
+  "name": "maijdata",
+  "private": true,
+  "version": "0.1.0",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "packageManager": "pnpm@12.4.1",
+  "engines": {
+    "node": "26.9.0"
+  },
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "setup:wasm": "bash tools/dotnet/setup.sh",
+    "prepare:skin": "node tools/visual-assets/prepare-classic-skin.mjs && node tools/visual-assets/prepare-rendering.mjs && node tools/visual-assets/prepare-material-sample.mjs && node tools/visual-assets/prepare-slide-paths.mjs && node tools/visual-assets/prepare-slide-match-paths.mjs && node tools/visual-assets/prepare-check-icons.mjs",
+    "check:skin": "node tools/visual-assets/prepare-classic-skin.mjs --check-packaged && node tools/visual-assets/prepare-rendering.mjs --check && node tools/visual-assets/prepare-material-sample.mjs --check && node tools/visual-assets/prepare-slide-paths.mjs --check && node tools/visual-assets/prepare-slide-match-paths.mjs --check && node tools/visual-assets/prepare-check-icons.mjs --check-packaged",
+    "build:wasm": "node tools/dotnet/publish-majsimai-browser.mjs",
+    "build:web": "pnpm check:skin && tsc --noEmit && vite build --config vite.config.ts && node tools/package-release.mjs",
+    "build": "pnpm build:wasm && pnpm build:web",
+    "preview": "vite preview --config vite.config.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "pnpm typecheck && pnpm test && pnpm build",
+    "test:geometry": "node --test tools/geometry-export/*.test.mjs",
+    "test:browser": "node tests/editor-browser.mjs http://127.0.0.1:4173/ && node tests/p3-browser.mjs http://127.0.0.1:4173/ && node tests/failure-browser.mjs http://127.0.0.1:4173/"
+  },
+  "dependencies": {
+    "pixi.js": "8.21.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.6.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.0",
+    "vitest": "5.0.1"
+  }
+}

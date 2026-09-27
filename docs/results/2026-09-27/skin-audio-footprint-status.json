@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "command": "/usr/bin/footprint",
+  "args": [
+    "--sample",
+    "0.5",
+    "--targetChildren",
+    "--pid",
+    "13129",
+    "--json",
+    "/tmp/maijdata-footprint.json"
+  ],
+  "browserPid": 13129,
+  "jsonPath": "/tmp/maijdata-footprint.json",
+  "stdoutPath": "/tmp/maijdata-footprint.stdout.log",
+  "stderrPath": "/tmp/maijdata-footprint.stderr.log",
+  "status": "complete",
+  "requestedStopSignal": "SIGINT",
+  "exitCode": 0,
+  "signal": null,
+  "spawnError": null,
+  "timedOut": false,
+  "jsonValid": true,
+  "jsonSamples": 20,
+  "jsonError": null,
+  "logWriteError": null
+}

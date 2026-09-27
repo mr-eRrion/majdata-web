@@ -1,0 +1,118 @@
+{
+  "environment": {
+    "browser": "153.0.8010.12",
+    "mode": "headless foreground, no CPU/network throttling, no media",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4",
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 1,
+    "entry": "./assets/index-DjIbxyf0.js"
+  },
+  "workload": {
+    "mode": "default",
+    "noteCount": 1000,
+    "logicalNoteCount": 1000,
+    "slideNoteCount": 100,
+    "ordinaryNoteCount": 900,
+    "pathCount": 300,
+    "segmentCount": 800,
+    "segmentCountDefinition": "connected non-Wi-Fi line segments; atomic Wi-Fi paths are counted separately",
+    "wifiCount": 100,
+    "holdCount": 90,
+    "tapCount": 810,
+    "maximumSimultaneousStarts": 2,
+    "maxSimultaneousStarts": 2,
+    "firstSlide": {
+      "seconds": 0,
+      "beat": 0,
+      "position": 1,
+      "startLane": 1
+    },
+    "startLaneOrder": "Slides 1..8 cyclic; ordinary notes 2..8,1 cyclic",
+    "placement": {
+      "chartSeconds": 300,
+      "cellCount": 9600,
+      "cellSeconds": 0.03125,
+      "slideStartsSeconds": {
+        "first": 0,
+        "last": 291
+      },
+      "slideEndsSeconds": {
+        "first": 8.5,
+        "last": 299.5
+      },
+      "denseClusterSeconds": null,
+      "normalStartsSeconds": {
+        "first": 0.03125,
+        "last": 298
+      },
+      "latestHoldEndSeconds": 300
+    },
+    "parameters": {
+      "bpm": 120,
+      "subdivision": 64,
+      "slidePathsPerNote": [
+        "4-segment straight",
+        "4-segment alternating <> arc",
+        "1 atomic Wi-Fi"
+      ],
+      "slideWaitSeconds": 0.5,
+      "slideTotalMoveSeconds": 8,
+      "slideWaitMoveSource": "0.5##8",
+      "holdSource": "h[4:4]",
+      "holdSeconds": 2,
+      "headBreakCount": 4,
+      "headExCount": 8,
+      "slideBreakPathCount": 15,
+      "modifiersAreSerializedOncePerLogicalSlide": true
+    }
+  },
+  "role": "uniform mixed 1k workload",
+  "warmImportReady": {
+    "samples": 10,
+    "p95Ms": 133.80000001192093,
+    "scope": "native file change through skin-ready and two animation frames; includes automation readiness polling overhead; no media loaded"
+  },
+  "warmImport": {
+    "samples": 10,
+    "medianMs": 70,
+    "p95Ms": 79.5,
+    "scope": "postMessage through WASM/Core to snapshot; excludes file read, React paint and skin preload; no media loaded"
+  },
+  "frames": {
+    "durationMs": 15000,
+    "count": 900,
+    "medianMs": 16.69999999999891,
+    "p95Ms": 16.799999999999272,
+    "over33_3Fraction": 0
+  },
+  "visibleStrips": {
+    "playbackPeak": 20,
+    "appearanceSweepPeak": {
+      "seconds": 5.676,
+      "count": 20,
+      "softwareSeconds": 5.676
+    },
+    "samples": 100,
+    "scope": "actual nonzero-alpha Pixi line meshes; Wi-Fi arrows and stars excluded; opt-in counter only"
+  },
+  "seek": {
+    "p95Ms": 33.69999998807907,
+    "scope": "input event to two animation frames; no loaded media"
+  },
+  "inputFeedback": {
+    "samples": 10,
+    "p95Ms": 33.900000005960464,
+    "scope": "route-save pointerdown to two animation frames"
+  },
+  "routeCommit": {
+    "samples": 10,
+    "p95Ms": 68.09999999403954,
+    "scope": "real save click through Worker snapshot and two animation frames; one segment removed, then undone"
+  },
+  "errors": []
+}

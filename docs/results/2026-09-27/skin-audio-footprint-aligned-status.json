@@ -1,0 +1,78 @@
+{
+  "enabled": true,
+  "command": "/usr/bin/footprint",
+  "args": [
+    "--sample",
+    "0.5",
+    "--targetChildren",
+    "--pid",
+    "15968",
+    "--json",
+    "/tmp/maijdata-footprint-aligned.json"
+  ],
+  "browserPid": 15968,
+  "jsonPath": "/tmp/maijdata-footprint-aligned.json",
+  "stdoutPath": "/tmp/maijdata-footprint-aligned.stdout.log",
+  "stderrPath": "/tmp/maijdata-footprint-aligned.stderr.log",
+  "status": "complete",
+  "collectorStatus": "finished",
+  "coverageStatus": "complete",
+  "requestedStopSignal": "SIGINT",
+  "exitCode": 0,
+  "signal": null,
+  "spawnError": null,
+  "nonzeroExit": false,
+  "timedOut": false,
+  "jsonValid": true,
+  "jsonSamples": 21,
+  "jsonError": null,
+  "vmObjectDirtyAnalysis": true,
+  "coverage": {
+    "rssPids": [
+      15968,
+      15976,
+      15977,
+      15978,
+      15982,
+      15983,
+      15984,
+      16079
+    ],
+    "footprintPids": [
+      15968,
+      15976,
+      15977,
+      15978,
+      15982,
+      15983,
+      15984,
+      16079
+    ],
+    "rssPidSampleCounts": {
+      "15968": 133,
+      "15976": 133,
+      "15977": 133,
+      "15978": 133,
+      "15982": 133,
+      "15983": 133,
+      "15984": 133,
+      "16079": 121
+    },
+    "footprintPidSampleCounts": {
+      "15968": 21,
+      "15976": 21,
+      "15977": 21,
+      "15978": 21,
+      "15982": 21,
+      "15983": 21,
+      "15984": 21,
+      "16079": 14
+    },
+    "missingFromFootprint": [],
+    "footprintOnlyPids": [],
+    "analysisFailurePids": [],
+    "analysisFailureLines": [],
+    "jsonSampleDiagnostics": []
+  },
+  "logWriteError": null
+}

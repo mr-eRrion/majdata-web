@@ -1,0 +1,70 @@
+{
+  "flows": [
+    "pending early-click rejection and modal cancel without history",
+    "default one-beat line placement, single undo transaction, export/reopen",
+    "select, rotate whole path, drag in lane/time, copy/paste and reopen",
+    "manual wait, ignored middle lane, Wi-Fi opposite endpoint without modal",
+    "zero wait and zero movement remain legal through actual parser",
+    "cross-BPM waiting/movement pair survives actual WASM export/reparse",
+    "head and path Break properties, explicit duration edit, untouched expression preservation",
+    "same-beat same-lane separate Slide events remain distinct through candidate export",
+    "circle-area arc placement, middle template, head deletion and undo",
+    "endpoint/path/start-position properties and modified Slide checkpoint reload/restore"
+  ],
+  "flowCount": 10,
+  "finalNotes": [
+    {
+      "id": "1:28:0",
+      "kind": "slide",
+      "beat": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "position": 2,
+      "firework": false,
+      "forceStar": false,
+      "order": 0,
+      "slide": {
+        "command": ">",
+        "endPosition": 4,
+        "head": "tap",
+        "slideBreak": false,
+        "wait": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 1
+        },
+        "move": {
+          "kind": "beatsAtStartBpm",
+          "division": 4,
+          "beats": 1
+        }
+      },
+      "modifiers": {
+        "break": true,
+        "ex": false
+      },
+      "sourceRange": {
+        "start": 28,
+        "end": 38
+      },
+      "isEach": false,
+      "isSlideEach": false,
+      "startSeconds": 0,
+      "moveStartSeconds": 0.5,
+      "endSeconds": 1,
+      "bpm": 120
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "deviceScaleFactor": 1,
+  "productionAssets": {
+    "index-DqyGKUgG.js": "9cf4a8c8d2bbe51b8121ef806c209c6d5a2c94576478336512ebc7f1bfd99ca1",
+    "chart.worker-BspSFETD.js": "bbbc52bca54ca5f0261fd7f1739fe56950d83521dbea78e01fefceae55f1372d"
+  }
+}

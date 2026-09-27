@@ -1,0 +1,1364 @@
+{
+  "formatVersion": 1,
+  "evidence": {
+    "status": "source-and-prefab-extraction-only",
+    "playerBehaviorConfirmed": false,
+    "reason": "No executable build corresponding to this source commit was available for runtime comparison."
+  },
+  "source": {
+    "repository": "https://github.com/TeamMajdata/MajdataPlay",
+    "commit": "850f3e3eac354d328b1e9e8bde50b64c4946faf5",
+    "license": "See vendor/MajdataPlay-geometry/LICENSE",
+    "unityEditorVersion": "6000.3.17f1",
+    "files": [
+      {
+        "path": "LICENSE",
+        "gitBlobSha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      },
+      {
+        "path": "ProjectSettings/ProjectVersion.txt",
+        "gitBlobSha1": "33390a1c1701aac790224774e03aaf05b826ec5e",
+        "sha256": "e2800d2bef343af729f23b62f11a40811d38b46ae04a437780923c335a76f810"
+      },
+      {
+        "path": "Assets/Scenes/Game.unity",
+        "gitBlobSha1": "4b5f13d15322a00d43c719bda892554595191ad7",
+        "sha256": "4e1e9623cbfb9eb0b08d7a2cdaf3f0e6005ce064d1086a44196b29db130ef36d"
+      },
+      {
+        "path": "Assets/Scenes/Game.unity.meta",
+        "gitBlobSha1": "4664113f3a8b9595fe5c3c0c7c43a77d7bc99fd9",
+        "sha256": "fa0878eb9b5c06d6ac610d08fadf9e90aeed5457fb46d920e4fca398853d9f56"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteLoader.cs",
+        "gitBlobSha1": "5becfd2901f99d68723de4699bf1cb3553e3db2b",
+        "sha256": "76958a6ae6926d444f089262663a9d8ea883b9080893f6b3fb5844214b9d75b9"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteLoader.cs.meta",
+        "gitBlobSha1": "47f20f3739f77394beb88688389a17423883934e",
+        "sha256": "7b6114d6564af22a883f32c1d83cd5e7d7284ccace6870ba66d91ae86c82e199"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteBehaviours/SlideDrop.cs",
+        "gitBlobSha1": "51774cd3effc62483f07c67c94929dcda59592ca",
+        "sha256": "3c1fef15f2b6e08494bb15174447c02c0ccbcffce0c3ab4db1f53d52c048d808"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteBehaviours/WifiDrop.cs",
+        "gitBlobSha1": "3ad4de0078437c3d3f061c1b4cb7a69771b61403",
+        "sha256": "d34ad0d3962c515488c96424e29565c9362ac0b7ff74bd1cb707cd7a16ceb625"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteBehaviours/SingleSlideBase.cs",
+        "gitBlobSha1": "8445f68b32f5f251a27d6a9203b38c5b6d0f8f28",
+        "sha256": "30016b6d81798df34d51602d63b2532e62c0f99a56e77bd71e950df7756a6df2"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/NoteBehaviours/SlideOK.cs.meta",
+        "gitBlobSha1": "bcb99f936b7f20cefb4d60eda5dd9c96f9f512e1",
+        "sha256": "4702cae812a5348c93513421bad23f531e8e2d549ee390f844d32705f7c10bd5"
+      },
+      {
+        "path": "Assets/Scripts/Scenes/Game/Utils/NoteHelper.cs",
+        "gitBlobSha1": "7fcd6a34c755ad3db8b7294687655844ef44711b",
+        "sha256": "40b387dcd0b00fcd29cb82504c5aa9ea3e6eba16d53778ddc29718a760592ff7"
+      },
+      {
+        "path": "Assets/Scripts/IO/Base/Enums/SensorArea.cs",
+        "gitBlobSha1": "e7bf4242d68d87380a0deb8bbd69afc80411c760",
+        "sha256": "63b79a354b70ce4afa1cbc9cb0dbf538bacf38b1736c5c95f75cc1ac75bb4b23"
+      },
+      {
+        "path": "Assets/Scripts/IO/Base/Extensions/SensorAreaExtensions.cs",
+        "gitBlobSha1": "51cab02e85a93aa491e3a1952d2b0e2ba9886025",
+        "sha256": "816a3eda4df094148b22781d1c09b72955ab1b2f635857e5706e66cee09bae51"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Just_str.prefab",
+        "gitBlobSha1": "54f6b50388d85d4882b102aeff56a0c3e06bb685",
+        "sha256": "4053d3bad31f6c70d8245b192b2f59ecc9a63a3de734073d59c7755abb850e6a"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Just_str.prefab.meta",
+        "gitBlobSha1": "cdee8b27cb1bb529be510ac525bc11eed4e69cc1",
+        "sha256": "c555ac644a847cbf73e9e222ee2806d1162d2f8d9ea2588cc1de8a90f78b837d"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Star_Line_3.prefab",
+        "gitBlobSha1": "d88272d7c87dfe8219c4e87e38703797cee17a15",
+        "sha256": "f017e01d9e1c65f90bfff09ce38462f5aa64e16f7ff997b6f1d92884ff5962c1"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Star_Line_3.prefab.meta",
+        "gitBlobSha1": "6bec613ff97e5cbf4549ba1ae808a5ba7b05b79a",
+        "sha256": "d6df60190d3603bb3337787e3ae45cf3ea8c57e02ada73038c9ef7dddba09312"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Star_Circle_3.prefab",
+        "gitBlobSha1": "39ff38ccfe0462a8e2971d87fa915865b64f9bd6",
+        "sha256": "38dcc797d006a9712c3b25157fb09487202cba58e4d9ee1f78e3208e86d95c98"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Star_Circle_3.prefab.meta",
+        "gitBlobSha1": "f9c06653c7876fe5e5d25aaf2f5245428f91c375",
+        "sha256": "dc8fd75709d5410c8ad1cf870400cf89ed9cfe424b6890fbe54240f397c4b42a"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Slide_Wifi.prefab",
+        "gitBlobSha1": "f1fd15f08ff5f384e7c8c40ded7690030f4b02eb",
+        "sha256": "c644fba4bcffb29f73324f458f00d997f8ec3afe444768f70bb1f9847c452168"
+      },
+      {
+        "path": "Assets/Prefabs/Game/Slides/Slide_Wifi.prefab.meta",
+        "gitBlobSha1": "b8de49fc9fab97334d540ec19f2d06f3ac0c5352",
+        "sha256": "4c3663f3a9c087ec65e1679013e6f9585c4db43c8140c7c4686ca8896c88f8b9"
+      }
+    ]
+  },
+  "generator": {
+    "path": "tools/geometry-export/extract.mjs",
+    "sha256": "06f88cb9a251bfcbc14679eced628e3dbf7e3dc1087199c33a3ab9a9a8b7172f",
+    "command": "node tools/geometry-export/extract.mjs"
+  },
+  "slides": [
+    {
+      "id": "line3",
+      "sourcePrefab": "Assets/Prefabs/Game/Slides/Star_Line_3.prefab",
+      "sourceMeta": "Assets/Prefabs/Game/Slides/Star_Line_3.prefab.meta",
+      "sceneReference": {
+        "component": "NoteLoader.slidePrefab",
+        "index": 0,
+        "guid": "cd5abf6f94eca144ca09399678cf2b5b"
+      },
+      "terminalSlideOK": {
+        "name": "Just_str",
+        "prefabPath": "Assets/Prefabs/Game/Just_str.prefab",
+        "prefabGuid": "c630796fc37682545877a45dfe2be198",
+        "sourceTransformId": "310387828536440237",
+        "overrides": {
+          "m_RootOrder": "13",
+          "m_LocalPosition.x": "3.45",
+          "m_LocalPosition.y": "0.2",
+          "m_LocalPosition.z": "0",
+          "m_LocalRotation.w": "-0.8321811",
+          "m_LocalRotation.x": "-0",
+          "m_LocalRotation.y": "-0",
+          "m_LocalRotation.z": "0.554504",
+          "m_LocalEulerAnglesHint.x": "0",
+          "m_LocalEulerAnglesHint.y": "0",
+          "m_LocalEulerAnglesHint.z": "-67.353004"
+        },
+        "isSlideOK": true,
+        "slideOkScriptGuid": "f6edbf0e2c317614c9224783e8d8c101",
+        "resolvedPosition": [
+          3.45,
+          0.2,
+          0
+        ],
+        "resolvedRotation": [
+          0,
+          0,
+          0.554504,
+          -0.832181
+        ],
+        "resolvedScale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometry": {
+        "coordinateSpace": "Unity XY, units relative to prefab root; +Y up",
+        "authoredPrefabRootTransform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "runtimeRootRotation": "-45 degrees * (startPosition - 1)",
+        "runtimeRootRotationDegAtSampleStart": 0
+      },
+      "visualStrips": [
+        {
+          "order": 0,
+          "name": "Slide_0.93",
+          "position": [
+            2.018722,
+            3.995617,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 1,
+          "name": "Slide_0.86",
+          "position": [
+            2.200564,
+            3.556611,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Slide_0.79",
+          "position": [
+            2.382406,
+            3.117606,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Slide_0.72",
+          "position": [
+            2.564248,
+            2.678601,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Slide_0.65",
+          "position": [
+            2.74609,
+            2.239596,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Slide_0.58",
+          "position": [
+            2.927932,
+            1.800591,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Slide_0.51",
+          "position": [
+            3.109774,
+            1.361586,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Slide_0.44",
+          "position": [
+            3.291616,
+            0.92258,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Slide_0.37",
+          "position": [
+            3.473458,
+            0.483575,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Slide_0.3",
+          "position": [
+            3.655299,
+            0.04457,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 10,
+          "name": "Slide_0.23",
+          "position": [
+            3.837141,
+            -0.394435,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 11,
+          "name": "Slide_0.16",
+          "position": [
+            4.018983,
+            -0.83344,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 12,
+          "name": "Slide_0.09000003",
+          "position": [
+            4.200825,
+            -1.272445,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "motionPath": {
+        "pointMeaning": "SlideDrop.LoadSlidePath StarPositions: ring start, each strip Transform.position, ring end",
+        "sampleStartPosition": 1,
+        "sampleEndPosition": 3,
+        "ringRadius": 4.8,
+        "points": [
+          [
+            1.83688,
+            4.434622,
+            0
+          ],
+          [
+            2.018722,
+            3.995617,
+            0
+          ],
+          [
+            2.200564,
+            3.556611,
+            0
+          ],
+          [
+            2.382406,
+            3.117606,
+            0
+          ],
+          [
+            2.564248,
+            2.678601,
+            0
+          ],
+          [
+            2.74609,
+            2.239596,
+            0
+          ],
+          [
+            2.927932,
+            1.800591,
+            0
+          ],
+          [
+            3.109774,
+            1.361586,
+            0
+          ],
+          [
+            3.291616,
+            0.92258,
+            0
+          ],
+          [
+            3.473458,
+            0.483575,
+            0
+          ],
+          [
+            3.655299,
+            0.04457,
+            0
+          ],
+          [
+            3.837141,
+            -0.394435,
+            0
+          ],
+          [
+            4.018983,
+            -0.83344,
+            0
+          ],
+          [
+            4.200825,
+            -1.272445,
+            0
+          ],
+          [
+            4.434622,
+            -1.83688,
+            0
+          ]
+        ],
+        "temporalInterpolation": "not asserted by this geometry export"
+      },
+      "durationWeights": {
+        "connectionGroupWeight": 14,
+        "basis": "prefab root Transform.childCount, including terminal SlideOK child",
+        "applicableWhen": "NoteLoader.CreateSlideGroup connection Slide total-time allocation"
+      },
+      "counts": {
+        "prefabRootDirectChildren": 14,
+        "visualStrips": 13,
+        "motionPathPoints": 15,
+        "connectionWeight": 14
+      }
+    },
+    {
+      "id": "circle3",
+      "sourcePrefab": "Assets/Prefabs/Game/Slides/Star_Circle_3.prefab",
+      "sourceMeta": "Assets/Prefabs/Game/Slides/Star_Circle_3.prefab.meta",
+      "sceneReference": {
+        "component": "NoteLoader.slidePrefab",
+        "index": 7,
+        "guid": "172567737fd6e7c47a7b079c25acbdf6"
+      },
+      "terminalSlideOK": {
+        "name": "Just_curv",
+        "prefabPath": null,
+        "prefabGuid": null,
+        "sourceTransformId": null,
+        "overrides": {},
+        "isSlideOK": true,
+        "slideOkScriptGuid": "f6edbf0e2c317614c9224783e8d8c101",
+        "resolvedPosition": [
+          4.64,
+          -0.01,
+          0
+        ],
+        "resolvedRotation": [
+          0,
+          0,
+          0.707107,
+          -0.707107
+        ],
+        "resolvedScale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometry": {
+        "coordinateSpace": "Unity XY, units relative to prefab root; +Y up",
+        "authoredPrefabRootTransform": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "runtimeRootRotation": "-45 degrees * (startPosition - 1)",
+        "runtimeRootRotationDegAtSampleStart": 0
+      },
+      "visualStrips": [
+        {
+          "order": 0,
+          "name": "Slide_0.984375",
+          "position": [
+            2.262704,
+            4.233222,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.970031,
+            0.24298
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 1,
+          "name": "Slide_0.96875",
+          "position": [
+            2.666737,
+            3.991054,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.95694,
+            0.290285
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Slide_0.953125",
+          "position": [
+            3.045088,
+            3.71045,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.941544,
+            0.33689
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Slide_0.9375",
+          "position": [
+            3.394113,
+            3.394113,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.92388,
+            0.382683
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Slide_0.921875",
+          "position": [
+            3.71045,
+            3.045088,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.903989,
+            0.427555
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Slide_0.90625",
+          "position": [
+            3.991055,
+            2.666737,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.881921,
+            0.471397
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Slide_0.890625",
+          "position": [
+            4.233223,
+            2.262704,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.857729,
+            0.514103
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Slide_0.875",
+          "position": [
+            4.434622,
+            1.836881,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.83147,
+            0.55557
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Slide_0.859375",
+          "position": [
+            4.593314,
+            1.393366,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.803208,
+            0.595699
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 9,
+          "name": "Slide_0.84375",
+          "position": [
+            4.70777,
+            0.936433,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.77301,
+            0.634393
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 10,
+          "name": "Slide_0.828125",
+          "position": [
+            4.776887,
+            0.470482,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.740951,
+            0.671559
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 11,
+          "name": "Slide_0.8125",
+          "position": [
+            4.8,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.707107,
+            0.707107
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 12,
+          "name": "Slide_0.796875",
+          "position": [
+            4.776887,
+            -0.470483,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.671559,
+            0.740951
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 13,
+          "name": "Slide_0.78125",
+          "position": [
+            4.707769,
+            -0.936434,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.634393,
+            0.77301
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "order": 14,
+          "name": "Slide_0.765625",
+          "position": [
+            4.593314,
+            -1.393367,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.595699,
+            0.803208
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "motionPath": {
+        "pointMeaning": "SlideDrop.LoadSlidePath StarPositions: ring start, each strip Transform.position, ring end",
+        "sampleStartPosition": 1,
+        "sampleEndPosition": 4,
+        "ringRadius": 4.8,
+        "points": [
+          [
+            1.83688,
+            4.434622,
+            0
+          ],
+          [
+            2.262704,
+            4.233222,
+            0
+          ],
+          [
+            2.666737,
+            3.991054,
+            0
+          ],
+          [
+            3.045088,
+            3.71045,
+            0
+          ],
+          [
+            3.394113,
+            3.394113,
+            0
+          ],
+          [
+            3.71045,
+            3.045088,
+            0
+          ],
+          [
+            3.991055,
+            2.666737,
+            0
+          ],
+          [
+            4.233223,
+            2.262704,
+            0
+          ],
+          [
+            4.434622,
+            1.836881,
+            0
+          ],
+          [
+            4.593314,
+            1.393366,
+            0
+          ],
+          [
+            4.70777,
+            0.936433,
+            0
+          ],
+          [
+            4.776887,
+            0.470482,
+            0
+          ],
+          [
+            4.8,
+            0,
+            0
+          ],
+          [
+            4.776887,
+            -0.470483,
+            0
+          ],
+          [
+            4.707769,
+            -0.936434,
+            0
+          ],
+          [
+            4.593314,
+            -1.393367,
+            0
+          ],
+          [
+            1.83688,
+            -4.434622,
+            0
+          ]
+        ],
+        "temporalInterpolation": "not asserted by this geometry export"
+      },
+      "durationWeights": {
+        "connectionGroupWeight": 16,
+        "basis": "prefab root Transform.childCount, including terminal SlideOK child",
+        "applicableWhen": "NoteLoader.CreateSlideGroup connection Slide total-time allocation"
+      },
+      "counts": {
+        "prefabRootDirectChildren": 16,
+        "visualStrips": 15,
+        "motionPathPoints": 17,
+        "connectionWeight": 16
+      }
+    }
+  ],
+  "wifi": {
+    "id": "wifi",
+    "sourcePrefab": "Assets/Prefabs/Game/Slides/Slide_Wifi.prefab",
+    "sourceMeta": "Assets/Prefabs/Game/Slides/Slide_Wifi.prefab.meta",
+    "sceneReference": {
+      "component": "NoteLoader.slidePrefab",
+      "index": 36,
+      "guid": "460cd376e52d5fb40824e1ee8ccade3c"
+    },
+    "terminalSlideOK": {
+      "name": "Just_wifi",
+      "prefabPath": null,
+      "prefabGuid": null,
+      "sourceTransformId": null,
+      "overrides": {},
+      "isSlideOK": true,
+      "slideOkScriptGuid": "f6edbf0e2c317614c9224783e8d8c101",
+      "resolvedPosition": [
+        -1.61,
+        -3.87,
+        0
+      ],
+      "resolvedRotation": [
+        0,
+        0,
+        0.980665,
+        0.195693
+      ],
+      "resolvedScale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "sample": {
+      "notation": "1w5",
+      "startPosition": 1,
+      "centerEndPosition": 5,
+      "classicMode": false
+    },
+    "geometry": {
+      "coordinateSpace": "Unity XY, units relative to prefab root; +Y up",
+      "authoredPrefabRootTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "runtimeRootRotation": "-45 degrees * (startPosition - 1)",
+      "runtimeRootRotationDegAtSampleStart": 0
+    },
+    "visualStrips": [
+      {
+        "order": 0,
+        "name": "wifi_1",
+        "position": [
+          1.578,
+          3.894,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 1,
+        "name": "wifi_2",
+        "position": [
+          1.389,
+          3.392,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 2,
+        "name": "wifi_3",
+        "position": [
+          1.156191,
+          2.811,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 3,
+        "name": "wifi_4",
+        "position": [
+          0.911,
+          2.204,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 4,
+        "name": "wifi_5",
+        "position": [
+          0.641,
+          1.597,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 5,
+        "name": "wifi_6",
+        "position": [
+          0.329,
+          0.841,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 6,
+        "name": "wifi_7",
+        "position": [
+          0.017,
+          0.113,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 7,
+        "name": "wifi_8",
+        "position": [
+          -0.28,
+          -0.61,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 8,
+        "name": "wifi_9",
+        "position": [
+          -0.577,
+          -1.321,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 9,
+        "name": "wifi_10",
+        "position": [
+          -0.864,
+          -2.05,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "order": 10,
+        "name": "wifi_11",
+        "position": [
+          -1.225,
+          -2.868,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "scale": [
+          -1,
+          1,
+          1
+        ]
+      }
+    ],
+    "motionPaths": [
+      {
+        "lane": "right",
+        "start": [
+          1.83688,
+          4.434622,
+          0
+        ],
+        "end": [
+          1.83688,
+          -4.434622,
+          0
+        ],
+        "endPosition": 4,
+        "interpolation": "Vector3.Lerp(start, end, process)"
+      },
+      {
+        "lane": "center",
+        "start": [
+          1.83688,
+          4.434622,
+          0
+        ],
+        "end": [
+          -1.83688,
+          -4.434622,
+          0
+        ],
+        "endPosition": 5,
+        "interpolation": "Vector3.Lerp(start, end, process)"
+      },
+      {
+        "lane": "left",
+        "start": [
+          1.83688,
+          4.434622,
+          0
+        ],
+        "end": [
+          -4.434622,
+          -1.83688,
+          0
+        ],
+        "endPosition": 6,
+        "interpolation": "Vector3.Lerp(start, end, process)"
+      }
+    ],
+    "durationWeights": {
+      "connectionGroupWeight": null,
+      "basis": null,
+      "applicableWhen": "not applicable: NoteLoader rejects Wi-Fi inside a connection Slide"
+    },
+    "counts": {
+      "prefabRootDirectChildren": 12,
+      "visualStrips": 11,
+      "motionPathTracks": 3,
+      "connectionWeight": null
+    }
+  }
+}

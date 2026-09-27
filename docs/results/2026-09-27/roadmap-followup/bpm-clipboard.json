@@ -1,0 +1,10 @@
+{
+  "browser": "153.0.8010.12",
+  "flows": [
+    "BPM-only preview cancellation, post-E paste, undo/redo, real WASM export/reopen",
+    "mixed cut/paste aligns earliest note and BPM, one-step undo/redo, export/reopen",
+    "beat-zero delete/cut protection and deterministic same-beat replacement",
+    "mixed box selection, difficulty/import clearing, note-only select-all, readonly protection"
+  ],
+  "errors": []
+}

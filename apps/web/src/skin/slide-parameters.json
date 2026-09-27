@@ -1,0 +1,4490 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "fixturePath": "fixtures/visual-maimai/rendering.json",
+    "fixtureSha256": "24524e7890f13a78cebafbf2d32c84cd8742fa6f26375d8b87ac9b0d1176b2e1",
+    "unityVersion": [
+      6000,
+      0,
+      10,
+      1
+    ],
+    "tool": "UnityPy",
+    "toolVersion": "1.20.26",
+    "assetPath": "sharedassets0.assets",
+    "sourceAssetSha256": "83f743d5f7c522ee436941ddbd647dbdf0dc80ea61354c410934d55cbf7a8104"
+  },
+  "provenance": {
+    "skinManagerComponentId": 3516,
+    "slideHeadComponentId": 1285,
+    "slideHeadGameObjectId": 598,
+    "starModelComponentId": 1283,
+    "slideLineComponentId": 1433,
+    "slideWifiComponentId": 1284
+  },
+  "sorting": {
+    "slideHead": [
+      {
+        "sourceId": 863,
+        "componentClass": "SortingGroup",
+        "gameObjectId": 598,
+        "gameObjectName": "Star",
+        "transformId": 728,
+        "sortingLayerId": 0,
+        "sortingLayerRaw": 0,
+        "sortingOrder": 5,
+        "enabled": true,
+        "sortAtRoot": false
+      }
+    ],
+    "movingStar": [
+      {
+        "sourceId": 862,
+        "componentClass": "SortingGroup",
+        "gameObjectId": 597,
+        "gameObjectName": "Slide Star",
+        "transformId": 727,
+        "sortingLayerId": 0,
+        "sortingLayerRaw": 0,
+        "sortingOrder": 4,
+        "enabled": true,
+        "sortAtRoot": false
+      }
+    ],
+    "slideLine": [
+      {
+        "sourceId": 858,
+        "componentClass": "SortingGroup",
+        "gameObjectId": 592,
+        "gameObjectName": "Lines",
+        "transformId": 748,
+        "transformName": "Lines",
+        "sortingLayerId": 0,
+        "sortingLayerRaw": 0,
+        "sortingOrder": 3,
+        "enabled": true,
+        "sortAtRoot": false
+      }
+    ],
+    "wifiArrows": [
+      {
+        "sourceId": 854,
+        "componentClass": "SortingGroup",
+        "gameObjectId": 489,
+        "gameObjectName": "Wifi Base",
+        "transformId": 804,
+        "transformName": "Wifi Base",
+        "sortingLayerId": 0,
+        "sortingLayerRaw": 0,
+        "sortingOrder": 2,
+        "enabled": true,
+        "sortAtRoot": false
+      }
+    ],
+    "notePrefabs": {
+      "tap": [
+        {
+          "sourceId": 861,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 596,
+          "gameObjectName": "Tap",
+          "transformId": 726,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 5,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "hold": [
+        {
+          "sourceId": 853,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 634,
+          "gameObjectName": "Hold",
+          "transformId": 821,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 5,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "touch": [
+        {
+          "sourceId": 857,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 629,
+          "gameObjectName": "Touch",
+          "transformId": 803,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 6,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ],
+      "touchHold": [
+        {
+          "sourceId": 859,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 435,
+          "gameObjectName": "Touch Hold",
+          "transformId": 838,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 7,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ]
+    },
+    "rendererOrders": {
+      "slideHead": [
+        {
+          "role": "noteModel",
+          "sourceId": 891,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "exModel",
+          "sourceId": 878,
+          "order": 0,
+          "layer": 0
+        }
+      ],
+      "movingStar": [
+        {
+          "role": "model",
+          "sourceId": 890,
+          "order": 0,
+          "layer": 0
+        }
+      ],
+      "slideLine": [
+        {
+          "role": "slideLines.0",
+          "sourceId": 843,
+          "order": 1,
+          "layer": 0
+        },
+        {
+          "role": "slideLines.1",
+          "sourceId": 844,
+          "order": 2,
+          "layer": 0
+        },
+        {
+          "role": "slideLines.2",
+          "sourceId": 845,
+          "order": 3,
+          "layer": 0
+        }
+      ],
+      "wifiArrows": [
+        {
+          "role": "arrows.0",
+          "sourceId": 884,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.1",
+          "sourceId": 914,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.2",
+          "sourceId": 882,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.3",
+          "sourceId": 909,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.4",
+          "sourceId": 875,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.5",
+          "sourceId": 912,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.6",
+          "sourceId": 868,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.7",
+          "sourceId": 918,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.8",
+          "sourceId": 871,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.9",
+          "sourceId": 879,
+          "order": 0,
+          "layer": 0
+        },
+        {
+          "role": "arrows.10",
+          "sourceId": 915,
+          "order": 0,
+          "layer": 0
+        }
+      ]
+    }
+  },
+  "head": {
+    "root": {
+      "sourceId": 728,
+      "gameObjectId": 598,
+      "name": "Star",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sortingGroups": [
+        {
+          "sourceId": 863,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 598,
+          "gameObjectName": "Star",
+          "transformId": 728,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 5,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ]
+    },
+    "rootScale": [
+      1,
+      1,
+      1
+    ],
+    "sprites": {
+      "singleSprite": {
+        "sourceId": 398,
+        "name": "star",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862258732318878,
+          0.4988521337509155
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 198,
+          "name": "star",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "multiSprite": {
+        "sourceId": 400,
+        "name": "star_each",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862259030342102,
+          0.49885210394859314
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 200,
+          "name": "star_each",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "noteModel": {
+        "sourceId": 398,
+        "name": "star",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862258732318878,
+          0.4988521337509155
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 198,
+          "name": "star",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "exModel": {
+        "sourceId": 389,
+        "name": "star_ex",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862259030342102,
+          0.49885210394859314
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 188,
+          "name": "star_ex",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "breakSprite": {
+        "sourceId": 348,
+        "name": "star_break",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862259030342102,
+          0.49885210394859314
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 134,
+          "name": "star_break",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      }
+    },
+    "renderers": [
+      {
+        "role": "noteModel",
+        "sourceId": 891,
+        "gameObjectId": 666,
+        "sprite": {
+          "sourceId": 398,
+          "name": "star",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 126,
+            "height": 126
+          },
+          "pivot": [
+            0.4862258732318878,
+            0.4988521337509155
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 198,
+            "name": "star",
+            "assetFile": "sharedassets0.assets",
+            "width": 126,
+            "height": 126
+          }
+        },
+        "size": [
+          1.2200000286102295,
+          1.2200000286102295
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 863,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 598,
+            "gameObjectName": "Star",
+            "transformId": 728,
+            "transformName": "Star",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 5,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 728,
+            "gameObjectId": 598,
+            "name": "Star",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 863,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 598,
+                "gameObjectName": "Star",
+                "transformId": 728,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 5,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 714,
+            "gameObjectId": 666,
+            "name": "Note Model",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "exModel",
+        "sourceId": 878,
+        "gameObjectId": 468,
+        "sprite": {
+          "sourceId": 389,
+          "name": "star_ex",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 126,
+            "height": 126
+          },
+          "pivot": [
+            0.4862259030342102,
+            0.49885210394859314
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 188,
+            "name": "star_ex",
+            "assetFile": "sharedassets0.assets",
+            "width": 126,
+            "height": 126
+          }
+        },
+        "size": [
+          1.2200000286102295,
+          1.2200000286102295
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 863,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 598,
+            "gameObjectName": "Star",
+            "transformId": 728,
+            "transformName": "Star",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 5,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          0.22173257172107697,
+          0.7094436287879944,
+          0.9191374182701111,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 728,
+            "gameObjectId": 598,
+            "name": "Star",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 863,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 598,
+                "gameObjectName": "Star",
+                "transformId": 728,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 5,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 795,
+            "gameObjectId": 468,
+            "name": "Ex Model",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      }
+    ]
+  },
+  "starModel": {
+    "componentId": 1283,
+    "componentClass": "StarMono",
+    "root": {
+      "sourceId": 727,
+      "gameObjectId": 597,
+      "name": "Slide Star",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sortingGroups": [
+        {
+          "sourceId": 862,
+          "componentClass": "SortingGroup",
+          "gameObjectId": 597,
+          "gameObjectName": "Slide Star",
+          "transformId": 727,
+          "sortingLayerId": 0,
+          "sortingLayerRaw": 0,
+          "sortingOrder": 4,
+          "enabled": true,
+          "sortAtRoot": false
+        }
+      ]
+    },
+    "rootScale": [
+      1,
+      1,
+      1
+    ],
+    "sprites": {
+      "single": {
+        "sourceId": 398,
+        "name": "star",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862258732318878,
+          0.4988521337509155
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 198,
+          "name": "star",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "multi": {
+        "sourceId": 400,
+        "name": "star_each",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862259030342102,
+          0.49885210394859314
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 200,
+          "name": "star_each",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      },
+      "break": {
+        "sourceId": 348,
+        "name": "star_break",
+        "assetFile": "sharedassets0.assets",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 126,
+          "height": 126
+        },
+        "pivot": [
+          0.4862259030342102,
+          0.49885210394859314
+        ],
+        "border": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ppu": 100,
+        "texture": {
+          "sourceId": 134,
+          "name": "star_break",
+          "assetFile": "sharedassets0.assets",
+          "width": 126,
+          "height": 126
+        }
+      }
+    },
+    "renderers": [
+      {
+        "role": "model",
+        "sourceId": 890,
+        "gameObjectId": 665,
+        "sprite": {
+          "sourceId": 398,
+          "name": "star",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 126,
+            "height": 126
+          },
+          "pivot": [
+            0.4862258732318878,
+            0.4988521337509155
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 198,
+            "name": "star",
+            "assetFile": "sharedassets0.assets",
+            "width": 126,
+            "height": 126
+          }
+        },
+        "size": [
+          1.2200000286102295,
+          1.2200000286102295
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 862,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 597,
+            "gameObjectName": "Slide Star",
+            "transformId": 727,
+            "transformName": "Slide Star",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 4,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 727,
+            "gameObjectId": 597,
+            "name": "Slide Star",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 862,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 597,
+                "gameObjectName": "Slide Star",
+                "transformId": 727,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 4,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 713,
+            "gameObjectId": 665,
+            "name": "Note Model",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.5,
+              1.5,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      }
+    ]
+  },
+  "slideLine": {
+    "componentId": 1433,
+    "componentClass": "SlideLineMono",
+    "root": {
+      "sourceId": 784,
+      "gameObjectId": 437,
+      "name": "Slide Fragment",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sortingGroups": []
+    },
+    "rootScale": [
+      1,
+      1,
+      1
+    ],
+    "splitIndexesSource": {
+      "field_path": "Gameplay.Data.SlidePathData.splitIndexes",
+      "fixture_path": "slide_types.paths[*].split_indexes"
+    },
+    "lines": [
+      {
+        "role": "slideLines.0",
+        "sourceId": 843,
+        "gameObjectId": 509,
+        "sprite": null,
+        "size": null,
+        "order": 1,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 858,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 592,
+            "gameObjectName": "Lines",
+            "transformId": 748,
+            "transformName": "Lines",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 3,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": null,
+        "materials": [
+          {
+            "sourceId": 6,
+            "name": "Slide Default",
+            "assetFile": "sharedassets0.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 784,
+            "gameObjectId": 437,
+            "name": "Slide Fragment",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 748,
+            "gameObjectId": 592,
+            "name": "Lines",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 858,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 592,
+                "gameObjectName": "Lines",
+                "transformId": 748,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 3,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 789,
+            "gameObjectId": 509,
+            "name": "Line",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ],
+        "parameters": {
+          "widthMultiplier": 0.8999999761581421,
+          "widthCurve": {
+            "m_Curve": [
+              {
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "alignment": 1,
+          "textureMode": 1,
+          "textureScale": [
+            2,
+            1
+          ],
+          "colorGradient": {
+            "key0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key1": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key2": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key3": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key4": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key5": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key6": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key7": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "ctime0": 0,
+            "ctime1": 65535,
+            "ctime2": 0,
+            "ctime3": 0,
+            "ctime4": 0,
+            "ctime5": 0,
+            "ctime6": 0,
+            "ctime7": 0,
+            "atime0": 0,
+            "atime1": 65535,
+            "atime2": 0,
+            "atime3": 0,
+            "atime4": 0,
+            "atime5": 0,
+            "atime6": 0,
+            "atime7": 0,
+            "m_Mode": 0,
+            "m_ColorSpace": -1,
+            "m_NumColorKeys": 2,
+            "m_NumAlphaKeys": 2
+          },
+          "numCornerVertices": 0,
+          "numCapVertices": 0,
+          "useWorldSpace": false,
+          "loop": false
+        }
+      },
+      {
+        "role": "slideLines.1",
+        "sourceId": 844,
+        "gameObjectId": 441,
+        "sprite": null,
+        "size": null,
+        "order": 2,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 858,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 592,
+            "gameObjectName": "Lines",
+            "transformId": 748,
+            "transformName": "Lines",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 3,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": null,
+        "materials": [
+          {
+            "sourceId": 6,
+            "name": "Slide Default",
+            "assetFile": "sharedassets0.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 784,
+            "gameObjectId": 437,
+            "name": "Slide Fragment",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 748,
+            "gameObjectId": 592,
+            "name": "Lines",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 858,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 592,
+                "gameObjectName": "Lines",
+                "transformId": 748,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 3,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 754,
+            "gameObjectId": 441,
+            "name": "Line",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ],
+        "parameters": {
+          "widthMultiplier": 0.8999999761581421,
+          "widthCurve": {
+            "m_Curve": [
+              {
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "alignment": 1,
+          "textureMode": 1,
+          "textureScale": [
+            2,
+            1
+          ],
+          "colorGradient": {
+            "key0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key1": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key2": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key3": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key4": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key5": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key6": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key7": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "ctime0": 0,
+            "ctime1": 65535,
+            "ctime2": 0,
+            "ctime3": 0,
+            "ctime4": 0,
+            "ctime5": 0,
+            "ctime6": 0,
+            "ctime7": 0,
+            "atime0": 0,
+            "atime1": 65535,
+            "atime2": 0,
+            "atime3": 0,
+            "atime4": 0,
+            "atime5": 0,
+            "atime6": 0,
+            "atime7": 0,
+            "m_Mode": 0,
+            "m_ColorSpace": -1,
+            "m_NumColorKeys": 2,
+            "m_NumAlphaKeys": 2
+          },
+          "numCornerVertices": 0,
+          "numCapVertices": 0,
+          "useWorldSpace": false,
+          "loop": false
+        }
+      },
+      {
+        "role": "slideLines.2",
+        "sourceId": 845,
+        "gameObjectId": 557,
+        "sprite": null,
+        "size": null,
+        "order": 3,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 858,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 592,
+            "gameObjectName": "Lines",
+            "transformId": 748,
+            "transformName": "Lines",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 3,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": null,
+        "materials": [
+          {
+            "sourceId": 6,
+            "name": "Slide Default",
+            "assetFile": "sharedassets0.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 784,
+            "gameObjectId": 437,
+            "name": "Slide Fragment",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 748,
+            "gameObjectId": 592,
+            "name": "Lines",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 858,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 592,
+                "gameObjectName": "Lines",
+                "transformId": 748,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 3,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 796,
+            "gameObjectId": 557,
+            "name": "Line",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ],
+        "parameters": {
+          "widthMultiplier": 0.8999999761581421,
+          "widthCurve": {
+            "m_Curve": [
+              {
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "alignment": 1,
+          "textureMode": 1,
+          "textureScale": [
+            2,
+            1
+          ],
+          "colorGradient": {
+            "key0": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key1": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "key2": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key3": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key4": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key5": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key6": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "key7": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+            },
+            "ctime0": 0,
+            "ctime1": 65535,
+            "ctime2": 0,
+            "ctime3": 0,
+            "ctime4": 0,
+            "ctime5": 0,
+            "ctime6": 0,
+            "ctime7": 0,
+            "atime0": 0,
+            "atime1": 65535,
+            "atime2": 0,
+            "atime3": 0,
+            "atime4": 0,
+            "atime5": 0,
+            "atime6": 0,
+            "atime7": 0,
+            "m_Mode": 0,
+            "m_ColorSpace": -1,
+            "m_NumColorKeys": 2,
+            "m_NumAlphaKeys": 2
+          },
+          "numCornerVertices": 0,
+          "numCapVertices": 0,
+          "useWorldSpace": false,
+          "loop": false
+        }
+      }
+    ],
+    "materials": {
+      "normal": {
+        "sourceId": 6,
+        "name": "Slide Default",
+        "assetFile": "sharedassets0.assets",
+        "shader": {
+          "sourceId": 212,
+          "name": "Standard",
+          "assetFile": "sharedassets0.assets"
+        },
+        "texture": {
+          "sourceId": 30,
+          "name": "slide",
+          "assetFile": "sharedassets0.assets",
+          "width": 51,
+          "height": 94
+        },
+        "textureScale": [
+          1,
+          1
+        ],
+        "textureOffset": [
+          0,
+          0
+        ],
+        "colors": {
+          "_Color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_EmissionColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_Flip": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_MainColor": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "_RendererColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_SpecColor": [
+            0.19999995827674866,
+            0.19999995827674866,
+            0.19999995827674866,
+            1
+          ]
+        }
+      },
+      "each": {
+        "sourceId": 7,
+        "name": "Slide Multi",
+        "assetFile": "sharedassets0.assets",
+        "shader": {
+          "sourceId": 212,
+          "name": "Standard",
+          "assetFile": "sharedassets0.assets"
+        },
+        "texture": {
+          "sourceId": 190,
+          "name": "slide_each",
+          "assetFile": "sharedassets0.assets",
+          "width": 51,
+          "height": 94
+        },
+        "textureScale": [
+          1,
+          1
+        ],
+        "textureOffset": [
+          0,
+          0
+        ],
+        "colors": {
+          "_Color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_EmissionColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_Flip": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_RendererColor": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "break": {
+        "sourceId": 5,
+        "name": "Slide Break",
+        "assetFile": "sharedassets0.assets",
+        "shader": {
+          "sourceId": 212,
+          "name": "Standard",
+          "assetFile": "sharedassets0.assets"
+        },
+        "texture": {
+          "sourceId": 208,
+          "name": "slide_break",
+          "assetFile": "sharedassets0.assets",
+          "width": 51,
+          "height": 94
+        },
+        "textureScale": [
+          1,
+          1
+        ],
+        "textureOffset": [
+          0,
+          0
+        ],
+        "colors": {
+          "_Color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_EmissionColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_Flip": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "_RendererColor": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  },
+  "wifi": {
+    "componentId": 1284,
+    "componentClass": "SlideWifiMono",
+    "root": {
+      "sourceId": 736,
+      "gameObjectId": 588,
+      "name": "Wifi",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sortingGroups": []
+    },
+    "rootScale": [
+      1,
+      1,
+      1
+    ],
+    "groups": [
+      {
+        "sourceId": 804,
+        "gameObjectId": 489,
+        "name": "Wifi Base",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          -0.3826834261417389,
+          0.9238795638084412
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "role": "arrows.0",
+        "sourceId": 884,
+        "gameObjectId": 576,
+        "sprite": {
+          "sourceId": 275,
+          "name": "wifi_0",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 41,
+            "name": "wifi_0",
+            "assetFile": "sharedassets0.assets",
+            "width": 111,
+            "height": 68
+          }
+        },
+        "size": [
+          1.1100000143051147,
+          0.6800000071525574
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 735,
+            "gameObjectId": 576,
+            "name": "wifi_0",
+            "position": [
+              -1.600000023841858,
+              3.9100000858306885,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.1",
+        "sourceId": 914,
+        "gameObjectId": 469,
+        "sprite": {
+          "sourceId": 341,
+          "name": "wifi_1",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 122,
+            "name": "wifi_1",
+            "assetFile": "sharedassets0.assets",
+            "width": 160,
+            "height": 90
+          }
+        },
+        "size": [
+          1.600000023841858,
+          0.8999999761581421
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 827,
+            "gameObjectId": 469,
+            "name": "wifi_1",
+            "position": [
+              -1.3799999952316284,
+              3.4000000953674316,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.2",
+        "sourceId": 882,
+        "gameObjectId": 657,
+        "sprite": {
+          "sourceId": 310,
+          "name": "wifi_2",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 85,
+            "name": "wifi_2",
+            "assetFile": "sharedassets0.assets",
+            "width": 204,
+            "height": 110
+          }
+        },
+        "size": [
+          2.0399999618530273,
+          1.100000023841858
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 824,
+            "gameObjectId": 657,
+            "name": "wifi_2",
+            "position": [
+              -1.1399999856948853,
+              2.8299999237060547,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.3",
+        "sourceId": 909,
+        "gameObjectId": 542,
+        "sprite": {
+          "sourceId": 355,
+          "name": "wifi_3",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 145,
+            "name": "wifi_3",
+            "assetFile": "sharedassets0.assets",
+            "width": 253,
+            "height": 136
+          }
+        },
+        "size": [
+          2.5299999713897705,
+          1.3600000143051147
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 810,
+            "gameObjectId": 542,
+            "name": "wifi_3",
+            "position": [
+              -0.8999999761581421,
+              2.200000047683716,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.4",
+        "sourceId": 875,
+        "gameObjectId": 654,
+        "sprite": {
+          "sourceId": 351,
+          "name": "wifi_4",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 138,
+            "name": "wifi_4",
+            "assetFile": "sharedassets0.assets",
+            "width": 298,
+            "height": 154
+          }
+        },
+        "size": [
+          2.9800000190734863,
+          1.5399999618530273
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 773,
+            "gameObjectId": 654,
+            "name": "wifi_4",
+            "position": [
+              -0.6299999952316284,
+              1.5800000429153442,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.5",
+        "sourceId": 912,
+        "gameObjectId": 694,
+        "sprite": {
+          "sourceId": 329,
+          "name": "wifi_5",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 107,
+            "name": "wifi_5",
+            "assetFile": "sharedassets0.assets",
+            "width": 353,
+            "height": 179
+          }
+        },
+        "size": [
+          3.5299999713897705,
+          1.7899999618530273
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 769,
+            "gameObjectId": 694,
+            "name": "wifi_5",
+            "position": [
+              -0.33000001311302185,
+              0.8500000238418579,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.6",
+        "sourceId": 868,
+        "gameObjectId": 611,
+        "sprite": {
+          "sourceId": 269,
+          "name": "wifi_6",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 33,
+            "name": "wifi_6",
+            "assetFile": "sharedassets0.assets",
+            "width": 410,
+            "height": 205
+          }
+        },
+        "size": [
+          4.099999904632568,
+          2.049999952316284
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 749,
+            "gameObjectId": 611,
+            "name": "wifi_6",
+            "position": [
+              -0.019999999552965164,
+              0.10999999940395355,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.7",
+        "sourceId": 918,
+        "gameObjectId": 506,
+        "sprite": {
+          "sourceId": 336,
+          "name": "wifi_7",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 116,
+            "name": "wifi_7",
+            "assetFile": "sharedassets0.assets",
+            "width": 464,
+            "height": 226
+          }
+        },
+        "size": [
+          4.639999866485596,
+          2.259999990463257
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 807,
+            "gameObjectId": 506,
+            "name": "wifi_7",
+            "position": [
+              0.28999999165534973,
+              -0.6200000047683716,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.8",
+        "sourceId": 871,
+        "gameObjectId": 662,
+        "sprite": {
+          "sourceId": 340,
+          "name": "wifi_8",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 120,
+            "name": "wifi_8",
+            "assetFile": "sharedassets0.assets",
+            "width": 519,
+            "height": 251
+          }
+        },
+        "size": [
+          5.190000057220459,
+          2.509999990463257
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 832,
+            "gameObjectId": 662,
+            "name": "wifi_8",
+            "position": [
+              0.5899999737739563,
+              -1.3300000429153442,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.9",
+        "sourceId": 879,
+        "gameObjectId": 689,
+        "sprite": {
+          "sourceId": 333,
+          "name": "wifi_9",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 113,
+            "name": "wifi_9",
+            "assetFile": "sharedassets0.assets",
+            "width": 571,
+            "height": 271
+          }
+        },
+        "size": [
+          5.710000038146973,
+          2.7100000381469727
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 831,
+            "gameObjectId": 689,
+            "name": "wifi_9",
+            "position": [
+              0.8799999952316284,
+              -2.0799999237060547,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      },
+      {
+        "role": "arrows.10",
+        "sourceId": 915,
+        "gameObjectId": 656,
+        "sprite": {
+          "sourceId": 377,
+          "name": "wifi_10",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 173,
+            "name": "wifi_10",
+            "assetFile": "sharedassets0.assets",
+            "width": 653,
+            "height": 313
+          }
+        },
+        "size": [
+          6.53000020980835,
+          3.130000114440918
+        ],
+        "mode": 0,
+        "order": 0,
+        "layer": 0,
+        "sortingGroups": [
+          {
+            "sourceId": 854,
+            "componentClass": "SortingGroup",
+            "gameObjectId": 489,
+            "gameObjectName": "Wifi Base",
+            "transformId": 804,
+            "transformName": "Wifi Base",
+            "sortingLayerId": 0,
+            "sortingLayerRaw": 0,
+            "sortingOrder": 2,
+            "enabled": true,
+            "sortAtRoot": false
+          }
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          {
+            "sourceId": 2,
+            "name": "Sprites-Default",
+            "assetFile": "globalgamemanagers.assets"
+          }
+        ],
+        "transforms": [
+          {
+            "sourceId": 736,
+            "gameObjectId": 588,
+            "name": "Wifi",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          },
+          {
+            "sourceId": 804,
+            "gameObjectId": 489,
+            "name": "Wifi Base",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.3826834261417389,
+              0.9238795638084412
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": [
+              {
+                "sourceId": 854,
+                "componentClass": "SortingGroup",
+                "gameObjectId": 489,
+                "gameObjectName": "Wifi Base",
+                "transformId": 804,
+                "sortingLayerId": 0,
+                "sortingLayerRaw": 0,
+                "sortingOrder": 2,
+                "enabled": true,
+                "sortAtRoot": false
+              }
+            ]
+          },
+          {
+            "sourceId": 724,
+            "gameObjectId": 656,
+            "name": "wifi_10",
+            "position": [
+              1.2200000286102295,
+              -2.9000000953674316,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "sortingGroups": []
+          }
+        ]
+      }
+    ],
+    "sprites": {
+      "single": [
+        {
+          "sourceId": 275,
+          "name": "wifi_0",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 41,
+            "name": "wifi_0",
+            "assetFile": "sharedassets0.assets",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "sourceId": 341,
+          "name": "wifi_1",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 122,
+            "name": "wifi_1",
+            "assetFile": "sharedassets0.assets",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "sourceId": 310,
+          "name": "wifi_2",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 85,
+            "name": "wifi_2",
+            "assetFile": "sharedassets0.assets",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "sourceId": 355,
+          "name": "wifi_3",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 145,
+            "name": "wifi_3",
+            "assetFile": "sharedassets0.assets",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "sourceId": 351,
+          "name": "wifi_4",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 138,
+            "name": "wifi_4",
+            "assetFile": "sharedassets0.assets",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "sourceId": 329,
+          "name": "wifi_5",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 107,
+            "name": "wifi_5",
+            "assetFile": "sharedassets0.assets",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "sourceId": 269,
+          "name": "wifi_6",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 33,
+            "name": "wifi_6",
+            "assetFile": "sharedassets0.assets",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "sourceId": 336,
+          "name": "wifi_7",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 116,
+            "name": "wifi_7",
+            "assetFile": "sharedassets0.assets",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "sourceId": 340,
+          "name": "wifi_8",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 120,
+            "name": "wifi_8",
+            "assetFile": "sharedassets0.assets",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "sourceId": 333,
+          "name": "wifi_9",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 113,
+            "name": "wifi_9",
+            "assetFile": "sharedassets0.assets",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "sourceId": 377,
+          "name": "wifi_10",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 173,
+            "name": "wifi_10",
+            "assetFile": "sharedassets0.assets",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ],
+      "multi": [
+        {
+          "sourceId": 296,
+          "name": "wifi_each_0",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 69,
+            "name": "wifi_each_0",
+            "assetFile": "sharedassets0.assets",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "sourceId": 298,
+          "name": "wifi_each_1",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 71,
+            "name": "wifi_each_1",
+            "assetFile": "sharedassets0.assets",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "sourceId": 352,
+          "name": "wifi_each_2",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 139,
+            "name": "wifi_each_2",
+            "assetFile": "sharedassets0.assets",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "sourceId": 291,
+          "name": "wifi_each_3",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 58,
+            "name": "wifi_each_3",
+            "assetFile": "sharedassets0.assets",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "sourceId": 397,
+          "name": "wifi_each_4",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 197,
+            "name": "wifi_each_4",
+            "assetFile": "sharedassets0.assets",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "sourceId": 277,
+          "name": "wifi_each_5",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 43,
+            "name": "wifi_each_5",
+            "assetFile": "sharedassets0.assets",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "sourceId": 316,
+          "name": "wifi_each_6",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 93,
+            "name": "wifi_each_6",
+            "assetFile": "sharedassets0.assets",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "sourceId": 325,
+          "name": "wifi_each_7",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 103,
+            "name": "wifi_each_7",
+            "assetFile": "sharedassets0.assets",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "sourceId": 331,
+          "name": "wifi_each_8",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 110,
+            "name": "wifi_each_8",
+            "assetFile": "sharedassets0.assets",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "sourceId": 347,
+          "name": "wifi_each_9",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 133,
+            "name": "wifi_each_9",
+            "assetFile": "sharedassets0.assets",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "sourceId": 399,
+          "name": "wifi_each_10",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 199,
+            "name": "wifi_each_10",
+            "assetFile": "sharedassets0.assets",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ],
+      "break": [
+        {
+          "sourceId": 259,
+          "name": "wifi_break_0",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 111,
+            "height": 68
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 21,
+            "name": "wifi_break_0",
+            "assetFile": "sharedassets0.assets",
+            "width": 111,
+            "height": 68
+          }
+        },
+        {
+          "sourceId": 330,
+          "name": "wifi_break_1",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 160,
+            "height": 90
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 108,
+            "name": "wifi_break_1",
+            "assetFile": "sharedassets0.assets",
+            "width": 160,
+            "height": 90
+          }
+        },
+        {
+          "sourceId": 311,
+          "name": "wifi_break_2",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 204,
+            "height": 110
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 86,
+            "name": "wifi_break_2",
+            "assetFile": "sharedassets0.assets",
+            "width": 204,
+            "height": 110
+          }
+        },
+        {
+          "sourceId": 258,
+          "name": "wifi_break_3",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 253,
+            "height": 136
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 19,
+            "name": "wifi_break_3",
+            "assetFile": "sharedassets0.assets",
+            "width": 253,
+            "height": 136
+          }
+        },
+        {
+          "sourceId": 297,
+          "name": "wifi_break_4",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 298,
+            "height": 154
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 70,
+            "name": "wifi_break_4",
+            "assetFile": "sharedassets0.assets",
+            "width": 298,
+            "height": 154
+          }
+        },
+        {
+          "sourceId": 312,
+          "name": "wifi_break_5",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 353,
+            "height": 179
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 87,
+            "name": "wifi_break_5",
+            "assetFile": "sharedassets0.assets",
+            "width": 353,
+            "height": 179
+          }
+        },
+        {
+          "sourceId": 364,
+          "name": "wifi_break_6",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 410,
+            "height": 205
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 156,
+            "name": "wifi_break_6",
+            "assetFile": "sharedassets0.assets",
+            "width": 410,
+            "height": 205
+          }
+        },
+        {
+          "sourceId": 290,
+          "name": "wifi_break_7",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 464,
+            "height": 226
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 57,
+            "name": "wifi_break_7",
+            "assetFile": "sharedassets0.assets",
+            "width": 464,
+            "height": 226
+          }
+        },
+        {
+          "sourceId": 396,
+          "name": "wifi_break_8",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 519,
+            "height": 251
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 196,
+            "name": "wifi_break_8",
+            "assetFile": "sharedassets0.assets",
+            "width": 519,
+            "height": 251
+          }
+        },
+        {
+          "sourceId": 274,
+          "name": "wifi_break_9",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 571,
+            "height": 271
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 39,
+            "name": "wifi_break_9",
+            "assetFile": "sharedassets0.assets",
+            "width": 571,
+            "height": 271
+          }
+        },
+        {
+          "sourceId": 286,
+          "name": "wifi_break_10",
+          "assetFile": "sharedassets0.assets",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 653,
+            "height": 313
+          },
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "border": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ppu": 100,
+          "texture": {
+            "sourceId": 53,
+            "name": "wifi_break_10",
+            "assetFile": "sharedassets0.assets",
+            "width": 653,
+            "height": 313
+          }
+        }
+      ]
+    }
+  }
+}

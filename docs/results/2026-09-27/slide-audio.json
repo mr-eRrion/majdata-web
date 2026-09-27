@@ -1,0 +1,21 @@
+{
+  "browser": "153.0.8010.12",
+  "complete": [
+    {
+      "when": 0.7053333333333333,
+      "frequencyHz": 1320
+    },
+    {
+      "when": 1.7053333333333336,
+      "frequencyHz": 1320
+    }
+  ],
+  "seekMiddle": [
+    {
+      "when": 2.558666666666667,
+      "frequencyHz": 1320
+    }
+  ],
+  "errors": [],
+  "scope": "Real AudioContext oscillator scheduling in the production page; no substitute transport, no original clip timbre or physical output timing claim."
+}

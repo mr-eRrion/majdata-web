@@ -1,0 +1,1544 @@
+{
+  "baseUrl": "http://127.0.0.1:5175/",
+  "browser": "153.0.8010.12",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+  "durationForms": [
+    {
+      "name": "default-beat-wait-and-move",
+      "generatedText": "(120){4}1-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[4:2],E\n",
+      "expectedToken": "1-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "designated-bpm-wait-and-move",
+      "generatedText": "(120){4}1-5[240#8:1],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[240#8:1],E\n",
+      "expectedToken": "1-5[240#8:1]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.25,
+        "durationSeconds": 0.375,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtBpm",
+            "bpm": 240,
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtBpm",
+            "bpm": 240,
+            "division": 8,
+            "beats": 1
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtBpm",
+        "bpm": 240,
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtBpm",
+        "bpm": 240,
+        "division": 8,
+        "beats": 1
+      }
+    },
+    {
+      "name": "fixed-wait-and-source-bpm-move",
+      "generatedText": "(120){4}1-5[0.25##8:1],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[0.25##8:1],E\n",
+      "expectedToken": "1-5[0.25##8:1]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.25,
+        "durationSeconds": 0.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "seconds",
+            "seconds": 0.25
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 8,
+            "beats": 1
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "seconds",
+        "seconds": 0.25
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 8,
+        "beats": 1
+      }
+    },
+    {
+      "name": "fixed-wait-and-designated-bpm-move",
+      "generatedText": "(120){4}1-5[0.25##240#8:1],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[0.25##240#8:1],E\n",
+      "expectedToken": "1-5[0.25##240#8:1]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.25,
+        "durationSeconds": 0.375,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "seconds",
+            "seconds": 0.25
+          },
+          "move": {
+            "kind": "beatsAtBpm",
+            "bpm": 240,
+            "division": 8,
+            "beats": 1
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "seconds",
+        "seconds": 0.25
+      },
+      "expectedMove": {
+        "kind": "beatsAtBpm",
+        "bpm": 240,
+        "division": 8,
+        "beats": 1
+      }
+    },
+    {
+      "name": "designated-bpm-wait-and-fixed-move",
+      "generatedText": "(120){4}1-5[240#0.5],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[240#0.5],E\n",
+      "expectedToken": "1-5[240#0.5]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.25,
+        "durationSeconds": 0.75,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtBpm",
+            "bpm": 240,
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "seconds",
+            "seconds": 0.5
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtBpm",
+        "bpm": 240,
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "seconds",
+        "seconds": 0.5
+      }
+    },
+    {
+      "name": "fixed-wait-and-fixed-move",
+      "generatedText": "(120){4}1-5[0.25##0.5],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[0.25##0.5],E\n",
+      "expectedToken": "1-5[0.25##0.5]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.25,
+        "durationSeconds": 0.75,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "seconds",
+            "seconds": 0.25
+          },
+          "move": {
+            "kind": "seconds",
+            "seconds": 0.5
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "seconds",
+        "seconds": 0.25
+      },
+      "expectedMove": {
+        "kind": "seconds",
+        "seconds": 0.5
+      }
+    }
+  ],
+  "modifierCombinations": [
+    {
+      "name": "head=star;break=false;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5[4:2],E\n",
+      "expectedToken": "1-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=false;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1-5b[4:2],E\n",
+      "expectedToken": "1-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=false;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1x-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1x-5[4:2],E\n",
+      "expectedToken": "1x-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=false;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1x-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1x-5b[4:2],E\n",
+      "expectedToken": "1x-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=true;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1b-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1b-5[4:2],E\n",
+      "expectedToken": "1b-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=true;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1b-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1b-5b[4:2],E\n",
+      "expectedToken": "1b-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=true;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1xb-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1xb-5[4:2],E\n",
+      "expectedToken": "1xb-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=star;break=true;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1xb-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1xb-5b[4:2],E\n",
+      "expectedToken": "1xb-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "star",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=false;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1@-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@-5[4:2],E\n",
+      "expectedToken": "1@-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=false;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1@-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@-5b[4:2],E\n",
+      "expectedToken": "1@-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=false;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1@x-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@x-5[4:2],E\n",
+      "expectedToken": "1@x-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=false;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1@x-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@x-5b[4:2],E\n",
+      "expectedToken": "1@x-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=true;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1@b-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@b-5[4:2],E\n",
+      "expectedToken": "1@b-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=true;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1@b-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@b-5b[4:2],E\n",
+      "expectedToken": "1@b-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=true;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1@xb-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@xb-5[4:2],E\n",
+      "expectedToken": "1@xb-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=tap;break=true;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1@xb-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1@xb-5b[4:2],E\n",
+      "expectedToken": "1@xb-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "tap",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=false;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1!-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!-5[4:2],E\n",
+      "expectedToken": "1!-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=false;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1!-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!-5b[4:2],E\n",
+      "expectedToken": "1!-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=false;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1!x-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!x-5[4:2],E\n",
+      "expectedToken": "1!x-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=false;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1!x-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!x-5b[4:2],E\n",
+      "expectedToken": "1!x-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": false,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=true;ex=false;slideBreak=false",
+      "generatedText": "(120){4}1!b-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!b-5[4:2],E\n",
+      "expectedToken": "1!b-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=true;ex=false;slideBreak=true",
+      "generatedText": "(120){4}1!b-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!b-5b[4:2],E\n",
+      "expectedToken": "1!b-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": false
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=true;ex=true;slideBreak=false",
+      "generatedText": "(120){4}1!xb-5[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!xb-5[4:2],E\n",
+      "expectedToken": "1!xb-5[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": false,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    },
+    {
+      "name": "head=none;break=true;ex=true;slideBreak=true",
+      "generatedText": "(120){4}1!xb-5b[4:2],E",
+      "sourceText": "&title=Slide round trip\n&first=0\n&lv_1=1\n&inote_1=(120){4}1!xb-5b[4:2],E\n",
+      "expectedToken": "1!xb-5b[4:2]",
+      "schemaVersion": 2,
+      "chartEditable": true,
+      "diagnosticCodes": [
+        "slide-validation-pending"
+      ],
+      "parsedNote": {
+        "kind": "slide",
+        "position": 1,
+        "startSeconds": 0,
+        "moveStartSeconds": 0.5,
+        "durationSeconds": 1.5,
+        "modifiers": {
+          "break": true,
+          "ex": true
+        },
+        "slide": {
+          "command": "-",
+          "endPosition": 5,
+          "head": "none",
+          "slideBreak": true,
+          "wait": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 1
+          },
+          "move": {
+            "kind": "beatsAtStartBpm",
+            "division": 4,
+            "beats": 2
+          }
+        }
+      },
+      "parserDiagnostics": [
+        "slide-validation-pending"
+      ],
+      "expectedWait": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 1
+      },
+      "expectedMove": {
+        "kind": "beatsAtStartBpm",
+        "division": 4,
+        "beats": 2
+      }
+    }
+  ],
+  "pageErrors": [],
+  "verification": {
+    "outcome": "PASS",
+    "durationForms": 6,
+    "modifierCombinations": 24,
+    "total": 30
+  }
+}

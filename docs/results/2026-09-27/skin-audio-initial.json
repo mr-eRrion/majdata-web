@@ -1,0 +1,7121 @@
+{
+  "environment": {
+    "appUrl": "http://127.0.0.1:4173/",
+    "browser": "153.0.8010.12",
+    "mode": "headless Chromium, actual production app, no CPU/network throttling",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M4",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "deviceScaleFactor": 1,
+    "processMeasurement": "CDP SystemInfo.getProcessInfo PIDs plus ps RSS; browser process set, sampled every 100 ms"
+  },
+  "skin": {
+    "requiredCount": 20,
+    "requiredAssets": [
+      {
+        "key": "hold.base",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/hold.png",
+        "width": 122,
+        "height": 200
+      },
+      {
+        "key": "hold.break",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/hold_break.png",
+        "width": 122,
+        "height": 200
+      },
+      {
+        "key": "hold.each",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/hold_each.png",
+        "width": 122,
+        "height": 200
+      },
+      {
+        "key": "hold.ex",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/hold_ex.png",
+        "width": 122,
+        "height": 200
+      },
+      {
+        "key": "tap.base",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/tap.png",
+        "width": 122,
+        "height": 122
+      },
+      {
+        "key": "tap.break",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/tap_break.png",
+        "width": 122,
+        "height": 122
+      },
+      {
+        "key": "tap.each",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/tap_each.png",
+        "width": 122,
+        "height": 122
+      },
+      {
+        "key": "tap.ex",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/tap_ex.png",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "key": "touch.base",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touch.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touch.each",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touch_each.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touch.point.base",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touch_point.png",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "key": "touch.point.each",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touch_point_each.png",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "key": "touchhold.0",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touchhold_0.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touchhold.1",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touchhold_1.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touchhold.2",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touchhold_2.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touchhold.3",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touchhold_3.png",
+        "width": 112,
+        "height": 82
+      },
+      {
+        "key": "touchhold.border",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/touchhold_border.png",
+        "width": 211,
+        "height": 210
+      },
+      {
+        "key": "hold.end.base",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/embedded/hold_end.png",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "key": "hold.end.each",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/embedded/hold_end_each.png",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "key": "hold.end.break",
+        "url": "http://127.0.0.1:4173/assets/visual-maimai/embedded/hold_end_break.png",
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "appCoreSpritesReady": 20,
+    "aboutBlankBaselineRssBytes": 208257024,
+    "appBytesBeforeSkinDecodeRssBytes": 459358208,
+    "appSkinReadyRssBytes": 465485824,
+    "decodedSkinIncrementBytes": 6127616,
+    "appPlusCoreSkinOverBlankBytes": 257228800,
+    "corePreviewReadyRssBytes": 613728256,
+    "previewOverSkinReadyBytes": 148242432,
+    "corePreviewReady": true,
+    "previewCanvasCount": 1,
+    "wasmResources": [],
+    "interpretation": "Increment compares app with all required PNG response bodies loaded but decode() held against the same page after release. Browser may decode/cache image bytes independently; this is a process-RSS estimate, not exact decoded pixel allocation."
+  },
+  "audio": {
+    "source": "Generated silent PCM16 WAV; loaded through the production app song file input.",
+    "durationSeconds": 300,
+    "inputSampleRateHz": 48000,
+    "channelCount": 2,
+    "encodedBytes": 57600044,
+    "theoreticalFloatPcmBytes": 115200000,
+    "sequence": "one initial track plus ten sequential replacements; each next selection waits until the song label shows the new track, which follows load() and buildCurrentWaveform() completion in App.openFiles().",
+    "loads": [
+      {
+        "index": 0,
+        "filename": "resource-00-5m.wav",
+        "inputToWaveformReadyMs": 571,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 92.40000000596046,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 899416064
+      },
+      {
+        "index": 1,
+        "filename": "resource-01-5m.wav",
+        "inputToWaveformReadyMs": 526,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 62.599999994039536,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 906526720
+      },
+      {
+        "index": 2,
+        "filename": "resource-02-5m.wav",
+        "inputToWaveformReadyMs": 532,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 64.20000000298023,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 911163392
+      },
+      {
+        "index": 3,
+        "filename": "resource-03-5m.wav",
+        "inputToWaveformReadyMs": 515,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 61.599999994039536,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 912310272
+      },
+      {
+        "index": 4,
+        "filename": "resource-04-5m.wav",
+        "inputToWaveformReadyMs": 520,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 61.400000005960464,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 913358848
+      },
+      {
+        "index": 5,
+        "filename": "resource-05-5m.wav",
+        "inputToWaveformReadyMs": 530,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 66.29999999701977,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 914112512
+      },
+      {
+        "index": 6,
+        "filename": "resource-06-5m.wav",
+        "inputToWaveformReadyMs": 519,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 62.400000005960464,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 915324928
+      },
+      {
+        "index": 7,
+        "filename": "resource-07-5m.wav",
+        "inputToWaveformReadyMs": 534,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 63.8999999910593,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 915881984
+      },
+      {
+        "index": 8,
+        "filename": "resource-08-5m.wav",
+        "inputToWaveformReadyMs": 518,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 61.20000000298023,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 909918208
+      },
+      {
+        "index": 9,
+        "filename": "resource-09-5m.wav",
+        "inputToWaveformReadyMs": 646,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 60.8999999910593,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 909426688
+      },
+      {
+        "index": 10,
+        "filename": "resource-10-5m.wav",
+        "inputToWaveformReadyMs": 529,
+        "trackInfo": "300.0 秒 · 48 kHz · 2 声道",
+        "decode": {
+          "durationMs": 62,
+          "sampleRateHz": 48000,
+          "frameCount": 14400000,
+          "channelCount": 2,
+          "durationSeconds": 300,
+          "decodedBytes": 115200000
+        },
+        "waveform": {
+          "chunkCount": 32,
+          "frameCount": 14400000,
+          "inputPcmBytesTransferred": 115200000,
+          "samplesPerBaseBin": 879,
+          "channels": [
+            2
+          ],
+          "requests": [
+            {
+              "startBin": 0,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 512,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1024,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 1536,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2048,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 2560,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3072,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 3584,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4096,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 4608,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5120,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 5632,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6144,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 6656,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7168,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 7680,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8192,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 8704,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9216,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 9728,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10240,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 10752,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11264,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 11776,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12288,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 12800,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13312,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 13824,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14336,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 14848,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15360,
+              "frameCount": 450048,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            },
+            {
+              "startBin": 15872,
+              "frameCount": 448512,
+              "samplesPerBaseBin": 879,
+              "channelCount": 2
+            }
+          ]
+        },
+        "stableRssBytes": 910344192
+      }
+    ]
+  },
+  "memory": {
+    "sampleIntervalMs": 100,
+    "baselineRssBytes": 208257024,
+    "peakRssBytes": 988659712,
+    "peakPhase": "audio-01-decode-and-waveform",
+    "peakDeltaFromBlankBytes": 780402688,
+    "phasePeakRssBytes": {
+      "about-blank-baseline": 326057984,
+      "app-and-skin-bytes-before-decode": 459358208,
+      "app-core-skin-image-decode": 460668928,
+      "app-core-skin-decoded": 602603520,
+      "core-preview-ready": 613728256,
+      "audio-00-decode-and-waveform": 914636800,
+      "audio-00-waveform-ready": 901627904,
+      "audio-01-decode-and-waveform": 988659712,
+      "audio-01-waveform-ready": 907952128,
+      "audio-02-decode-and-waveform": 910032896,
+      "audio-02-waveform-ready": 911163392,
+      "audio-03-decode-and-waveform": 913391616,
+      "audio-03-waveform-ready": 913752064,
+      "audio-04-decode-and-waveform": 947879936,
+      "audio-04-waveform-ready": 914800640,
+      "audio-05-decode-and-waveform": 958332928,
+      "audio-05-waveform-ready": 915505152,
+      "audio-06-decode-and-waveform": 940965888,
+      "audio-06-waveform-ready": 916799488,
+      "audio-07-decode-and-waveform": 920354816,
+      "audio-07-waveform-ready": 917012480,
+      "audio-08-decode-and-waveform": 957218816,
+      "audio-08-waveform-ready": 911360000,
+      "audio-09-decode-and-waveform": 910868480,
+      "audio-09-waveform-ready": 909426688,
+      "audio-10-decode-and-waveform": 967704576,
+      "audio-10-waveform-ready": 911785984,
+      "after-page-close": 286490624
+    },
+    "corePreviewReadyRssBytes": 613728256,
+    "stableReadyRssBytes": [
+      899416064,
+      906526720,
+      911163392,
+      912310272,
+      913358848,
+      914112512,
+      915324928,
+      915881984,
+      909918208,
+      909426688,
+      910344192
+    ],
+    "tenReplacementNetGrowthBytes": 10928128,
+    "linearTrendBytesPerReplacement": 651040.5818181818,
+    "linearTrendRSquared": 0.2149882579052368,
+    "adjacentReadySamplesIncreasing": 8,
+    "afterPageCloseRssBytes": 286490624,
+    "limitations": "RSS can count shared pages more than once and includes Chromium, renderer, GPU, decoder, allocator and image-cache memory. Sampling can miss short peaks. Skin decode is gated at HTMLImageElement.decode(), but browser-internal decode/cache behavior is not fully controllable. RSS and its linear fit do not identify retained objects or prove a leak; the ten-replacement trend is a bounded observation, not a long-duration leak test."
+  },
+  "pageErrors": [],
+  "memorySamples": [
+    {
+      "elapsedMs": 4,
+      "phase": "about-blank-baseline",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 66207744
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 66027520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 47808512
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 27951104
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 207994880
+    },
+    {
+      "elapsedMs": 113,
+      "phase": "about-blank-baseline",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 66322432
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 66027520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 47939584
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 27951104
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 208240640
+    },
+    {
+      "elapsedMs": 226,
+      "phase": "about-blank-baseline",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 66338816
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 66027520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 47939584
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 27951104
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 208257024
+    },
+    {
+      "elapsedMs": 340,
+      "phase": "about-blank-baseline",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 66338816
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 66027520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 47939584
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 27951104
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 208257024
+    },
+    {
+      "elapsedMs": 446,
+      "phase": "about-blank-baseline",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 73613312
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 143360000
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 57442304
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 35078144
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 16564224
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 326057984
+    },
+    {
+      "elapsedMs": 520,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 181698560
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35504128
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 391725056
+    },
+    {
+      "elapsedMs": 553,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 235651072
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35504128
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 445677568
+    },
+    {
+      "elapsedMs": 630,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 249315328
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35504128
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 459341824
+    },
+    {
+      "elapsedMs": 649,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 249315328
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35504128
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 459341824
+    },
+    {
+      "elapsedMs": 739,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 249315328
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 459358208
+    },
+    {
+      "elapsedMs": 750,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 249315328
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 459358208
+    },
+    {
+      "elapsedMs": 848,
+      "phase": "app-and-skin-bytes-before-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76464128
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 249315328
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58064896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 459358208
+    },
+    {
+      "elapsedMs": 855,
+      "phase": "app-core-skin-image-decode",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76529664
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 250544128
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 58081280
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 460668928
+    },
+    {
+      "elapsedMs": 870,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76546048
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253853696
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 464945152
+    },
+    {
+      "elapsedMs": 958,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76759040
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253853696
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39993344
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465158144
+    },
+    {
+      "elapsedMs": 980,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76775424
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253853696
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465387520
+    },
+    {
+      "elapsedMs": 1061,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76791808
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253935616
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465485824
+    },
+    {
+      "elapsedMs": 1091,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76791808
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253935616
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465485824
+    },
+    {
+      "elapsedMs": 1167,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76791808
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253935616
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465485824
+    },
+    {
+      "elapsedMs": 1204,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 76791808
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 253935616
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59031552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 465485824
+    },
+    {
+      "elapsedMs": 1262,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86065152
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 259358720
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 59424768
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 480575488
+    },
+    {
+      "elapsedMs": 1362,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86769664
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 287211520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 104890368
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 554598400
+    },
+    {
+      "elapsedMs": 1464,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86769664
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 287211520
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 112033792
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35520512
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 561741824
+    },
+    {
+      "elapsedMs": 1565,
+      "phase": "app-core-skin-decoded",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86769664
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 287227904
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 152797184
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 602603520
+    },
+    {
+      "elapsedMs": 1663,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 289931264
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 155959296
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 608534528
+    },
+    {
+      "elapsedMs": 1667,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 289931264
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 155959296
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 608534528
+    },
+    {
+      "elapsedMs": 1772,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 291274752
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 159793152
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 613711872
+    },
+    {
+      "elapsedMs": 1879,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 291291136
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 159793152
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 613728256
+    },
+    {
+      "elapsedMs": 1888,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 291291136
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 159793152
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 613728256
+    },
+    {
+      "elapsedMs": 1985,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 291291136
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 159793152
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 613728256
+    },
+    {
+      "elapsedMs": 2002,
+      "phase": "core-preview-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 86835200
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 291291136
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 159793152
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 613728256
+    },
+    {
+      "elapsedMs": 2076,
+      "phase": "audio-00-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88047616
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 399065088
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 162414592
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40206336
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 725336064
+    },
+    {
+      "elapsedMs": 2180,
+      "phase": "audio-00-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88096768
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 589234176
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 161480704
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914636800
+    },
+    {
+      "elapsedMs": 2235,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 572096512
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165543936
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 901627904
+    },
+    {
+      "elapsedMs": 2279,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165560320
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 900530176
+    },
+    {
+      "elapsedMs": 2342,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899399680
+    },
+    {
+      "elapsedMs": 2383,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899399680
+    },
+    {
+      "elapsedMs": 2455,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899399680
+    },
+    {
+      "elapsedMs": 2488,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88162304
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899399680
+    },
+    {
+      "elapsedMs": 2569,
+      "phase": "audio-00-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88178688
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 570982400
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899416064
+    },
+    {
+      "elapsedMs": 2588,
+      "phase": "audio-01-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88178688
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 571031552
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164429824
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 899465216
+    },
+    {
+      "elapsedMs": 2686,
+      "phase": "audio-01-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 657473536
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167165952
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40222720
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 988659712
+    },
+    {
+      "elapsedMs": 2766,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 576143360
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167690240
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 907952128
+    },
+    {
+      "elapsedMs": 2787,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167378944
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906510336
+    },
+    {
+      "elapsedMs": 2874,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167378944
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906510336
+    },
+    {
+      "elapsedMs": 2890,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167378944
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906510336
+    },
+    {
+      "elapsedMs": 2984,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167378944
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906510336
+    },
+    {
+      "elapsedMs": 2991,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167378944
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906510336
+    },
+    {
+      "elapsedMs": 3098,
+      "phase": "audio-01-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575012864
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167395328
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906526720
+    },
+    {
+      "elapsedMs": 3193,
+      "phase": "audio-02-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 575160320
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167575552
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 906854400
+    },
+    {
+      "elapsedMs": 3296,
+      "phase": "audio-02-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167608320
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 910032896
+    },
+    {
+      "elapsedMs": 3300,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3397,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3406,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3501,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3515,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3607,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911163392
+    },
+    {
+      "elapsedMs": 3630,
+      "phase": "audio-02-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 578306048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167477248
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909901824
+    },
+    {
+      "elapsedMs": 3701,
+      "phase": "audio-03-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 521240576
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168656896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 854016000
+    },
+    {
+      "elapsedMs": 3801,
+      "phase": "audio-03-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580616192
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168656896
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913391616
+    },
+    {
+      "elapsedMs": 3816,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580632576
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 169000960
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913752064
+    },
+    {
+      "elapsedMs": 3903,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 3924,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 4009,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 4034,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 4113,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 4146,
+      "phase": "audio-03-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579502080
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168689664
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912310272
+    },
+    {
+      "elapsedMs": 4208,
+      "phase": "audio-04-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 522108928
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168738816
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 854966272
+    },
+    {
+      "elapsedMs": 4310,
+      "phase": "audio-04-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 614989824
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 947879936
+    },
+    {
+      "elapsedMs": 4334,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581599232
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 169066496
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914800640
+    },
+    {
+      "elapsedMs": 4413,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913358848
+    },
+    {
+      "elapsedMs": 4441,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913358848
+    },
+    {
+      "elapsedMs": 4518,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913358848
+    },
+    {
+      "elapsedMs": 4551,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913358848
+    },
+    {
+      "elapsedMs": 4623,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168755200
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 913358848
+    },
+    {
+      "elapsedMs": 4667,
+      "phase": "audio-04-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580468736
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167624704
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 912228352
+    },
+    {
+      "elapsedMs": 4722,
+      "phase": "audio-05-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 90324992
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 622821376
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168771584
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 957841408
+    },
+    {
+      "elapsedMs": 4820,
+      "phase": "audio-05-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 626622464
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167559168
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 958332928
+    },
+    {
+      "elapsedMs": 4865,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582254592
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 169099264
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915505152
+    },
+    {
+      "elapsedMs": 4920,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581124096
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914063360
+    },
+    {
+      "elapsedMs": 4974,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581124096
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40321024
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914063360
+    },
+    {
+      "elapsedMs": 5024,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581124096
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914096128
+    },
+    {
+      "elapsedMs": 5084,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581124096
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914096128
+    },
+    {
+      "elapsedMs": 5129,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581140480
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914112512
+    },
+    {
+      "elapsedMs": 5198,
+      "phase": "audio-05-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581140480
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168787968
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914112512
+    },
+    {
+      "elapsedMs": 5231,
+      "phase": "audio-06-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 90324992
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 599474176
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 175210496
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 940965888
+    },
+    {
+      "elapsedMs": 5329,
+      "phase": "audio-06-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 590331904
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 923320320
+    },
+    {
+      "elapsedMs": 5383,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 583483392
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 169132032
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 916799488
+    },
+    {
+      "elapsedMs": 5430,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582320128
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40337408
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915292160
+    },
+    {
+      "elapsedMs": 5491,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582320128
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40337408
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915292160
+    },
+    {
+      "elapsedMs": 5534,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582336512
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915324928
+    },
+    {
+      "elapsedMs": 5604,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582336512
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915324928
+    },
+    {
+      "elapsedMs": 5640,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582336512
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168804352
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915324928
+    },
+    {
+      "elapsedMs": 5718,
+      "phase": "audio-06-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582336512
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167673856
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 914194432
+    },
+    {
+      "elapsedMs": 5741,
+      "phase": "audio-07-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 90324992
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 586301440
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 167772160
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 920354816
+    },
+    {
+      "elapsedMs": 5840,
+      "phase": "audio-07-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582533120
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168820736
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35602432
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915537920
+    },
+    {
+      "elapsedMs": 5918,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 584024064
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 917012480
+    },
+    {
+      "elapsedMs": 5938,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6025,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6040,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6133,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6142,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6248,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582893568
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915881984
+    },
+    {
+      "elapsedMs": 6257,
+      "phase": "audio-07-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88227840
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 582909952
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 168853504
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 915898368
+    },
+    {
+      "elapsedMs": 6355,
+      "phase": "audio-08-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88244224
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 627064832
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166002688
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 957218816
+    },
+    {
+      "elapsedMs": 6433,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580927488
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166330368
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911360000
+    },
+    {
+      "elapsedMs": 6457,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579796992
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166019072
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909918208
+    },
+    {
+      "elapsedMs": 6541,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579796992
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166019072
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909918208
+    },
+    {
+      "elapsedMs": 6560,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579796992
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166019072
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909918208
+    },
+    {
+      "elapsedMs": 6656,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579796992
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166019072
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909918208
+    },
+    {
+      "elapsedMs": 6664,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579272704
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166019072
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909393920
+    },
+    {
+      "elapsedMs": 6772,
+      "phase": "audio-08-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579272704
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164626432
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 908001280
+    },
+    {
+      "elapsedMs": 6866,
+      "phase": "audio-09-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 541720576
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165773312
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40353792
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 871596032
+    },
+    {
+      "elapsedMs": 6965,
+      "phase": "audio-09-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580599808
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166133760
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 910868480
+    },
+    {
+      "elapsedMs": 7070,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7079,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7175,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7190,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7278,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7305,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7381,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7420,
+      "phase": "audio-09-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88195072
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 579469312
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909426688
+    },
+    {
+      "elapsedMs": 7478,
+      "phase": "audio-10-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 90292224
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 635650048
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165822464
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 967704576
+    },
+    {
+      "elapsedMs": 7577,
+      "phase": "audio-10-decode-and-waveform",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 594427904
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165838848
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 924418048
+    },
+    {
+      "elapsedMs": 7615,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 581451776
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 166182912
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 911785984
+    },
+    {
+      "elapsedMs": 7680,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165871616
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 910344192
+    },
+    {
+      "elapsedMs": 7723,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165871616
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 910344192
+    },
+    {
+      "elapsedMs": 7783,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 165871616
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 910344192
+    },
+    {
+      "elapsedMs": 7835,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164741120
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909213696
+    },
+    {
+      "elapsedMs": 7892,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164741120
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909213696
+    },
+    {
+      "elapsedMs": 7950,
+      "phase": "audio-10-waveform-ready",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 88211456
+        },
+        {
+          "pid": 74506,
+          "type": "renderer",
+          "rssBytes": 580321280
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 164741120
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 40386560
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 5,
+      "rssBytes": 909213696
+    },
+    {
+      "elapsedMs": 7972,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 7987,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 8084,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 8091,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 8197,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 8300,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    },
+    {
+      "elapsedMs": 8312,
+      "phase": "after-page-close",
+      "processes": [
+        {
+          "pid": 74503,
+          "type": "browser",
+          "rssBytes": 89014272
+        },
+        {
+          "pid": 74504,
+          "type": "GPU",
+          "rssBytes": 122601472
+        },
+        {
+          "pid": 74505,
+          "type": "network.mojom.NetworkService",
+          "rssBytes": 39321600
+        },
+        {
+          "pid": 74535,
+          "type": "audio.mojom.AudioService",
+          "rssBytes": 35553280
+        }
+      ],
+      "processCount": 4,
+      "rssBytes": 286490624
+    }
+  ]
+}
