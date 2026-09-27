@@ -37,7 +37,7 @@ WORKLOADS="$(DOTNET_ROOT="$SDK_ROOT" DOTNET_CLI_HOME="$CLI_HOME" \
   NUGET_PACKAGES="$NUGET_PACKAGES" DOTNET_CLI_TELEMETRY_OPTOUT=1 DOTNET_NOLOGO=1 \
   "$SDK_ROOT/dotnet" workload list)"
 printf '%s\n' "$WORKLOADS"
-if ! printf '%s\n' "$WORKLOADS" | grep -Eq "^wasm-tools[[:space:]]+${WASM_TOOLS_MANIFEST//./\\.}[[:space:]]+SDK 10\\.0\\.400$"; then
+if ! printf '%s\n' "$WORKLOADS" | grep -Eq "^wasm-tools[[:space:]]+${WASM_TOOLS_MANIFEST//./\\.}[[:space:]]+SDK 10\\.0\\.400[[:space:]]*$"; then
   echo "Expected wasm-tools manifest $WASM_TOOLS_MANIFEST from SDK manifest 10.0.400." >&2
   exit 1
 fi
